@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project-specific cache
+feed_cache.json
+
+# Local env files
+.env
