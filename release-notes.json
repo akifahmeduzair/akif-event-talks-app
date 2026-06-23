@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1782225463.59875,
+  "last_fetched": 1782244474.018064,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_June_23_2026_0",
+      "date": "June 23, 2026",
+      "updated": "2026-06-23T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026",
+      "type": "Feature",
+      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">Conversational analytics</a> in BigQuery\nis now <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA) and includes the following features:</p>\n<ul>\n<li>You can select whether an agent can only use generally available models, or\na mix of preview and generally available models.</li>\n<li>You can change the thinking mode of an agent within a conversation.</li>\n<li>Agents can ask clarifying questions about your input prompt.</li>\n<li>Agent responses include context citations, to help you understand the specific \nsources used to generate the answer.</li>\n<li>Parameters are supported in verified queries.</li>\n<li><p>Agents can use the following AI functions to answer your questions:</p>\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-key-drivers\"><code>AI.KEY_DRIVERS</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-if\"><code>AI.IF</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-score\"><code>AI.SCORE</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-classify\"><code>AI.CLASSIFY</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-similarity\"><code>AI.SIMILARITY</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-search\"><code>AI.SEARCH</code></a></li>\n</ul></li>\n</ul>\n<p>You can also create a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-conversations#datasets\">conversation with a dataset</a>.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>",
+      "text": "Conversational analytics in BigQuery is now generally available (GA) and includes the following features: You can select whether an agent can only use generally available models, or a mix of preview and generally available models. You can change the thinking mode of an agent within a conversation. Agents can ask clarifying questions about your input prompt. Agent responses include context citations, to help you understand the specific sources used to generate the answer. Parameters are supported in verified queries. Agents can use the following AI functions to answer your questions: AI.KEY_DRIVERS AI.IF AI.SCORE AI.CLASSIFY AI.SIMILARITY AI.SEARCH You can also create a conversation with a dataset. This feature is in preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_June_22_2026_0",
       "date": "June 22, 2026",
@@ -532,42 +541,6 @@
       "type": "Feature",
       "html": "\n<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-key-drivers\"><code>AI.KEY_DRIVERS</code> function</a>\nto identify segments of data that cause statistically significant changes to a\nsummable metric.</p>\n<p>This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
       "text": "You can now use the AI.KEY_DRIVERS function to identify segments of data that cause statistically significant changes to a summable metric. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_15_2026_0",
-      "date": "April 15, 2026",
-      "updated": "2026-04-15T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_15_2026",
-      "type": "Feature",
-      "html": "\n<p>BigQuery Apache Iceberg external tables now support\n<a href=\"https://iceberg.apache.org/spec/#version-3-extended-types-and-capabilities\">Iceberg version 3</a>,\nincluding binary deletion vectors. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/iceberg-external-tables\">Apache Iceberg external tables</a>.\nThis feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "BigQuery Apache Iceberg external tables now support Iceberg version 3, including binary deletion vectors. For more information, see Apache Iceberg external tables. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_15_2026_1",
-      "date": "April 15, 2026",
-      "updated": "2026-04-15T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_15_2026",
-      "type": "Announcement",
-      "html": "\n<p>A known issue has been resolved where a materialized view refresh could expose masked or filtered data from fine grained access control policies in error messages. No further action is needed.</p>\n",
-      "text": "A known issue has been resolved where a materialized view refresh could expose masked or filtered data from fine grained access control policies in error messages. No further action is needed."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_15_2026_2",
-      "date": "April 15, 2026",
-      "updated": "2026-04-15T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_15_2026",
-      "type": "Feature",
-      "html": "\n<p>BigQuery agent analytics is now <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA) in the Google Agent Developer Kit. <a href=\"https://docs.cloud.google.com/bigquery/docs/bigquery-agent-analytics\">BigQuery agent analytics</a>\nis an open source solution that lets you capture, analyze, and visualize\nmultimodal agent interaction data at scale.</p>\n",
-      "text": "BigQuery agent analytics is now generally available (GA) in the Google Agent Developer Kit. BigQuery agent analytics is an open source solution that lets you capture, analyze, and visualize multimodal agent interaction data at scale."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_15_2026_3",
-      "date": "April 15, 2026",
-      "updated": "2026-04-15T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_15_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/export-statements#export_to_alloydb\"><code>EXPORT DATA</code>\nstatements</a> to <a href=\"https://docs.cloud.google.com/bigquery/docs/export-to-alloydb\">reverse\nETL BigQuery data to AlloyDB</a>. This feature is\nin <a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can now use EXPORT DATA statements to reverse ETL BigQuery data to AlloyDB. This feature is in Preview."
     }
   ]
 }
