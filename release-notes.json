@@ -1,7 +1,25 @@
 {
   "status": "success",
-  "last_fetched": 1782396904.2387147,
+  "last_fetched": 1782417098.0446768,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_June_25_2026_0",
+      "date": "June 25, 2026",
+      "updated": "2026-06-25T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/search_functions#vector_search\"><code>VECTOR_SEARCH</code> function</a>\nto combine a semantic search with a lexical (keyword) search. This is known as a\nhybrid search. You can also extend a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#create_vector_index_statement\">vector index</a>\nto include keyword information to improve the speed of the lexical search\nportion of a hybrid search.</p>\n<p>This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
+      "text": "You can now use the VECTOR_SEARCH function to combine a semantic search with a lexical (keyword) search. This is known as a hybrid search. You can also extend a vector index to include keyword information to improve the speed of the lexical search portion of a hybrid search. This feature is in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_June_25_2026_1",
+      "date": "June 25, 2026",
+      "updated": "2026-06-25T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
+      "type": "Change",
+      "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>",
+      "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_June_23_2026_0",
       "date": "June 23, 2026",
@@ -523,33 +541,6 @@
       "type": "Feature",
       "html": "\n<p>Using\n<a href=\"https://docs.cloud.google.com/bigquery/docs/code-asset-folders\">folders</a>\nto organize and control access to single file code assets is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). In addition, you can perform bulk move and delete operations, refresh\nfolder contents, and view full breadcrumb paths based on resource permissions.\nFor more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-manage-folders\">Create and manage folders</a>.</p>",
       "text": "Using folders to organize and control access to single file code assets is generally available (GA). In addition, you can perform bulk move and delete operations, refresh folder contents, and view full breadcrumb paths based on resource permissions. For more information, see Create and manage folders."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_16_2026_0",
-      "date": "April 16, 2026",
-      "updated": "2026-04-16T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_16_2026",
-      "type": "Feature",
-      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">Conversational analytics</a> now supports\nquerying Lakehouse tables that connect to the Apache Iceberg REST catalog or are\nfederated to an external catalog. For more information, see <a href=\"https://docs.cloud.google.com/biglake/docs/conversational-analytics\">Query BigLake data\nwith natural language</a>.</p>\n<p>This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "Conversational analytics now supports querying Lakehouse tables that connect to the Apache Iceberg REST catalog or are federated to an external catalog. For more information, see Query BigLake data with natural language. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_16_2026_1",
-      "date": "April 16, 2026",
-      "updated": "2026-04-16T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_16_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use <a href=\"https://docs.cloud.google.com/bigquery/docs/colab-data-apps\">Colab Data Apps</a>\nto transform your data analyses from Colab notebooks into\npolished, interactive applications.</p>\n<p>This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "You can now use Colab Data Apps to transform your data analyses from Colab notebooks into polished, interactive applications. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_16_2026_2",
-      "date": "April 16, 2026",
-      "updated": "2026-04-16T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_16_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-key-drivers\"><code>AI.KEY_DRIVERS</code> function</a>\nto identify segments of data that cause statistically significant changes to a\nsummable metric.</p>\n<p>This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can now use the AI.KEY_DRIVERS function to identify segments of data that cause statistically significant changes to a summable metric. This feature is in Preview."
     }
   ]
 }
