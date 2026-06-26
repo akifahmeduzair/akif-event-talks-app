@@ -1,24 +1,24 @@
 {
   "status": "success",
-  "last_fetched": 1782417098.0446768,
+  "last_fetched": 1782442234.6410875,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_June_25_2026_0",
       "date": "June 25, 2026",
       "updated": "2026-06-25T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/search_functions#vector_search\"><code>VECTOR_SEARCH</code> function</a>\nto combine a semantic search with a lexical (keyword) search. This is known as a\nhybrid search. You can also extend a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#create_vector_index_statement\">vector index</a>\nto include keyword information to improve the speed of the lexical search\nportion of a hybrid search.</p>\n<p>This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "You can now use the VECTOR_SEARCH function to combine a semantic search with a lexical (keyword) search. This is known as a hybrid search. You can also extend a vector index to include keyword information to improve the speed of the lexical search portion of a hybrid search. This feature is in Preview."
+      "type": "Change",
+      "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>\n",
+      "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_June_25_2026_1",
       "date": "June 25, 2026",
       "updated": "2026-06-25T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
-      "type": "Change",
-      "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>",
-      "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
+      "type": "Feature",
+      "html": "\n<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/search_functions#vector_search\"><code>VECTOR_SEARCH</code> function</a>\nto combine a semantic search with a lexical (keyword) search. This is known as a\nhybrid search. For tables with autonomous embedding generation enabled, you can\nuse <code>HYBRID</code> mode in the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-search\"><code>AI.SEARCH</code></a>\nfunction to simplify your search syntax.</p>\n<p>You can also extend a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#create_vector_index_statement\">vector index</a>\nto include keyword information to improve the speed of the lexical search\nportion of a hybrid search.</p>\n<p>This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can now use the VECTOR_SEARCH function to combine a semantic search with a lexical (keyword) search. This is known as a hybrid search. For tables with autonomous embedding generation enabled, you can use HYBRID mode in the AI.SEARCH function to simplify your search syntax. You can also extend a vector index to include keyword information to improve the speed of the lexical search portion of a hybrid search. This feature is in Preview."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_June_23_2026_0",
