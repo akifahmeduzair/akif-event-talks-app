@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1782747467.7429478,
+  "last_fetched": 1782762593.3476717,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_June_29_2026_0",
+      "date": "June 29, 2026",
+      "updated": "2026-06-29T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now grant data preparations and pipelines access to additional\nservices when running or scheduling them with user credentials\nfor a Google Account. You can grant <a href=\"https://docs.cloud.google.com/bigquery/docs/orchestrate-data-preparations\">data preparations access to Google Drive</a>,\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/schedule-pipelines\">grant pipelines access to Google Drive, Bigtable, and Knowledge Catalog</a>.\nExtended access options are available in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can now grant data preparations and pipelines access to additional services when running or scheduling them with user credentials for a Google Account. You can grant data preparations access to Google Drive, and grant pipelines access to Google Drive, Bigtable, and Knowledge Catalog. Extended access options are available in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_June_25_2026_0",
       "date": "June 25, 2026",
@@ -532,15 +541,6 @@
       "type": "Feature",
       "html": "\n<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/notebooks-introduction#notebook_gallery\">notebook gallery</a>\nin the BigQuery web UI as your central hub for discovering and using prebuilt notebook\ntemplates. This feature is <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>",
       "text": "You can now use the notebook gallery in the BigQuery web UI as your central hub for discovering and using prebuilt notebook templates. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_17_2026_0",
-      "date": "April 17, 2026",
-      "updated": "2026-04-17T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_17_2026",
-      "type": "Feature",
-      "html": "\n<p>Using\n<a href=\"https://docs.cloud.google.com/bigquery/docs/code-asset-folders\">folders</a>\nto organize and control access to single file code assets is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). In addition, you can perform bulk move and delete operations, refresh\nfolder contents, and view full breadcrumb paths based on resource permissions.\nFor more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-manage-folders\">Create and manage folders</a>.</p>",
-      "text": "Using folders to organize and control access to single file code assets is generally available (GA). In addition, you can perform bulk move and delete operations, refresh folder contents, and view full breadcrumb paths based on resource permissions. For more information, see Create and manage folders."
     }
   ]
 }
