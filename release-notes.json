@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1782915847.7362413,
+  "last_fetched": 1782935161.3592057,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_01_2026_0",
+      "date": "July 01, 2026",
+      "updated": "2026-07-01T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now use pre-trained TimesFM models in BigQuery ML\ndirectly from\n<a href=\"https://docs.cloud.google.com/bigquery/docs/connected-sheets\">Connected Sheets</a>.\nThese models let you create\nforecasts and detect anomalies in your data by using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-forecast\"><code>AI.FORECAST</code></a>\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-detect-anomalies\"><code>AI.DETECT_ANOMALIES</code></a>\nfunctions. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "You can now use pre-trained TimesFM models in BigQuery ML directly from Connected Sheets. These models let you create forecasts and detect anomalies in your data by using the AI.FORECAST and AI.DETECT_ANOMALIES functions. This feature is generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_June_30_2026_0",
       "date": "June 30, 2026",
@@ -496,15 +505,6 @@
       "type": "Feature",
       "html": "\n<p>You can now use the <code>gemini-embedding-2-preview</code> model in the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed\"><code>AI.EMBED</code></a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-similarity\"><code>AI.SIMILARITY</code></a>,\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-generate-embedding\"><code>AI.GENERATE_EMBEDDING</code></a>\nfunctions to generate a single embedding from a combination of input types,\nincluding text, image, audio, video, and PDF files.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "You can now use the gemini-embedding-2-preview model in the AI.EMBED, AI.SIMILARITY, and AI.GENERATE_EMBEDDING functions to generate a single embedding from a combination of input types, including text, image, audio, video, and PDF files. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_21_2026_0",
-      "date": "April 21, 2026",
-      "updated": "2026-04-21T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_21_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-visualization#visualization-results\">visualize BigQuery graph query results and graph\nschemas</a> directly in\nBigQuery Studio, without the need of a notebook environment. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can now visualize BigQuery graph query results and graph schemas directly in BigQuery Studio, without the need of a notebook environment. This feature is in Preview."
     }
   ]
 }
