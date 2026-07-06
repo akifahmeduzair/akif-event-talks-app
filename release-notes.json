@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1783351227.1212258,
+  "last_fetched": 1783367338.2927904,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_06_2026_0",
+      "date": "July 06, 2026",
+      "updated": "2026-07-06T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026",
+      "type": "Change",
+      "html": "\n<p>For <a href=\"https://docs.cloud.google.com/bigquery/docs/facebook-ads-transfer\">data transfers from Facebook Ads</a>,\nsupport for the <code>AdInsightsMMM</code> report has been temporarily disabled. Existing\ndata transfers from Facebook Ads that include the <code>AdInsightsMMM</code> report will\ncontinue to run, but the transfer won't include data from the <code>AdInsightsMMM</code>\nreport.</p>\n<p>This change is due to schema changes in the Facebook Ads API.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#Jul06-fb-ads\">July 06, 2026</a>.</p>",
+      "text": "For data transfers from Facebook Ads, support for the AdInsightsMMM report has been temporarily disabled. Existing data transfers from Facebook Ads that include the AdInsightsMMM report will continue to run, but the transfer won't include data from the AdInsightsMMM report. This change is due to schema changes in the Facebook Ads API. For more information, see July 06, 2026."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_01_2026_0",
       "date": "July 01, 2026",
@@ -433,78 +442,6 @@
       "type": "Change",
       "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_jdbc_driver\">Simba JDBC driver for BigQuery</a>\nis now available.</p>",
       "text": "An updated version of the Simba JDBC driver for BigQuery is now available."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_22_2026_0",
-      "date": "April 22, 2026",
-      "updated": "2026-04-22T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-modeler\">visual graph modeler</a> in\nBigQuery Studio to define BigQuery graph nodes and edges from your\nBigQuery tables and edit graph schema. This\nfeature is available in <a href=\"https://docs.cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "You can now use the visual graph modeler in BigQuery Studio to define BigQuery graph nodes and edges from your BigQuery tables and edit graph schema. This feature is available in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_22_2026_1",
-      "date": "April 22, 2026",
-      "updated": "2026-04-22T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026",
-      "type": "Announcement",
-      "html": "\n<p>Dataproc is now called <a href=\"https://docs.cloud.google.com/dataproc/docs/concepts/overview\">Managed Service for Apache Spark</a>. The names for associated API, client\nlibrary, CLI, and Identity and Access Management (IAM) resources remain unchanged.</p>\n",
-      "text": "Dataproc is now called Managed Service for Apache Spark. The names for associated API, client library, CLI, and Identity and Access Management (IAM) resources remain unchanged."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_22_2026_2",
-      "date": "April 22, 2026",
-      "updated": "2026-04-22T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026",
-      "type": "Announcement",
-      "html": "\n<p>BigLake is now called <a href=\"https://docs.cloud.google.com/biglake/docs/introduction\">Google Cloud Lakehouse</a>.\nBigLake metastore is now called the <a href=\"https://docs.cloud.google.com/biglake/docs/about-blms\">Lakehouse runtime\ncatalog</a>. The names for associated APIs, client\nlibraries, CLI commands, and Identity and Access Management (IAM) remain\nunchanged and still reference BigLake.</p>\n",
-      "text": "BigLake is now called Google Cloud Lakehouse. BigLake metastore is now called the Lakehouse runtime catalog. The names for associated APIs, client libraries, CLI commands, and Identity and Access Management (IAM) remain unchanged and still reference BigLake."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_22_2026_3",
-      "date": "April 22, 2026",
-      "updated": "2026-04-22T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026",
-      "type": "Announcement",
-      "html": "\n<p>Dataplex Universal Catalog is now called <a href=\"https://docs.cloud.google.com/dataplex/docs/introduction\">Knowledge\nCatalog</a>. The API, client library, CLI, and\nIdentity and Access Management (IAM) names remain unchanged. For more\ninformation, see <a href=\"https://docs.cloud.google.com/dataplex/docs/introduction\">Knowledge Catalog overview</a>.</p>\n",
-      "text": "Dataplex Universal Catalog is now called Knowledge Catalog. The API, client library, CLI, and Identity and Access Management (IAM) names remain unchanged. For more information, see Knowledge Catalog overview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_22_2026_4",
-      "date": "April 22, 2026",
-      "updated": "2026-04-22T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026",
-      "type": "Announcement",
-      "html": "\n<p>Looker Studio is now called <a href=\"https://docs.cloud.google.com/data-studio\">Data Studio</a>.\nThe website and endpoint change from <code>lookerstudio.google.com</code> to\n<code>datastudio.google.com</code>. You do not need to update your reports for this change,\nas Data Studio automatically redirects to the new domain. However,\nif your company uses proxies to restrict access to external sites, your IT\nadministrator needs to add the new domain to your access control list (ACL).\nThe names for associated API, client library, CLI, and Identity and Access\nManagement (IAM) resources remain unchanged. For more information, see <a href=\"https://cloud.google.com/blog/products/data-analytics/looker-studio-is-data-studio\">Data Studio returns as new home for Data Cloud\nassets</a>.</p>\n",
-      "text": "Looker Studio is now called Data Studio. The website and endpoint change from lookerstudio.google.com to datastudio.google.com. You do not need to update your reports for this change, as Data Studio automatically redirects to the new domain. However, if your company uses proxies to restrict access to external sites, your IT administrator needs to add the new domain to your access control list (ACL). The names for associated API, client library, CLI, and Identity and Access Management (IAM) resources remain unchanged. For more information, see Data Studio returns as new home for Data Cloud assets."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_22_2026_5",
-      "date": "April 22, 2026",
-      "updated": "2026-04-22T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026",
-      "type": "Feature",
-      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery graphs</a> now support the following\nfeatures:</p>\n<ul>\n<li>You can <a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#graphs\">query graphs</a> using\nnatural language in Conversational Analytics.</li>\n<li>You can add\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-schema-statements#element_table_property_definition\">descriptions and synonyms</a> to the labels and properties in your graphs.</li>\n<li>For some types of graphs you can\n<a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">define measures</a>, which lock an aggregation\nto a key to help you perform complex aggregations without overcounting. To\nquery measures, you transform your graph into a flattened table by using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-sql-queries#graph_expand\"><code>GRAPH_EXPAND</code> TVF</a>,\nand then query measures in that table with the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#agg\"><code>AGG</code> function</a>.</li>\n</ul>\n<p>These features are in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "BigQuery graphs now support the following features: You can query graphs using natural language in Conversational Analytics. You can add descriptions and synonyms to the labels and properties in your graphs. For some types of graphs you can define measures, which lock an aggregation to a key to help you perform complex aggregations without overcounting. To query measures, you transform your graph into a flattened table by using the GRAPH_EXPAND TVF, and then query measures in that table with the AGG function. These features are in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_22_2026_6",
-      "date": "April 22, 2026",
-      "updated": "2026-04-22T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now <a href=\"https://docs.cloud.google.com/bigquery/docs/data-engineering-agent-pipelines\">use the Data Engineering Agent</a>\nto build, modify, and troubleshoot data pipelines in BigQuery. This feature is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a> (GA).</p>\n",
-      "text": "You can now use the Data Engineering Agent to build, modify, and troubleshoot data pipelines in BigQuery. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_22_2026_7",
-      "date": "April 22, 2026",
-      "updated": "2026-04-22T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use the <code>gemini-embedding-2-preview</code> model in the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed\"><code>AI.EMBED</code></a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-similarity\"><code>AI.SIMILARITY</code></a>,\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-generate-embedding\"><code>AI.GENERATE_EMBEDDING</code></a>\nfunctions to generate a single embedding from a combination of input types,\nincluding text, image, audio, video, and PDF files.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can now use the gemini-embedding-2-preview model in the AI.EMBED, AI.SIMILARITY, and AI.GENERATE_EMBEDDING functions to generate a single embedding from a combination of input types, including text, image, audio, video, and PDF files. This feature is in Preview."
     }
   ]
 }
