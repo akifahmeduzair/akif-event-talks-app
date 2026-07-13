@@ -1,7 +1,34 @@
 {
   "status": "success",
-  "last_fetched": 1783952498.59956,
+  "last_fetched": 1783970272.9046857,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_0",
+      "date": "July 13, 2026",
+      "updated": "2026-07-13T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
+      "type": "Security",
+      "html": "\n<p>A Missing Authorization vulnerability was discovered in repositories in\nBigQuery, Dataform, and Colab Enterprise. An authenticated attacker could\npotentially escalate permissions and perform cross-tenant repository takeover.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/support/bulletins#gcp-2026-047\">GCP-2026-047</a> security bulletin.</p>\n",
+      "text": "A Missing Authorization vulnerability was discovered in repositories in BigQuery, Dataform, and Colab Enterprise. An authenticated attacker could potentially escalate permissions and perform cross-tenant repository takeover. For more information, see the GCP-2026-047 security bulletin."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_1",
+      "date": "July 13, 2026",
+      "updated": "2026-07-13T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
+      "type": "Feature",
+      "html": "\n<p>The BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/bigquery-web-ui#open-overview\"><strong>Overview</strong> page</a>\nis a hub for discovering tutorials, features, and resources to help you get the\nmost out of BigQuery. It provides guided paths for users of all skill levels.\nThis feature is now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "The BigQuery Overview page is a hub for discovering tutorials, features, and resources to help you get the most out of BigQuery. It provides guided paths for users of all skill levels. This feature is now generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_2",
+      "date": "July 13, 2026",
+      "updated": "2026-07-13T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
+      "type": "Feature",
+      "html": "\n<p>Incremental data transfers for the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/salesforce-transfer\">BigQuery Data Transfer Service for Salesforce</a>\nare now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "Incremental data transfers for the BigQuery Data Transfer Service for Salesforce are now generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_09_2026_0",
       "date": "July 09, 2026",
@@ -442,33 +469,6 @@
       "type": "Breaking",
       "html": "\n<p>Starting May 7, 2026, new transfer configurations that transfer data from Google Ads using the\nBigQuery Data Transfer Service will require <a href=\"https://ads-developers.googleblog.com/2026/04/multi-factor-authentication-requirement.html\">Multi-factor authentication (MFA)\nfor individual user\nauthentication</a>.\nFor more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#May7-google-ads\">May 7,\n2026</a>.</p>",
       "text": "Starting May 7, 2026, new transfer configurations that transfer data from Google Ads using the BigQuery Data Transfer Service will require Multi-factor authentication (MFA) for individual user authentication. For more information, see May 7, 2026."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_29_2026_0",
-      "date": "April 29, 2026",
-      "updated": "2026-04-29T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026",
-      "type": "Breaking",
-      "html": "\n<p><a href=\"https://docs.cloud.google.com/dataform/docs/strict-act-as-mode\">Strict act-as mode</a>\nis enforced globally for all Dataform repositories, requiring the use of a\ncustom service account or user credentials for running Dataform workflows,\nBigQuery pipelines, notebooks, and data preparations.</p>\n",
-      "text": "Strict act-as mode is enforced globally for all Dataform repositories, requiring the use of a custom service account or user credentials for running Dataform workflows, BigQuery pipelines, notebooks, and data preparations."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_29_2026_1",
-      "date": "April 29, 2026",
-      "updated": "2026-04-29T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/vectorindex_functions#vector_indexstatistics\"><code>VECTOR_INDEX.STATISTICS</code> function</a> to calculate how much an indexed table's data has drifted between when a\nvector index was created and the present. If table data has changed enough\nto require a <a href=\"https://docs.cloud.google.com/bigquery/docs/vector-index#rebuild_a_vector_index\">vector index rebuild</a>, you can use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#alter_vector_index_rebuild_statement\"><code>ALTER VECTOR INDEX REBUILD</code> statement</a>\nto rebuild the vector index without downtime. These features are\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "You can now use the VECTOR_INDEX.STATISTICS function to calculate how much an indexed table's data has drifted between when a vector index was created and the present. If table data has changed enough to require a vector index rebuild, you can use the ALTER VECTOR INDEX REBUILD statement to rebuild the vector index without downtime. These features are generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_29_2026_2",
-      "date": "April 29, 2026",
-      "updated": "2026-04-29T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use the <code>PARTITION BY</code> clause of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#create_vector_index_statement\"><code>CREATE VECTOR INDEX</code> statement</a>\nto <a href=\"https://docs.cloud.google.com/bigquery/docs/vector-index#partitions\">partition TreeAH vector indexes</a>.\nPartitioning enables partition pruning and can decrease I/O costs. This feature\nis <a href=\"https://cloud.google.com/products/#product-launch-stages\">Generally Available</a>.</p>",
-      "text": "You can now use the PARTITION BY clause of the CREATE VECTOR INDEX statement to partition TreeAH vector indexes. Partitioning enables partition pruning and can decrease I/O costs. This feature is Generally Available."
     }
   ]
 }
