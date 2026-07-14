@@ -1,9 +1,18 @@
 {
   "status": "success",
-  "last_fetched": 1783970272.9046857,
+  "last_fetched": 1783994322.793972,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_0",
+      "date": "July 13, 2026",
+      "updated": "2026-07-13T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
+      "type": "Feature",
+      "html": "\n<p>Table partitioning, multi-statement transactions, and advanced runtime are now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA) for\n<a href=\"https://docs.cloud.google.com/bigquery/docs/biglake-iceberg-tables-in-bigquery\">Apache Iceberg managed tables</a>.</p>\n",
+      "text": "Table partitioning, multi-statement transactions, and advanced runtime are now generally available (GA) for Apache Iceberg managed tables."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_1",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -12,7 +21,16 @@
       "text": "A Missing Authorization vulnerability was discovered in repositories in BigQuery, Dataform, and Colab Enterprise. An authenticated attacker could potentially escalate permissions and perform cross-tenant repository takeover. For more information, see the GCP-2026-047 security bulletin."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_1",
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_2",
+      "date": "July 13, 2026",
+      "updated": "2026-07-13T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
+      "type": "Feature",
+      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-workload-management#scheduling-policies\">Project caps (also known as scheduling policies)</a>\nlet you limit maximum slots and concurrency per project within a BigQuery\nreservation. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
+      "text": "Project caps (also known as scheduling policies) let you limit maximum slots and concurrency per project within a BigQuery reservation. This feature is in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_3",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -21,13 +39,31 @@
       "text": "The BigQuery Overview page is a hub for discovering tutorials, features, and resources to help you get the most out of BigQuery. It provides guided paths for users of all skill levels. This feature is now generally available (GA)."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_2",
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_4",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
       "type": "Feature",
-      "html": "\n<p>Incremental data transfers for the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/salesforce-transfer\">BigQuery Data Transfer Service for Salesforce</a>\nare now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/use-bigquery-migration-mcp\">BigQuery Migration Service MCP server</a>\nto perform SQL translation tasks, including translating SQL queries into\nGoogleSQL syntax, generating DDL statements from SQL input queries, and getting\nexplanations of SQL translations.</p>\n<p>This feature is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Generally Available</a>.</p>\n",
+      "text": "You can use the BigQuery Migration Service MCP server to perform SQL translation tasks, including translating SQL queries into GoogleSQL syntax, generating DDL statements from SQL input queries, and getting explanations of SQL translations. This feature is Generally Available."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_5",
+      "date": "July 13, 2026",
+      "updated": "2026-07-13T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
+      "type": "Feature",
+      "html": "\n<p>Incremental data transfers for the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/salesforce-transfer\">BigQuery Data Transfer Service for Salesforce</a>\nare now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
       "text": "Incremental data transfers for the BigQuery Data Transfer Service for Salesforce are now generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_6",
+      "date": "July 13, 2026",
+      "updated": "2026-07-13T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#alter_search_index_statement\"><code>ALTER SEARCH INDEX</code> DDL statement</a>\nto\n<a href=\"https://docs.cloud.google.com/bigquery/docs/search-index#update_a_search_index\">update the configuration</a>\nof a search index. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can now use the ALTER SEARCH INDEX DDL statement to update the configuration of a search index. This feature is in Preview."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_09_2026_0",
@@ -98,8 +134,17 @@
       "updated": "2026-06-30T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
       "type": "Feature",
-      "html": "\n<p>You can specify an optional <code>principal</code> property on\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-assignments\">BigQuery reservation assignments</a> to\nroute queries to specific reservations based on the identity of the user,\nservice account, or third-party identity executing the job.</p>",
+      "html": "\n<p>You can specify an optional <code>principal</code> property on\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-assignments\">BigQuery reservation assignments</a> to\nroute queries to specific reservations based on the identity of the user,\nservice account, or third-party identity executing the job.</p>\n",
       "text": "You can specify an optional principal property on BigQuery reservation assignments to route queries to specific reservations based on the identity of the user, service account, or third-party identity executing the job."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_June_30_2026_1",
+      "date": "June 30, 2026",
+      "updated": "2026-06-30T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
+      "type": "Change",
+      "html": "\n<p>In the Google Cloud console, <strong>Capacity management</strong> has been renamed <a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-intro\"><strong>Workload management</strong></a>.</p>",
+      "text": "In the Google Cloud console, Capacity management has been renamed Workload management."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_June_29_2026_0",
