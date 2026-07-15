@@ -1,7 +1,25 @@
 {
   "status": "success",
-  "last_fetched": 1784056237.4794726,
+  "last_fetched": 1784080516.3357646,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_14_2026_0",
+      "date": "July 14, 2026",
+      "updated": "2026-07-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026",
+      "type": "Feature",
+      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#bigquery-ml-support\">Conversational analytics</a>\nnow supports the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-agg\"><code>AI.AGG</code> function</a>.\nThis function is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
+      "text": "Conversational analytics now supports the AI.AGG function. This function is in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_14_2026_1",
+      "date": "July 14, 2026",
+      "updated": "2026-07-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026",
+      "type": "Announcement",
+      "html": "\n<p>As part of\n<a href=\"https://docs.cloud.google.com/bigquery/docs/gemini-security-privacy-compliance\">Gemini in BigQuery</a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">conversational analytics</a>\nnow supports <a href=\"https://cloud.google.com/security/compliance/hipaa\">HIPAA</a>\ncompliance.</p>",
+      "text": "As part of Gemini in BigQuery, conversational analytics now supports HIPAA compliance."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_0",
       "date": "July 13, 2026",
@@ -505,15 +523,6 @@
       "type": "Breaking",
       "html": "\n<p>Starting June 1, 2026, due to changes in Google Ads data retention policies,\nthe BigQuery Data Transfer Service connectors for <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#June01-google-ads\">Google\nAds</a>, <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#June01-search-ads\">Search Ads\n360</a>, and <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#June01-ga4\">Google Analytics\n4</a> will stop populating\ndata for backfill runs with dates earlier than 37 months from the current date.</p>\n<p>For more information about the changes to the Google Ads data retention\npolicies, see <a href=\"https://ads-developers.googleblog.com/2026/05/new-data-retention-policy-for-google.html\">New Data Retention Policy for Google Ads starting June 1,\n2026</a>.</p>",
       "text": "Starting June 1, 2026, due to changes in Google Ads data retention policies, the BigQuery Data Transfer Service connectors for Google Ads, Search Ads 360, and Google Analytics 4 will stop populating data for backfill runs with dates earlier than 37 months from the current date. For more information about the changes to the Google Ads data retention policies, see New Data Retention Policy for Google Ads starting June 1, 2026."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_April_30_2026_0",
-      "date": "April 30, 2026",
-      "updated": "2026-04-30T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026",
-      "type": "Breaking",
-      "html": "\n<p>Starting May 7, 2026, new transfer configurations that transfer data from Google Ads using the\nBigQuery Data Transfer Service will require <a href=\"https://ads-developers.googleblog.com/2026/04/multi-factor-authentication-requirement.html\">Multi-factor authentication (MFA)\nfor individual user\nauthentication</a>.\nFor more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#May7-google-ads\">May 7,\n2026</a>.</p>",
-      "text": "Starting May 7, 2026, new transfer configurations that transfer data from Google Ads using the BigQuery Data Transfer Service will require Multi-factor authentication (MFA) for individual user authentication. For more information, see May 7, 2026."
     }
   ]
 }
