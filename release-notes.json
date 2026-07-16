@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1784142177.5387158,
+  "last_fetched": 1784167539.7855434,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_15_2026_0",
+      "date": "July 15, 2026",
+      "updated": "2026-07-15T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery supports <a href=\"https://docs.cloud.google.com/bigquery/docs/tags#data-governance-tags\">data governance tags</a>,\nwhich let you enforce column-level security and data masking. Data governance\ntags are a type of Resource Manager tag that you can attach to sensitive columns\nand use in BigQuery data policies to grant conditional access to your users.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "BigQuery supports data governance tags, which let you enforce column-level security and data masking. Data governance tags are a type of Resource Manager tag that you can attach to sensitive columns and use in BigQuery data policies to grant conditional access to your users. This feature is in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_14_2026_0",
       "date": "July 14, 2026",
@@ -505,24 +514,6 @@
       "type": "Announcement",
       "html": "\n<p>Starting August 11, 2026, the billing label for the BigQuery Data Transfer\nService SKU will be updated from <code>goog-bq-feature-type: DATA_TRANSFER_SERVICE</code>\n(uppercase) to <code>goog-bq-feature-type: data_transfer_service</code> (lowercase) to\nprovide a more unified and complete view of your costs. This update expands the\nscope of the label to cover all costs associated with the BigQuery Data Transfer\nService, including data transfer orchestration, data load operations, and data\nmerge operations.</p>\n<p>To ensure uninterrupted cost visibility, update your billing exports,\ndashboards, and reporting queries to include both these labels.</p>",
       "text": "Starting August 11, 2026, the billing label for the BigQuery Data Transfer Service SKU will be updated from goog-bq-feature-type: DATA_TRANSFER_SERVICE (uppercase) to goog-bq-feature-type: data_transfer_service (lowercase) to provide a more unified and complete view of your costs. This update expands the scope of the label to cover all costs associated with the BigQuery Data Transfer Service, including data transfer orchestration, data load operations, and data merge operations. To ensure uninterrupted cost visibility, update your billing exports, dashboards, and reporting queries to include both these labels."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_06_2026_0",
-      "date": "May 06, 2026",
-      "updated": "2026-05-06T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026",
-      "type": "Feature",
-      "html": "\n<p>You can configure BigQuery sharing listings for multiple regions, which\nallows you to share datasets and linked replicas across global geographies\nsimultaneously. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/analytics-hub-manage-listings#create_a_listing\">Create a listing</a>.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "You can configure BigQuery sharing listings for multiple regions, which allows you to share datasets and linked replicas across global geographies simultaneously. For more information, see Create a listing. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_06_2026_1",
-      "date": "May 06, 2026",
-      "updated": "2026-05-06T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026",
-      "type": "Breaking",
-      "html": "\n<p>Starting June 1, 2026, due to changes in Google Ads data retention policies,\nthe BigQuery Data Transfer Service connectors for <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#June01-google-ads\">Google\nAds</a>, <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#June01-search-ads\">Search Ads\n360</a>, and <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#June01-ga4\">Google Analytics\n4</a> will stop populating\ndata for backfill runs with dates earlier than 37 months from the current date.</p>\n<p>For more information about the changes to the Google Ads data retention\npolicies, see <a href=\"https://ads-developers.googleblog.com/2026/05/new-data-retention-policy-for-google.html\">New Data Retention Policy for Google Ads starting June 1,\n2026</a>.</p>",
-      "text": "Starting June 1, 2026, due to changes in Google Ads data retention policies, the BigQuery Data Transfer Service connectors for Google Ads, Search Ads 360, and Google Analytics 4 will stop populating data for backfill runs with dates earlier than 37 months from the current date. For more information about the changes to the Google Ads data retention policies, see New Data Retention Policy for Google Ads starting June 1, 2026."
     }
   ]
 }
