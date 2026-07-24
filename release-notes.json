@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1784833592.9884133,
+  "last_fetched": 1784858952.2664013,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_23_2026_0",
+      "date": "July 23, 2026",
+      "updated": "2026-07-23T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026",
+      "type": "Change",
+      "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>",
+      "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_20_2026_0",
       "date": "July 20, 2026",
@@ -514,15 +523,6 @@
       "type": "Issue",
       "html": "\n<p>Support for the <code>AI.KEY_DRIVERS</code> function\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">preview</a>\nhas been temporarily disabled. We are working to restore this feature as soon as\npossible.</p>",
       "text": "Support for the AI.KEY_DRIVERS function preview has been temporarily disabled. We are working to restore this feature as soon as possible."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_12_2026_0",
-      "date": "May 12, 2026",
-      "updated": "2026-05-12T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_12_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-count-tokens\"><code>AI.COUNT_TOKENS</code> function</a>\nto estimate the token count of text input that you provide. For some generative\nAI functions, you can <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#token_usage\">view</a>\nthe total number of input, output, thought, and cache tokens for each modality\nprocessed by the query. These features are in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can now use the AI.COUNT_TOKENS function to estimate the token count of text input that you provide. For some generative AI functions, you can view the total number of input, output, thought, and cache tokens for each modality processed by the query. These features are in Preview."
     }
   ]
 }
