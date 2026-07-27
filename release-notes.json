@@ -1,7 +1,25 @@
 {
   "status": "success",
-  "last_fetched": 1785162023.1124492,
+  "last_fetched": 1785179939.4920568,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_27_2026_0",
+      "date": "July 27, 2026",
+      "updated": "2026-07-27T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
+      "type": "Feature",
+      "html": "\n<p>You can discover commercial BigQuery sharing listings on Google Cloud Marketplace with the <strong>Marketplace</strong> filter. For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/analytics-hub-cloud-marketplace#subscribe\">Subscribe to a Cloud Marketplace-integrated listing</a>.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>\n",
+      "text": "You can discover commercial BigQuery sharing listings on Google Cloud Marketplace with the Marketplace filter. For more information, see Subscribe to a Cloud Marketplace-integrated listing. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_27_2026_1",
+      "date": "July 27, 2026",
+      "updated": "2026-07-27T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
+      "type": "Feature",
+      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/change-history\"><code>APPENDS</code> and <code>CHANGES</code> change history functions</a>\nto view the rows that were appended to or changed in a table during a given time\nrange. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "You can use the APPENDS and CHANGES change history functions to view the rows that were appended to or changed in a table during a given time range. This feature is generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_23_2026_0",
       "date": "July 23, 2026",
@@ -514,15 +532,6 @@
       "type": "Feature",
       "html": "\n<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-detect-anomalies\"><code>AI.DETECT_ANOMALIES</code> function</a>\nsupports calling the function with a single input table that holds both the\nhistorical and target data. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "text": "The AI.DETECT_ANOMALIES function supports calling the function with a single input table that holds both the historical and target data. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_14_2026_0",
-      "date": "May 14, 2026",
-      "updated": "2026-05-14T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026",
-      "type": "Issue",
-      "html": "\n<p>Support for the <code>AI.KEY_DRIVERS</code> function\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">preview</a>\nhas been temporarily disabled. We are working to restore this feature as soon as\npossible.</p>",
-      "text": "Support for the AI.KEY_DRIVERS function preview has been temporarily disabled. We are working to restore this feature as soon as possible."
     }
   ]
 }
