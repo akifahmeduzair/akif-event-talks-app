@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_fetched": 1785179939.4920568,
+  "last_fetched": 1785204113.3326044,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_27_2026_0",
@@ -17,8 +17,26 @@
       "updated": "2026-07-27T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
       "type": "Feature",
-      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/change-history\"><code>APPENDS</code> and <code>CHANGES</code> change history functions</a>\nto view the rows that were appended to or changed in a table during a given time\nrange. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/change-history\"><code>APPENDS</code> and <code>CHANGES</code> change history functions</a>\nto view the rows that were appended to or changed in a table during a given time\nrange. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
       "text": "You can use the APPENDS and CHANGES change history functions to view the rows that were appended to or changed in a table during a given time range. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_27_2026_2",
+      "date": "July 27, 2026",
+      "updated": "2026-07-27T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
+      "type": "Feature",
+      "html": "\n<p>You can use the Google-developed\n<a href=\"https://docs.cloud.google.com/bigquery/docs/odbc-for-bigquery\">Open Database Connectivity (ODBC) driver for BigQuery</a>\nto connect your applications to BigQuery. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "You can use the Google-developed Open Database Connectivity (ODBC) driver for BigQuery to connect your applications to BigQuery. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_27_2026_3",
+      "date": "July 27, 2026",
+      "updated": "2026-07-27T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
+      "type": "Change",
+      "html": "\n<p>The feature formerly known as the <em>legacy <code>tabledata.insertAll</code> method</em> is now\ncalled the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/streaming-data-into-bigquery\"><em>Storage Write API (REST)</em></a>. The\nfeature formerly known as the <em>Storage Write API</em> is now called the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/write-api\"><em>Storage Write API (gRPC)</em></a>.</p>",
+      "text": "The feature formerly known as the legacy tabledata.insertAll method is now called the Storage Write API (REST). The feature formerly known as the Storage Write API is now called the Storage Write API (gRPC)."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_23_2026_0",
