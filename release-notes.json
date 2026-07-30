@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1785351931.7315829,
+  "last_fetched": 1785376485.8675187,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_29_2026_0",
+      "date": "July 29, 2026",
+      "updated": "2026-07-29T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026",
+      "type": "Feature",
+      "html": "\n<p>The BigQuery Data Transfer Service now supports <a href=\"https://docs.cloud.google.com/bigquery/docs/klaviyo-transfer-intro#full_or_incremental_transfers\">incremental data transfers</a>\nwhen transferring data from Klaviyo to BigQuery. This feature is supported in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+      "text": "The BigQuery Data Transfer Service now supports incremental data transfers when transferring data from Klaviyo to BigQuery. This feature is supported in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_27_2026_0",
       "date": "July 27, 2026",
@@ -541,15 +550,6 @@
       "type": "Feature",
       "html": "\n<p>You can manage and version control SQL scripts and notebooks with\n<a href=\"https://docs.cloud.google.com/bigquery/docs/git-repositories\">BigQuery Studio Git repositories</a>,\nwhich provide a streamlined, folder-based integration with remote Git\nrepositories. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">preview</a>.</p>",
       "text": "You can manage and version control SQL scripts and notebooks with BigQuery Studio Git repositories, which provide a streamlined, folder-based integration with remote Git repositories. This feature is in preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_15_2026_0",
-      "date": "May 15, 2026",
-      "updated": "2026-05-15T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026",
-      "type": "Feature",
-      "html": "\n<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-detect-anomalies\"><code>AI.DETECT_ANOMALIES</code> function</a>\nsupports calling the function with a single input table that holds both the\nhistorical and target data. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-      "text": "The AI.DETECT_ANOMALIES function supports calling the function with a single input table that holds both the historical and target data. This feature is generally available (GA)."
     }
   ]
 }
