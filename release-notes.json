@@ -1,7 +1,25 @@
 {
   "status": "success",
-  "last_fetched": 1785439047.533586,
+  "last_fetched": 1785464019.909881,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_30_2026_0",
+      "date": "July 30, 2026",
+      "updated": "2026-07-30T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026",
+      "type": "Feature",
+      "html": "\n<p>You can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-pipelines#add_a_pipeline_task\">Add a pipeline task</a>.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>\n",
+      "text": "You can add tables, views, data sources, and data quality tests as tasks to BigQuery pipelines. For more information, see Add a pipeline task. This feature is generally available."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_30_2026_1",
+      "date": "July 30, 2026",
+      "updated": "2026-07-30T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026",
+      "type": "Feature",
+      "html": "\n<p>You can audit when users download query results by using the BigQuery\nconsole. Data Access audit logs for the <code>tabledata.list</code> method now include a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/auditlogs/rest/Shared.Types/BigQueryAuditMetadata.html#BigQueryAuditMetadata.TableDataRead.FIELDS.ui_download_request\"><code>uiDownloadRequest</code></a>\nfield to indicate whether the request was triggered by a UI download.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "You can audit when users download query results by using the BigQuery console. Data Access audit logs for the tabledata.list method now include a uiDownloadRequest field to indicate whether the request was triggered by a UI download. This feature is generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_29_2026_0",
       "date": "July 29, 2026",
@@ -523,33 +541,6 @@
       "type": "Feature",
       "html": "\n<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-agg\"><code>AI.AGG</code> function</a>\nto semantically aggregate unstructured input data based on natural language\ninstructions. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "You can now use the AI.AGG function to semantically aggregate unstructured input data based on natural language instructions. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_18_2026_0",
-      "date": "May 18, 2026",
-      "updated": "2026-05-18T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026",
-      "type": "Feature",
-      "html": "\n<p>You can\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-tasks#prioritize_idle_slots_with_reservation_groups\">group reservations</a>\ntogether to prioritize idle slot sharing within the group. Reservations within a\nreservation group share idle slots with each other before making them available\nto other reservations in the project, giving you more control over slot\nallocation for high-priority workloads. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "You can group reservations together to prioritize idle slot sharing within the group. Reservations within a reservation group share idle slots with each other before making them available to other reservations in the project, giving you more control over slot allocation for high-priority workloads. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_18_2026_1",
-      "date": "May 18, 2026",
-      "updated": "2026-05-18T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use a <a href=\"https://docs.cloud.google.com/bigquery/docs/custom-constraints\">custom organization policy</a>\nto allow or deny specific operations on workload management resources including\nreservations, assignments, capacity commitments, and BI reservations. This\nfeature is in <a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "You can now use a custom organization policy to allow or deny specific operations on workload management resources including reservations, assignments, capacity commitments, and BI reservations. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_18_2026_2",
-      "date": "May 18, 2026",
-      "updated": "2026-05-18T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026",
-      "type": "Feature",
-      "html": "\n<p>You can manage and version control SQL scripts and notebooks with\n<a href=\"https://docs.cloud.google.com/bigquery/docs/git-repositories\">BigQuery Studio Git repositories</a>,\nwhich provide a streamlined, folder-based integration with remote Git\nrepositories. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">preview</a>.</p>",
-      "text": "You can manage and version control SQL scripts and notebooks with BigQuery Studio Git repositories, which provide a streamlined, folder-based integration with remote Git repositories. This feature is in preview."
     }
   ]
 }
