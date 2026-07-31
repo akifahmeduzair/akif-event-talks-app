@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_fetched": 1785487283.274361,
+  "last_fetched": 1785505875.1743176,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_30_2026_0",
@@ -62,8 +62,17 @@
       "updated": "2026-07-27T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
       "type": "Change",
-      "html": "\n<p>The feature formerly known as the <em>legacy <code>tabledata.insertAll</code> method</em> is now\ncalled the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/streaming-data-into-bigquery\"><em>Storage Write API (REST)</em></a>. The\nfeature formerly known as the <em>Storage Write API</em> is now called the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/write-api\"><em>Storage Write API (gRPC)</em></a>.</p>",
+      "html": "\n<p>The feature formerly known as the <em>legacy <code>tabledata.insertAll</code> method</em> is now\ncalled the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/streaming-data-into-bigquery\"><em>Storage Write API (REST)</em></a>. The\nfeature formerly known as the <em>Storage Write API</em> is now called the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/write-api\"><em>Storage Write API (gRPC)</em></a>.</p>\n",
       "text": "The feature formerly known as the legacy tabledata.insertAll method is now called the Storage Write API (REST). The feature formerly known as the Storage Write API is now called the Storage Write API (gRPC)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_27_2026_4",
+      "date": "July 27, 2026",
+      "updated": "2026-07-27T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery dataset insights is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/generate-dataset-insights\">BigQuery dataset insights</a> helps you\ndiscover and visualize relationships between tables and automatically generate\ncross-table queries. You can run and publish these insights to\nKnowledge Catalog for agentic grounding use cases, or\ngenerate them on demand without publishing for quick, ad hoc dataset exploration.</p>",
+      "text": "BigQuery dataset insights is generally available (GA). BigQuery dataset insights helps you discover and visualize relationships between tables and automatically generate cross-table queries. You can run and publish these insights to Knowledge Catalog for agentic grounding use cases, or generate them on demand without publishing for quick, ad hoc dataset exploration."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_23_2026_0",
