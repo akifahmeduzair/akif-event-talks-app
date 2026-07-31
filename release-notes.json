@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_fetched": 1785505875.1743176,
+  "last_fetched": 1785525371.7376926,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_30_2026_0",
@@ -142,12 +142,21 @@
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
+      "type": "Feature",
+      "html": "\n<p><em>Cross-cloud Lakehouse</em> now supports Snowflake as a remote\ncatalog provider (Preview). You can configure federated catalogs to query data\nstored in Snowflake directly from Google Cloud using\nBigQuery or Apache Spark without migrating data or building\ncomplex ETL pipelines.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-lakehouse-snowflake\">Set up cross-cloud Lakehouse for\nSnowflake</a>.</p>\n",
+      "text": "Cross-cloud Lakehouse now supports Snowflake as a remote catalog provider (Preview). You can configure federated catalogs to query data stored in Snowflake directly from Google Cloud using BigQuery or Apache Spark without migrating data or building complex ETL pipelines. For more information, see Set up cross-cloud Lakehouse for Snowflake."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_2",
+      "date": "July 13, 2026",
+      "updated": "2026-07-13T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
       "type": "Security",
       "html": "\n<p>A Missing Authorization vulnerability was discovered in repositories in\nBigQuery, Dataform, and Colab Enterprise. An authenticated attacker could\npotentially escalate permissions and perform cross-tenant repository takeover.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/security-bulletins#GCP-2026-047\">GCP-2026-047</a> security bulletin.</p>\n",
       "text": "A Missing Authorization vulnerability was discovered in repositories in BigQuery, Dataform, and Colab Enterprise. An authenticated attacker could potentially escalate permissions and perform cross-tenant repository takeover. For more information, see the GCP-2026-047 security bulletin."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_2",
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_3",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -156,7 +165,7 @@
       "text": "Project caps (also known as scheduling policies) let you limit maximum slots and concurrency per project within a BigQuery reservation. This feature is in Preview."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_3",
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_4",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -165,7 +174,7 @@
       "text": "The BigQuery Overview page is a hub for discovering tutorials, features, and resources to help you get the most out of BigQuery. It provides guided paths for users of all skill levels. This feature is now generally available (GA)."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_4",
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_5",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -174,7 +183,7 @@
       "text": "You can use the BigQuery Migration Service MCP server to perform SQL translation tasks, including translating SQL queries into GoogleSQL syntax, generating DDL statements from SQL input queries, and getting explanations of SQL translations. This feature is Generally Available."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_5",
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_6",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -183,7 +192,7 @@
       "text": "Incremental data transfers for the BigQuery Data Transfer Service for Salesforce are now generally available (GA)."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_6",
+      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_7",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -295,12 +304,21 @@
       "date": "June 25, 2026",
       "updated": "2026-06-25T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
+      "type": "Feature",
+      "html": "\n<p><em>Lakehouse</em> now supports BigQuery writes (DML, DDL) and automatic table\nmanagement for Apache Iceberg tables in the Lakehouse runtime catalog\n(Preview).</p>\n<p>This update introduces the following features:</p>\n<p><strong>Read/write interoperability:</strong> Full read and write (DML) support across\n    Managed Service for Apache Spark, open source engines (such as Spark,\n    Flink, and Trino).</p>\n<p><strong>BigQuery SQL DDL and DML:</strong> Create, alter, and delete\n    tables, or modify data using standard SQL DDL and DML statements\n    (<code>INSERT</code>, <code>UPDATE</code>, <code>DELETE</code>, and <code>MERGE</code>) directly in\n    BigQuery.</p>\n<p><strong>Automatic table management:</strong> Opt in to automatic storage optimization,\n    including compaction and garbage collection.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/manage-tables\">Apache Iceberg tables</a>\nand <a href=\"https://docs.cloud.google.com/lakehouse/docs/table-options\">Configure table options</a>.</p>\n",
+      "text": "Lakehouse now supports BigQuery writes (DML, DDL) and automatic table management for Apache Iceberg tables in the Lakehouse runtime catalog (Preview). This update introduces the following features: Read/write interoperability: Full read and write (DML) support across Managed Service for Apache Spark, open source engines (such as Spark, Flink, and Trino). BigQuery SQL DDL and DML: Create, alter, and delete tables, or modify data using standard SQL DDL and DML statements (INSERT, UPDATE, DELETE, and MERGE) directly in BigQuery. Automatic table management: Opt in to automatic storage optimization, including compaction and garbage collection. For more information, see Apache Iceberg tables and Configure table options."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_June_25_2026_1",
+      "date": "June 25, 2026",
+      "updated": "2026-06-25T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
       "type": "Change",
       "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>\n",
       "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_25_2026_1",
+      "id": "tag_google.com,2016_bigquery-release-notes_June_25_2026_2",
       "date": "June 25, 2026",
       "updated": "2026-06-25T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
@@ -395,6 +413,15 @@
       "updated": "2026-06-12T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
       "type": "Feature",
+      "html": "\n<p><em>Lakehouse for Apache Iceberg</em> now supports custom catalog names and data distributed across\nmultiple buckets. For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/create-catalog\">Create a\ncatalog</a>.</p>\n",
+      "text": "Lakehouse for Apache Iceberg now supports custom catalog names and data distributed across multiple buckets. For more information, see Create a catalog."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_June_12_2026_1",
+      "date": "June 12, 2026",
+      "updated": "2026-06-12T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
+      "type": "Feature",
       "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview\">BigQuery AI functions</a> can use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/work-with-objectref\"><code>ObjectRef</code> values</a> directly as input,\nwithout calling the <code>OBJ.GET_ACCESS_URL</code> function.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "text": "BigQuery AI functions can use ObjectRef values directly as input, without calling the OBJ.GET_ACCESS_URL function. This feature is generally available (GA)."
     },
@@ -409,6 +436,15 @@
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_June_11_2026_1",
+      "date": "June 11, 2026",
+      "updated": "2026-06-11T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
+      "type": "Feature",
+      "html": "\n<p><em>Lakehouse runtime catalog</em> now supports Apache Iceberg V3 tables with\nBinary Deletion Vectors (BDV) (Preview). This feature is useful for handling\nhigh-volume updates and deletes by deleting specific rows without the overhead\nof rewriting entire data files.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/use-iceberg-v3-binary-deletion-vectors\">Use Binary Deletion Vectors in Iceberg V3 tables</a>.</p>\n",
+      "text": "Lakehouse runtime catalog now supports Apache Iceberg V3 tables with Binary Deletion Vectors (BDV) (Preview). This feature is useful for handling high-volume updates and deletes by deleting specific rows without the overhead of rewriting entire data files. For more information, see Use Binary Deletion Vectors in Iceberg V3 tables."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_June_11_2026_2",
       "date": "June 11, 2026",
       "updated": "2026-06-11T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
@@ -480,6 +516,15 @@
       "text": "You can manage and limit the costs associated with BigQuery generative AI functions by configuring daily token quotas. Token-based cost management for BigQuery generative AI functions is generally available (GA)."
     },
     {
+      "id": "tag_google.com,2016_bigquery-release-notes_June_05_2026_0",
+      "date": "June 05, 2026",
+      "updated": "2026-06-05T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_05_2026",
+      "type": "Feature",
+      "html": "\n<p><em>Cross-cloud Lakehouse</em> now supports AWS Glue as a remote catalog\nprovider (Preview). You can configure federated catalogs to query data stored in\nAWS Glue directly from Google Cloud using BigQuery or\nApache Spark without migrating data or building complex ETL pipelines.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-lakehouse-aws-glue\">Set up cross-cloud Lakehouse for\nAWS Glue</a>.</p>",
+      "text": "Cross-cloud Lakehouse now supports AWS Glue as a remote catalog provider (Preview). You can configure federated catalogs to query data stored in AWS Glue directly from Google Cloud using BigQuery or Apache Spark without migrating data or building complex ETL pipelines. For more information, see Set up cross-cloud Lakehouse for AWS Glue."
+    },
+    {
       "id": "tag_google.com,2016_bigquery-release-notes_June_03_2026_0",
       "date": "June 03, 2026",
       "updated": "2026-06-03T00:00:00-07:00",
@@ -521,35 +566,17 @@
       "updated": "2026-05-26T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026",
       "type": "Feature",
+      "html": "\n<p><em>Lakehouse</em> now supports using Apache Spark and Apache Hive with\nthe Lakehouse runtime catalog and the Hive catalog. This integration\nlets you use the metastore as a serverless, central metadata layer, enabling\nseamless data sharing and unified querying across Spark, Hive, and\nBigQuery using supported environments (such as\nManaged Service for Apache Spark).</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/about-spark-hive-metastore\">About Hive Catalogs in\nLakehouse runtime catalog</a>\nand <a href=\"https://docs.cloud.google.com/lakehouse/docs/use-spark-hive-metastore\">Use Spark and Hive with the\nLakehouse runtime catalog</a>.</p>\n",
+      "text": "Lakehouse now supports using Apache Spark and Apache Hive with the Lakehouse runtime catalog and the Hive catalog. This integration lets you use the metastore as a serverless, central metadata layer, enabling seamless data sharing and unified querying across Spark, Hive, and BigQuery using supported environments (such as Managed Service for Apache Spark). For more information, see About Hive Catalogs in Lakehouse runtime catalog and Use Spark and Hive with the Lakehouse runtime catalog."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_May_26_2026_1",
+      "date": "May 26, 2026",
+      "updated": "2026-05-26T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026",
+      "type": "Feature",
       "html": "\n<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/colab-data-science-agent\">Data Science Agent</a> (DSA) for\nColab Enterprise and BigQuery is now <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally\navailable</a> (GA).</p>",
       "text": "The Data Science Agent (DSA) for Colab Enterprise and BigQuery is now generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_20_2026_0",
-      "date": "May 20, 2026",
-      "updated": "2026-05-20T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026",
-      "type": "Announcement",
-      "html": "\n<p>BigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or functional regressions.\nThese re-executions will have no side effects and will happen with no additional cost or resource consumption.\nData access logs may show <code>bigquery-adminbot@system.gserviceaccount.com</code> when BigQuery re-executes an instruction.</p>\n",
-      "text": "BigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or functional regressions. These re-executions will have no side effects and will happen with no additional cost or resource consumption. Data access logs may show bigquery-adminbot@system.gserviceaccount.com when BigQuery re-executes an instruction."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_20_2026_1",
-      "date": "May 20, 2026",
-      "updated": "2026-05-20T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026",
-      "type": "Feature",
-      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python\">Python UDFs</a> are now\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Generally Available</a>\n(GA).</p>\n<p>You can use Python UDFs to implement a scalar function in Python and use it in a\nSQL query. Python UDFs let you install third-party libraries from the\n<a href=\"https://pypi.org/\">Python Package Index (PyPI)</a> and let you access external\nservices using a <a href=\"https://docs.cloud.google.com/bigquery/docs/create-cloud-resource-connection\">Cloud resource connection</a>.</p>\n",
-      "text": "Python UDFs are now Generally Available (GA). You can use Python UDFs to implement a scalar function in Python and use it in a SQL query. Python UDFs let you install third-party libraries from the Python Package Index (PyPI) and let you access external services using a Cloud resource connection."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_20_2026_2",
-      "date": "May 20, 2026",
-      "updated": "2026-05-20T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-agg\"><code>AI.AGG</code> function</a>\nto semantically aggregate unstructured input data based on natural language\ninstructions. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can now use the AI.AGG function to semantically aggregate unstructured input data based on natural language instructions. This feature is in Preview."
     }
   ]
 }
