@@ -1,7 +1,34 @@
 {
   "status": "success",
-  "last_fetched": 1785785015.5487301,
+  "last_fetched": 1785808800.0513635,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_03_2026_0",
+      "date": "August 03, 2026",
+      "updated": "2026-08-03T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/cross-cloud-connections\">cross-cloud connections</a> to query data\nin AWS, Azure, and Salesforce Data 360 from all BigQuery regions. These\nconnections let you use more BigQuery features and are more cost efficient than\nstandard connections that use BigQuery Omni. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>\n",
+      "text": "You can now use cross-cloud connections to query data in AWS, Azure, and Salesforce Data 360 from all BigQuery regions. These connections let you use more BigQuery features and are more cost efficient than standard connections that use BigQuery Omni. This feature is in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_03_2026_1",
+      "date": "August 03, 2026",
+      "updated": "2026-08-03T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
+      "type": "Feature",
+      "html": "\n<p>The JDBC driver for BigQuery now supports\n<a href=\"https://docs.cloud.google.com/bigquery/docs/jdbc-for-bigquery#opentelemetry\">OpenTelemetry</a> for tracing and\nlogging, which helps you monitor the performance of your database interactions\nand troubleshoot issues.\n<a href=\"https://docs.cloud.google.com/bigquery/docs/jdbc-for-bigquery#zero-config-gcp-telemetry\">Automatic exports to Google Cloud Observability</a>\nare also available. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "The JDBC driver for BigQuery now supports OpenTelemetry for tracing and logging, which helps you monitor the performance of your database interactions and troubleshoot issues. Automatic exports to Google Cloud Observability are also available. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_03_2026_2",
+      "date": "August 03, 2026",
+      "updated": "2026-08-03T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
+      "type": "Announcement",
+      "html": "\n<p>Support for hybrid search (using the <code>VECTOR_SEARCH</code> function to combine a\nsemantic search with a lexical (keyword) search) has been restored. Using\n<code>HYBRID</code> mode in the <code>AI.SEARCH</code> function has also been restored.</p>",
+      "text": "Support for hybrid search (using the VECTOR_SEARCH function to combine a semantic search with a lexical (keyword) search) has been restored. Using HYBRID mode in the AI.SEARCH function has also been restored."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_July_30_2026_0",
       "date": "July 30, 2026",
@@ -559,24 +586,6 @@
       "type": "Change",
       "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>",
       "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_26_2026_0",
-      "date": "May 26, 2026",
-      "updated": "2026-05-26T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026",
-      "type": "Feature",
-      "html": "\n<p><em>Lakehouse</em> now supports using Apache Spark and Apache Hive with\nthe Lakehouse runtime catalog and the Hive catalog. This integration\nlets you use the metastore as a serverless, central metadata layer, enabling\nseamless data sharing and unified querying across Spark, Hive, and\nBigQuery using supported environments (such as\nManaged Service for Apache Spark).</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/about-spark-hive-metastore\">About Hive Catalogs in\nLakehouse runtime catalog</a>\nand <a href=\"https://docs.cloud.google.com/lakehouse/docs/use-spark-hive-metastore\">Use Spark and Hive with the\nLakehouse runtime catalog</a>.</p>\n",
-      "text": "Lakehouse now supports using Apache Spark and Apache Hive with the Lakehouse runtime catalog and the Hive catalog. This integration lets you use the metastore as a serverless, central metadata layer, enabling seamless data sharing and unified querying across Spark, Hive, and BigQuery using supported environments (such as Managed Service for Apache Spark). For more information, see About Hive Catalogs in Lakehouse runtime catalog and Use Spark and Hive with the Lakehouse runtime catalog."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_26_2026_1",
-      "date": "May 26, 2026",
-      "updated": "2026-05-26T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026",
-      "type": "Feature",
-      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/colab-data-science-agent\">Data Science Agent</a> (DSA) for\nColab Enterprise and BigQuery is now <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally\navailable</a> (GA).</p>",
-      "text": "The Data Science Agent (DSA) for Colab Enterprise and BigQuery is now generally available (GA)."
     }
   ]
 }
