@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1786452734.325633,
+  "last_fetched": 1786474476.8606517,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_11_2026_0",
+      "date": "August 11, 2026",
+      "updated": "2026-08-11T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_11_2026",
+      "type": "Feature",
+      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/query-templates\">Query templates</a>\nfor data clean rooms are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). Query templates allow data clean room owners and publishers to share\npredefined queries without exposing the underlying tables and views.</p>\n<p>Additionally,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/table-functions#table_parameters\">table parameters</a>\nin table-valued functions (TVFs) are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can use the <code>ANY TABLE</code> type as a table parameter to create\ngeneric functions that accept tables of any structure.</p>",
+      "text": "Query templates for data clean rooms are generally available (GA). Query templates allow data clean room owners and publishers to share predefined queries without exposing the underlying tables and views. Additionally, table parameters in table-valued functions (TVFs) are generally available (GA). You can use the ANY TABLE type as a table parameter to create generic functions that accept tables of any structure."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_10_2026_0",
       "date": "August 10, 2026",
@@ -577,15 +586,6 @@
       "type": "Feature",
       "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/remote-functions#create_a_remote_function\">Remote functions</a> now\nsupport a custom path in the endpoint URL. You can reuse a single Cloud Run\nservice for multiple BigQuery remote functions by specifying different path\nsuffixes on the same endpoint. This feature is <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally\navailable</a> (GA).</p>",
       "text": "Remote functions now support a custom path in the endpoint URL. You can reuse a single Cloud Run service for multiple BigQuery remote functions by specifying different path suffixes on the same endpoint. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_01_2026_0",
-      "date": "June 01, 2026",
-      "updated": "2026-06-01T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026",
-      "type": "Change",
-      "html": "\n<p>The Facebook Ads connector for the BigQuery Data Transfer Service now supports\ndata transfers from the following Facebook Ads reports:</p>\n<ul>\n<li><code>AdInsightsMMM</code></li>\n<li><code>Ads</code></li>\n<li><code>AdCreatives</code></li>\n<li><code>AdSets</code></li>\n<li><code>Campaigns</code></li>\n<li><code>AdImages</code></li>\n<li><code>AdLabels</code></li>\n<li><code>Businesses</code></li>\n<li><code>CustomAudiences</code></li>\n</ul>",
-      "text": "The Facebook Ads connector for the BigQuery Data Transfer Service now supports data transfers from the following Facebook Ads reports: AdInsightsMMM Ads AdCreatives AdSets Campaigns AdImages AdLabels Businesses CustomAudiences"
     }
   ]
 }
