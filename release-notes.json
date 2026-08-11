@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1786387730.8226266,
+  "last_fetched": 1786410924.8679965,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_10_2026_0",
+      "date": "August 10, 2026",
+      "updated": "2026-08-10T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery now supports the <code>gemini-3.1-flash-lite</code> and <code>gemini-3.5-flash</code> GA\nmodels, which are available for the <code>us</code>, <code>eu</code>, and <code>global</code> multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\n<a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">locations</a>\nin the generative AI overview.</p>",
+      "text": "BigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA models, which are available for the us, eu, and global multi-regional endpoints. You can use these models in all generative AI functions. For information about how to specify a multi-regional endpoint and how endpoints are selected, read about locations in the generative AI overview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_03_2026_0",
       "date": "August 03, 2026",
@@ -577,15 +586,6 @@
       "type": "Change",
       "html": "\n<p>The Facebook Ads connector for the BigQuery Data Transfer Service now supports\ndata transfers from the following Facebook Ads reports:</p>\n<ul>\n<li><code>AdInsightsMMM</code></li>\n<li><code>Ads</code></li>\n<li><code>AdCreatives</code></li>\n<li><code>AdSets</code></li>\n<li><code>Campaigns</code></li>\n<li><code>AdImages</code></li>\n<li><code>AdLabels</code></li>\n<li><code>Businesses</code></li>\n<li><code>CustomAudiences</code></li>\n</ul>",
       "text": "The Facebook Ads connector for the BigQuery Data Transfer Service now supports data transfers from the following Facebook Ads reports: AdInsightsMMM Ads AdCreatives AdSets Campaigns AdImages AdLabels Businesses CustomAudiences"
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_May_27_2026_0",
-      "date": "May 27, 2026",
-      "updated": "2026-05-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026",
-      "type": "Change",
-      "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>",
-      "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
     }
   ]
 }
