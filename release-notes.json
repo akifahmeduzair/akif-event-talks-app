@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1786539374.609084,
+  "last_fetched": 1786560871.801878,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_12_2026_0",
+      "date": "August 12, 2026",
+      "updated": "2026-08-12T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026",
+      "type": "Announcement",
+      "html": "\n<p>Table Explorer behavior has moved to the <strong>Reference</strong> panel. Table Explorer\nhas been deprecated. For more information, see \"Use the Reference panel\" in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/running-queries#use-reference-panel\">Run a query</a>.</p>",
+      "text": "Table Explorer behavior has moved to the Reference panel. Table Explorer has been deprecated. For more information, see \"Use the Reference panel\" in Run a query."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_11_2026_0",
       "date": "August 11, 2026",
@@ -577,15 +586,6 @@
       "type": "Feature",
       "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/slots#slot-autoscaling\">BigQuery fluid scaling</a>, which provides\nper-second billing with no minimum duration for autoscaling reservations,\nis <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "text": "BigQuery fluid scaling, which provides per-second billing with no minimum duration for autoscaling reservations, is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_02_2026_0",
-      "date": "June 02, 2026",
-      "updated": "2026-06-02T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026",
-      "type": "Feature",
-      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/remote-functions#create_a_remote_function\">Remote functions</a> now\nsupport a custom path in the endpoint URL. You can reuse a single Cloud Run\nservice for multiple BigQuery remote functions by specifying different path\nsuffixes on the same endpoint. This feature is <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally\navailable</a> (GA).</p>",
-      "text": "Remote functions now support a custom path in the endpoint URL. You can reuse a single Cloud Run service for multiple BigQuery remote functions by specifying different path suffixes on the same endpoint. This feature is generally available (GA)."
     }
   ]
 }
