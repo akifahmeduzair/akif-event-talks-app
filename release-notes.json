@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1787121262.402537,
+  "last_fetched": 1787142901.7920399,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_18_2026_0",
+      "date": "August 18, 2026",
+      "updated": "2026-08-18T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026",
+      "type": "Feature",
+      "html": "\n<p>The default per-project limit of user-specific\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-assignments#assignment-logic-and-criteria\">reservation assignments</a>\nhas been increased from 10 to 100.</p>",
+      "text": "The default per-project limit of user-specific reservation assignments has been increased from 10 to 100."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_13_2026_0",
       "date": "August 13, 2026",
@@ -577,15 +586,6 @@
       "type": "Feature",
       "html": "\n<p>You can manage and limit the costs associated with BigQuery generative AI\nfunctions by configuring <a href=\"https://docs.cloud.google.com/bigquery/docs/control-genai-costs\">daily token quotas</a>.\nToken-based cost management for BigQuery generative AI functions is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>",
       "text": "You can manage and limit the costs associated with BigQuery generative AI functions by configuring daily token quotas. Token-based cost management for BigQuery generative AI functions is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_05_2026_0",
-      "date": "June 05, 2026",
-      "updated": "2026-06-05T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_05_2026",
-      "type": "Feature",
-      "html": "\n<p><em>Cross-cloud Lakehouse</em> now supports AWS Glue as a remote catalog\nprovider (Preview). You can configure federated catalogs to query data stored in\nAWS Glue directly from Google Cloud using BigQuery or\nApache Spark without migrating data or building complex ETL pipelines.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-lakehouse-aws-glue\">Set up cross-cloud Lakehouse for\nAWS Glue</a>.</p>",
-      "text": "Cross-cloud Lakehouse now supports AWS Glue as a remote catalog provider (Preview). You can configure federated catalogs to query data stored in AWS Glue directly from Google Cloud using BigQuery or Apache Spark without migrating data or building complex ETL pipelines. For more information, see Set up cross-cloud Lakehouse for AWS Glue."
     }
   ]
 }
