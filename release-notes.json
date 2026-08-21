@@ -1,7 +1,34 @@
 {
   "status": "success",
-  "last_fetched": 1787250631.057596,
+  "last_fetched": 1787273928.4527113,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_20_2026_0",
+      "date": "August 20, 2026",
+      "updated": "2026-08-20T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery supports the following table-valued functions in the query editor and\nas part of\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#bigquery-ml-support\">conversational analytics</a>\nto help you analyze your time series data:</p>\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend\"><code>ML.TREND</code></a>:\nidentify the directional trajectory of your data.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-seasonality\"><code>ML.SEASONALITY</code></a>:\nidentify repeating patterns in your data.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-detect-change-points\"><code>ML.DETECT_CHANGE_POINTS</code></a>:\nidentify intervals where structural shifts occur in your data.</li>\n</ul>\n<p>These functions are in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>\n",
+      "text": "BigQuery supports the following table-valued functions in the query editor and as part of conversational analytics to help you analyze your time series data: ML.TREND: identify the directional trajectory of your data. ML.SEASONALITY: identify repeating patterns in your data. ML.DETECT_CHANGE_POINTS: identify intervals where structural shifts occur in your data. These functions are in preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_20_2026_1",
+      "date": "August 20, 2026",
+      "updated": "2026-08-20T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
+      "type": "Deprecated",
+      "html": "\n<p>Starting April 26, 2027, core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery\nGraph</a> will be restricted to the <a href=\"https://docs.cloud.google.com/bigquery/docs/editions-intro\">BigQuery\nEnterprise and Enterprise Plus editions</a>.\nConsequently, we are deprecating support for Standard edition and on-demand\nbilling for core graph processing.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>\n",
+      "text": "Starting April 26, 2027, core graph processing for BigQuery Graph will be restricted to the BigQuery Enterprise and Enterprise Plus editions. Consequently, we are deprecating support for Standard edition and on-demand billing for core graph processing. Graph measures will remain available in the Enterprise and Enterprise Plus editions and for queries run using on-demand pricing. Measures are not available in Standard edition."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_20_2026_2",
+      "date": "August 20, 2026",
+      "updated": "2026-08-20T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
+      "type": "Feature",
+      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/sdk/use-gcloud-mcp#available-tools\"><code>run_bq_command</code> tool</a>\n exposes the <code>bq</code> command-line tool within the\nCloud CLI remote MCP server. AI agents can now execute advanced BigQuery\noperations, such as job scheduling, job management, and reservation management,\nthrough a managed MCP endpoint.\nFor more information, see\n<a href=\"https://docs.cloud.google.com/sdk/use-gcloud-mcp\">Use the Cloud CLI remote MCP server</a>. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+      "text": "The run_bq_command tool exposes the bq command-line tool within the Cloud CLI remote MCP server. AI agents can now execute advanced BigQuery operations, such as job scheduling, job management, and reservation management, through a managed MCP endpoint. For more information, see Use the Cloud CLI remote MCP server. This feature is in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_18_2026_0",
       "date": "August 18, 2026",
@@ -532,60 +559,6 @@
       "type": "Feature",
       "html": "\n<p>BigQuery continuous queries now support the following aggregation functions:</p>\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#array_agg\"><code>ARRAY_AGG</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#string_agg\"><code>STRING_AGG</code></a></li>\n</ul>\n<p>Support for these functions is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "BigQuery continuous queries now support the following aggregation functions: ARRAY_AGG STRING_AGG Support for these functions is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_08_2026_0",
-      "date": "June 08, 2026",
-      "updated": "2026-06-08T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
-      "type": "Feature",
-      "html": "\n<p>You can <a href=\"https://docs.cloud.google.com/bigquery/docs/use-cloud-assist#analyze-lineage\">analyze data lineage with Gemini Cloud Assist in\nBigQuery</a>. This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "You can analyze data lineage with Gemini Cloud Assist in BigQuery. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_08_2026_1",
-      "date": "June 08, 2026",
-      "updated": "2026-06-08T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use Gemini Cloud Assist to\n<a href=\"https://docs.cloud.google.com/bigquery/docs/use-cloud-assist#schedule_a_query\">schedule queries</a>. This\nfeature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "You can now use Gemini Cloud Assist to schedule queries. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_08_2026_2",
-      "date": "June 08, 2026",
-      "updated": "2026-06-08T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
-      "type": "Feature",
-      "html": "\n<p>You can use the Google-developed, open source\n<a href=\"https://docs.cloud.google.com/bigquery/docs/jdbc-for-bigquery\">Java Database Connectivity (JDBC) driver for BigQuery</a>\nto connect your Java applications to BigQuery. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "You can use the Google-developed, open source Java Database Connectivity (JDBC) driver for BigQuery to connect your Java applications to BigQuery. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_08_2026_3",
-      "date": "June 08, 2026",
-      "updated": "2026-06-08T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
-      "type": "Feature",
-      "html": "\n<p>You can use custom constraints with Organization Policy to provide more\ngranular control over specific fields for some BigQuery sharing\nresources. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/analytics-hub-custom-constraints\">Manage Sharing data exchanges and listings using custom constraints</a>.\nThis feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "You can use custom constraints with Organization Policy to provide more granular control over specific fields for some BigQuery sharing resources. For more information, see Manage Sharing data exchanges and listings using custom constraints. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_08_2026_4",
-      "date": "June 08, 2026",
-      "updated": "2026-06-08T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
-      "type": "Feature",
-      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/control-access-to-resources-iam#deny_access_to_a_resource\">IAM deny policies</a>\nfor BigQuery are now <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "IAM deny policies for BigQuery are now generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_08_2026_5",
-      "date": "June 08, 2026",
-      "updated": "2026-06-08T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
-      "type": "Feature",
-      "html": "\n<p>You can manage and limit the costs associated with BigQuery generative AI\nfunctions by configuring <a href=\"https://docs.cloud.google.com/bigquery/docs/control-genai-costs\">daily token quotas</a>.\nToken-based cost management for BigQuery generative AI functions is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>",
-      "text": "You can manage and limit the costs associated with BigQuery generative AI functions by configuring daily token quotas. Token-based cost management for BigQuery generative AI functions is generally available (GA)."
     }
   ]
 }
