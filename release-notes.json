@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1787596282.517989,
+  "last_fetched": 1787619404.5104775,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_24_2026_0",
+      "date": "August 24, 2026",
+      "updated": "2026-08-24T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_24_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#monitor_agents_and_conversations\">monitor</a>\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can now monitor the performance, adoption, latency, and costs of your data agents and their conversations by using Google Cloud Observability in BigQuery. This feature is in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_20_2026_0",
       "date": "August 20, 2026",
@@ -550,15 +559,6 @@
       "type": "Feature",
       "html": "\n<p>Support for the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-key-drivers\"><code>AI.KEY_DRIVERS</code> function</a>\nis restored. You can use the\n<code>AI.KEY_DRIVERS</code> function to identify segments of data that cause statistically significant changes to a summable metric.</p>\n<p>This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
       "text": "Support for the AI.KEY_DRIVERS function is restored. You can use the AI.KEY_DRIVERS function to identify segments of data that cause statistically significant changes to a summable metric. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_10_2026_0",
-      "date": "June 10, 2026",
-      "updated": "2026-06-10T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026",
-      "type": "Feature",
-      "html": "\n<p>BigQuery continuous queries now support the following aggregation functions:</p>\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#array_agg\"><code>ARRAY_AGG</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#string_agg\"><code>STRING_AGG</code></a></li>\n</ul>\n<p>Support for these functions is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "BigQuery continuous queries now support the following aggregation functions: ARRAY_AGG STRING_AGG Support for these functions is in Preview."
     }
   ]
 }
