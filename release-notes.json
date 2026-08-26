@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1787748006.5904214,
+  "last_fetched": 1787773269.8451822,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_26_2026_0",
+      "date": "August 26, 2026",
+      "updated": "2026-08-26T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026",
+      "type": "Security",
+      "html": "\n<p>An Improper Input Validation vulnerability was discovered in the JDBC driver\nin BigQuery Data Transfer Service versions prior to May 1, 2026.\nAn authenticated attacker could use crafted JDBC connection string parameters\nto achieve remote code execution in the connector container and escalate\nprivileges in the tenant project.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/security-bulletins#gcp-2026-056\">GCP-2026-056</a> security bulletin.</p>",
+      "text": "An Improper Input Validation vulnerability was discovered in the JDBC driver in BigQuery Data Transfer Service versions prior to May 1, 2026. An authenticated attacker could use crafted JDBC connection string parameters to achieve remote code execution in the connector container and escalate privileges in the tenant project. For more information, see the GCP-2026-056 security bulletin."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_25_2026_0",
       "date": "August 25, 2026",
@@ -523,24 +532,6 @@
       "type": "Feature",
       "html": "\n<p>You can use Gemini Code Assist directly within the BigQuery <strong>Jobs explorer</strong>,\n<strong>Job details</strong>, <strong>Job history</strong>, and <strong>Capacity management</strong> pages to help you\ntroubleshoot and analyze performance issues. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/admin-jobs-explorer#get-job-details\">Troubleshoot job\nperformance</a>. This feature\nis in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "You can use Gemini Code Assist directly within the BigQuery Jobs explorer, Job details, Job history, and Capacity management pages to help you troubleshoot and analyze performance issues. For more information, see Troubleshoot job performance. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_12_2026_0",
-      "date": "June 12, 2026",
-      "updated": "2026-06-12T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
-      "type": "Feature",
-      "html": "\n<p><em>Lakehouse</em> now supports custom catalog names and data distributed across\nmultiple buckets. For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/create-catalog\">Create a\ncatalog</a>.</p>\n",
-      "text": "Lakehouse now supports custom catalog names and data distributed across multiple buckets. For more information, see Create a catalog."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_12_2026_1",
-      "date": "June 12, 2026",
-      "updated": "2026-06-12T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
-      "type": "Feature",
-      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview\">BigQuery AI functions</a> can use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/work-with-objectref\"><code>ObjectRef</code> values</a> directly as input,\nwithout calling the <code>OBJ.GET_ACCESS_URL</code> function.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-      "text": "BigQuery AI functions can use ObjectRef values directly as input, without calling the OBJ.GET_ACCESS_URL function. This feature is generally available (GA)."
     }
   ]
 }
