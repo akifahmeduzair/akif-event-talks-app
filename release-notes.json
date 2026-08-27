@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_fetched": 1787773269.8451822,
+  "last_fetched": 1787813358.0225449,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_26_2026_0",
@@ -8,8 +8,17 @@
       "updated": "2026-08-26T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026",
       "type": "Security",
-      "html": "\n<p>An Improper Input Validation vulnerability was discovered in the JDBC driver\nin BigQuery Data Transfer Service versions prior to May 1, 2026.\nAn authenticated attacker could use crafted JDBC connection string parameters\nto achieve remote code execution in the connector container and escalate\nprivileges in the tenant project.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/security-bulletins#gcp-2026-056\">GCP-2026-056</a> security bulletin.</p>",
+      "html": "\n<p>An Improper Input Validation vulnerability was discovered in the JDBC driver\nin BigQuery Data Transfer Service versions prior to May 1, 2026.\nAn authenticated attacker could use crafted JDBC connection string parameters\nto achieve remote code execution in the connector container and escalate\nprivileges in the tenant project.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/security-bulletins#gcp-2026-056\">GCP-2026-056</a> security bulletin.</p>\n",
       "text": "An Improper Input Validation vulnerability was discovered in the JDBC driver in BigQuery Data Transfer Service versions prior to May 1, 2026. An authenticated attacker could use crafted JDBC connection string parameters to achieve remote code execution in the connector container and escalate privileges in the tenant project. For more information, see the GCP-2026-056 security bulletin."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_26_2026_1",
+      "date": "August 26, 2026",
+      "updated": "2026-08-26T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now\n<a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python#use_logging\">view real-time logs</a>\nfor your Python UDFs in Cloud Logging. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+      "text": "You can now view real-time logs for your Python UDFs in Cloud Logging. This feature is generally available."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_25_2026_0",
