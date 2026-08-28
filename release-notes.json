@@ -1,7 +1,34 @@
 {
   "status": "success",
-  "last_fetched": 1787866597.0789833,
+  "last_fetched": 1787906219.4602096,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_27_2026_0",
+      "date": "August 27, 2026",
+      "updated": "2026-08-27T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
+      "type": "Feature",
+      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/data-engineering-agent-pipelines\">Data Engineering Agent</a>\nis now <a href=\"https://docs.cloud.google.com/bigquery/docs/gemini-security-privacy-compliance\">HIPAA compliant</a>.\nFor more information, see <a href=\"https://cloud.google.com/security/compliance/hipaa\">HIPAA compliance on Google Cloud</a>.</p>\n",
+      "text": "The Data Engineering Agent is now HIPAA compliant. For more information, see HIPAA compliance on Google Cloud."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_27_2026_1",
+      "date": "August 27, 2026",
+      "updated": "2026-08-27T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
+      "type": "Announcement",
+      "html": "\n<p>Core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a>\nrequires an Enterprise or Enterprise Plus edition reservation. Existing\nallowlisted users can continue to use Standard edition or on-demand billing\nuntil April 26, 2027, after which these billing models will no longer be\nsupported for core graph processing.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>\n",
+      "text": "Core graph processing for BigQuery Graph requires an Enterprise or Enterprise Plus edition reservation. Existing allowlisted users can continue to use Standard edition or on-demand billing until April 26, 2027, after which these billing models will no longer be supported for core graph processing. Graph measures will remain available in the Enterprise and Enterprise Plus editions and for queries run using on-demand pricing. Measures are not available in Standard edition."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_27_2026_2",
+      "date": "August 27, 2026",
+      "updated": "2026-08-27T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now train models using XGBoost version 2.1 by using the\n<code>XGBOOST_VERSION</code> option. BigQuery uses the XGBoost 3.1.0 library to load and\nmake predictions on XGBoost models. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+      "text": "You can now train models using XGBoost version 2.1 by using the XGBOOST_VERSION option. BigQuery uses the XGBoost 3.1.0 library to load and make predictions on XGBoost models. This feature is generally available."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_26_2026_0",
       "date": "August 26, 2026",
@@ -53,8 +80,8 @@
       "updated": "2026-08-20T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
       "type": "Deprecated",
-      "html": "\n<p>Starting April 26, 2027, core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery\nGraph</a> will be restricted to the <a href=\"https://docs.cloud.google.com/bigquery/docs/editions-intro\">BigQuery\nEnterprise and Enterprise Plus editions</a>.\nConsequently, we are deprecating support for Standard edition and on-demand\nbilling for core graph processing.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>\n",
-      "text": "Starting April 26, 2027, core graph processing for BigQuery Graph will be restricted to the BigQuery Enterprise and Enterprise Plus editions. Consequently, we are deprecating support for Standard edition and on-demand billing for core graph processing. Graph measures will remain available in the Enterprise and Enterprise Plus editions and for queries run using on-demand pricing. Measures are not available in Standard edition."
+      "html": "\n<p>Starting April 26, 2027, core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery\nGraph</a> will be restricted to the <a href=\"https://docs.cloud.google.com/bigquery/docs/editions-intro\">BigQuery\nEnterprise and Enterprise Plus editions</a>.\nConsequently, we are deprecating support for Standard edition and on-demand\nbilling for core graph processing.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>\n<p>For additional details and enforcement dates regarding Standard edition and\non-demand billing support, see the <a href=\"#August_27_2026\">August 27, 2026</a>\nrelease note.</p>\n",
+      "text": "Starting April 26, 2027, core graph processing for BigQuery Graph will be restricted to the BigQuery Enterprise and Enterprise Plus editions. Consequently, we are deprecating support for Standard edition and on-demand billing for core graph processing. Graph measures will remain available in the Enterprise and Enterprise Plus editions and for queries run using on-demand pricing. Measures are not available in Standard edition. For additional details and enforcement dates regarding Standard edition and on-demand billing support, see the August 27, 2026 release note."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_20_2026_2",
@@ -505,42 +532,6 @@
       "type": "Announcement",
       "html": "\n<p>Table Explorer behavior is moving to the <strong>Reference</strong> panel. This transition\nwill occur in July 2026 or later. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/table-explorer\">Table Explorer</a>.</p>",
       "text": "Table Explorer behavior is moving to the Reference panel. This transition will occur in July 2026 or later. For more information, see Table Explorer."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_15_2026_0",
-      "date": "June 15, 2026",
-      "updated": "2026-06-15T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
-      "type": "Feature",
-      "html": "\n<p>Use Gemini Cloud Assist to analyze your SQL queries and receive\nrecommendations to <a href=\"https://docs.cloud.google.com/bigquery/docs/use-cloud-assist#optimize-query\">optimize query performance in BigQuery</a>.\nThis feature is available to customers who use BigQuery editions.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "Use Gemini Cloud Assist to analyze your SQL queries and receive recommendations to optimize query performance in BigQuery. This feature is available to customers who use BigQuery editions. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_15_2026_1",
-      "date": "June 15, 2026",
-      "updated": "2026-06-15T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
-      "type": "Issue",
-      "html": "\n<p>Support for configuring daily token quotas for BigQuery generative AI\nfunctions has been temporarily disabled. We are working to restore this\nfeature as soon as possible.</p>\n",
-      "text": "Support for configuring daily token quotas for BigQuery generative AI functions has been temporarily disabled. We are working to restore this feature as soon as possible."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_15_2026_2",
-      "date": "June 15, 2026",
-      "updated": "2026-06-15T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
-      "type": "Feature",
-      "html": "\n<p>You can resize the width of table columns in BigQuery Studio for\nBigQuery listings such as datasets, repositories, job history,\nand connections. To resize a column, hover over the column divider and drag it\nto your preferred width.</p>\n",
-      "text": "You can resize the width of table columns in BigQuery Studio for BigQuery listings such as datasets, repositories, job history, and connections. To resize a column, hover over the column divider and drag it to your preferred width."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_15_2026_3",
-      "date": "June 15, 2026",
-      "updated": "2026-06-15T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
-      "type": "Feature",
-      "html": "\n<p>You can use Gemini Code Assist directly within the BigQuery <strong>Jobs explorer</strong>,\n<strong>Job details</strong>, <strong>Job history</strong>, and <strong>Capacity management</strong> pages to help you\ntroubleshoot and analyze performance issues. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/admin-jobs-explorer#get-job-details\">Troubleshoot job\nperformance</a>. This feature\nis in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can use Gemini Code Assist directly within the BigQuery Jobs explorer, Job details, Job history, and Capacity management pages to help you troubleshoot and analyze performance issues. For more information, see Troubleshoot job performance. This feature is in Preview."
     }
   ]
 }
