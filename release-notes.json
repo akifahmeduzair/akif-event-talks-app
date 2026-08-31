@@ -1,7 +1,34 @@
 {
   "status": "success",
-  "last_fetched": 1788179254.8625007,
+  "last_fetched": 1788214680.4143171,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_0",
+      "date": "August 31, 2026",
+      "updated": "2026-08-31T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now <a href=\"https://docs.cloud.google.com/bigquery/docs/create-pipelines\">create, store</a>, and\n<a href=\"https://docs.cloud.google.com/bigquery/docs/manage-pipelines\">manage pipelines</a> in Git folders.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
+      "text": "You can now create, store, and manage pipelines in Git folders. This feature is in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_1",
+      "date": "August 31, 2026",
+      "updated": "2026-08-31T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
+      "type": "Feature",
+      "html": "\n<p>Using <a href=\"https://docs.cloud.google.com/bigquery/docs/code-asset-folders\">folders</a> to\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-pipelines\">create, store, and manage pipelines</a> is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>\n",
+      "text": "Using folders to create, store, and manage pipelines is generally available."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_2",
+      "date": "August 31, 2026",
+      "updated": "2026-08-31T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now create an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/identity-columns\">identity column</a>, sometimes\nreferred to as an auto-incrementing column, on a table. You can use identity\ncolumns to create and\nmaintain primary keys on your tables. When you insert a row into a table\nthat has an identity column, BigQuery generates a unique integer\nvalue for that column. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can now create an identity column, sometimes referred to as an auto-incrementing column, on a table. You can use identity columns to create and maintain primary keys on your tables. When you insert a row into a table that has an identity column, BigQuery generates a unique integer value for that column. This feature is in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_27_2026_0",
       "date": "August 27, 2026",
@@ -523,15 +550,6 @@
       "type": "Feature",
       "html": "\n<p>You can enable <a href=\"https://docs.cloud.google.com/bigquery/docs/autonomous-embedding-generation\">autonomous embedding\ngeneration</a> on new or existing\ntables that you make with the <a href=\"https://docs.cloud.google.com/bigquery/docs/autonomous-embedding-generation#create_an_automatically_generated_embedding_column\"><code>CREATE\nTABLE</code></a>\nor <a href=\"https://docs.cloud.google.com/bigquery/docs/autonomous-embedding-generation#add_an_automatically_generated_embedding_column_to_an_existing_table\"><code>ALTER\nTABLE</code></a>\nstatements. When you do this, BigQuery maintains a column of embeddings on the\ntable based on a source column. When you add or modify data in the source\ncolumn, BigQuery automatically generates or updates the embedding column for\nthat data.</p>\n<p>This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "text": "You can enable autonomous embedding generation on new or existing tables that you make with the CREATE TABLE or ALTER TABLE statements. When you do this, BigQuery maintains a column of embeddings on the table based on a source column. When you add or modify data in the source column, BigQuery automatically generates or updates the embedding column for that data. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_16_2026_0",
-      "date": "June 16, 2026",
-      "updated": "2026-06-16T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026",
-      "type": "Announcement",
-      "html": "\n<p>Table Explorer behavior is moving to the <strong>Reference</strong> panel. This transition\nwill occur in July 2026 or later. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/table-explorer\">Table Explorer</a>.</p>",
-      "text": "Table Explorer behavior is moving to the Reference panel. This transition will occur in July 2026 or later. For more information, see Table Explorer."
     }
   ]
 }
