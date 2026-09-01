@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_fetched": 1788214680.4143171,
+  "last_fetched": 1788232156.4217553,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_0",
@@ -17,17 +17,44 @@
       "updated": "2026-08-31T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
       "type": "Feature",
-      "html": "\n<p>Using <a href=\"https://docs.cloud.google.com/bigquery/docs/code-asset-folders\">folders</a> to\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-pipelines\">create, store, and manage pipelines</a> is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>\n",
-      "text": "Using folders to create, store, and manage pipelines is generally available."
+      "html": "\n<p>BigQuery now supports <a href=\"https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/\">TabFM</a>,\nGoogle's pre-trained foundation model for tabular data. TabFM enables zero-shot\nregression and classification through in-context learning. It delivers\nhigh-accuracy predictions on structured data without requiring model training\nor hyperparameter tuning.\nYou can use TabFM directly through the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-predict\"><code>AI.PREDICT</code> function</a>\nand evaluate model performance by using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-evaluate\"><code>AI.EVALUATE</code> function</a>.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
+      "text": "BigQuery now supports TabFM, Google's pre-trained foundation model for tabular data. TabFM enables zero-shot regression and classification through in-context learning. It delivers high-accuracy predictions on structured data without requiring model training or hyperparameter tuning. You can use TabFM directly through the AI.PREDICT function and evaluate model performance by using the AI.EVALUATE function. This feature is in Preview."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_2",
       "date": "August 31, 2026",
       "updated": "2026-08-31T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
+      "type": "Fixed",
+      "html": "\n<p>Support for <a href=\"https://docs.cloud.google.com/bigquery/docs/control-genai-costs\">configuring daily token quotas</a>\nfor BigQuery generative AI functions has been restored.</p>\n",
+      "text": "Support for configuring daily token quotas for BigQuery generative AI functions has been restored."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_3",
+      "date": "August 31, 2026",
+      "updated": "2026-08-31T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
       "type": "Feature",
-      "html": "\n<p>You can now create an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/identity-columns\">identity column</a>, sometimes\nreferred to as an auto-incrementing column, on a table. You can use identity\ncolumns to create and\nmaintain primary keys on your tables. When you insert a row into a table\nthat has an identity column, BigQuery generates a unique integer\nvalue for that column. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "html": "\n<p>Using <a href=\"https://docs.cloud.google.com/bigquery/docs/code-asset-folders\">folders</a> to\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-pipelines\">create, store, and manage pipelines</a> is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>\n",
+      "text": "Using folders to create, store, and manage pipelines is generally available."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_4",
+      "date": "August 31, 2026",
+      "updated": "2026-08-31T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now create an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/identity-columns\">identity column</a>, sometimes\nreferred to as an auto-incrementing column, on a table. You can use identity\ncolumns to create and\nmaintain primary keys on your tables. When you insert a row into a table\nthat has an identity column, BigQuery generates a unique integer\nvalue for that column. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
       "text": "You can now create an identity column, sometimes referred to as an auto-incrementing column, on a table. You can use identity columns to create and maintain primary keys on your tables. When you insert a row into a table that has an identity column, BigQuery generates a unique integer value for that column. This feature is in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_5",
+      "date": "August 31, 2026",
+      "updated": "2026-08-31T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
+      "type": "Feature",
+      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a>\nis <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n<p>BigQuery Graph now includes support for the <code>CALL</code>\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-query-statements\">graph query statement</a>,\nand the following path inspection\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-gql-functions\">GQL functions</a>:</p>\n<ul>\n<li><code>IS_ACYCLIC</code></li>\n<li><code>IS_SIMPLE</code></li>\n<li><code>IS_TRAIL</code>.</li>\n</ul>",
+      "text": "BigQuery Graph is generally available (GA). BigQuery Graph now includes support for the CALL graph query statement, and the following path inspection GQL functions: IS_ACYCLIC IS_SIMPLE IS_TRAIL."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_27_2026_0",
