@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1788921604.6054943,
+  "last_fetched": 1788950256.1710644,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_08_2026_0",
+      "date": "September 08, 2026",
+      "updated": "2026-09-08T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_08_2026",
+      "type": "Feature",
+      "html": "\n<p>Conversational analytics now supports predictive modeling questions using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-predict\"><code>AI.PREDICT</code> function</a>.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "Conversational analytics now supports predictive modeling questions using the AI.PREDICT function. This feature is in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_03_2026_0",
       "date": "September 03, 2026",
@@ -541,33 +550,6 @@
       "type": "Feature",
       "html": "\n<p>You can now grant data preparations and pipelines access to additional\nservices when running or scheduling them with user credentials\nfor a Google Account. You can grant <a href=\"https://docs.cloud.google.com/bigquery/docs/orchestrate-data-preparations\">data preparations access to Google Drive</a>,\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/schedule-pipelines\">grant pipelines access to Google Drive, Bigtable, and Knowledge Catalog</a>.\nExtended access options are available in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "You can now grant data preparations and pipelines access to additional services when running or scheduling them with user credentials for a Google Account. You can grant data preparations access to Google Drive, and grant pipelines access to Google Drive, Bigtable, and Knowledge Catalog. Extended access options are available in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_25_2026_0",
-      "date": "June 25, 2026",
-      "updated": "2026-06-25T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
-      "type": "Feature",
-      "html": "\n<p><em>Lakehouse</em> now supports BigQuery writes (DML, DDL) and automatic table\nmanagement for Apache Iceberg tables in the Lakehouse runtime catalog\n(Preview).</p>\n<p>This update introduces the following features:</p>\n<p><strong>Read/write interoperability:</strong> Full read and write (DML) support across\n    Managed Service for Apache Spark, open source engines (such as Spark,\n    Flink, and Trino).</p>\n<p><strong>BigQuery SQL DDL and DML:</strong> Create, alter, and delete\n    tables, or modify data using standard SQL DDL and DML statements\n    (<code>INSERT</code>, <code>UPDATE</code>, <code>DELETE</code>, and <code>MERGE</code>) directly in\n    BigQuery.</p>\n<p><strong>Automatic table management:</strong> Opt in to automatic storage optimization,\n    including compaction and garbage collection.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/manage-tables\">Apache Iceberg tables</a>\nand <a href=\"https://docs.cloud.google.com/lakehouse/docs/table-options\">Configure table options</a>.</p>\n",
-      "text": "Lakehouse now supports BigQuery writes (DML, DDL) and automatic table management for Apache Iceberg tables in the Lakehouse runtime catalog (Preview). This update introduces the following features: Read/write interoperability: Full read and write (DML) support across Managed Service for Apache Spark, open source engines (such as Spark, Flink, and Trino). BigQuery SQL DDL and DML: Create, alter, and delete tables, or modify data using standard SQL DDL and DML statements (INSERT, UPDATE, DELETE, and MERGE) directly in BigQuery. Automatic table management: Opt in to automatic storage optimization, including compaction and garbage collection. For more information, see Apache Iceberg tables and Configure table options."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_25_2026_1",
-      "date": "June 25, 2026",
-      "updated": "2026-06-25T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
-      "type": "Change",
-      "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>\n",
-      "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_25_2026_2",
-      "date": "June 25, 2026",
-      "updated": "2026-06-25T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/search_functions#vector_search\"><code>VECTOR_SEARCH</code> function</a>\nto combine a semantic search with a lexical (keyword) search. This is known as a\nhybrid search. For tables with autonomous embedding generation enabled, you can\nuse <code>HYBRID</code> mode in the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-search\"><code>AI.SEARCH</code></a>\nfunction to simplify your search syntax.</p>\n<p>You can also extend a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#create_vector_index_statement\">vector index</a>\nto include keyword information to improve the speed of the lexical search\nportion of a hybrid search.</p>\n<p>This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can now use the VECTOR_SEARCH function to combine a semantic search with a lexical (keyword) search. This is known as a hybrid search. For tables with autonomous embedding generation enabled, you can use HYBRID mode in the AI.SEARCH function to simplify your search syntax. You can also extend a vector index to include keyword information to improve the speed of the lexical search portion of a hybrid search. This feature is in Preview."
     }
   ]
 }
