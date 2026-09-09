@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1788968805.322411,
+  "last_fetched": 1788985070.2596958,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_09_2026_0",
+      "date": "September 09, 2026",
+      "updated": "2026-09-09T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_09_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the following Gemini models:</p>\n<ul>\n<li><code>gemini-3.5-flash-lite</code></li>\n<li><code>gemini-3.6-flash</code></li>\n<li><code>gemini-3.7-flash</code></li>\n</ul>",
+      "text": "BigQuery generative AI functions now support the following Gemini models: gemini-3.5-flash-lite gemini-3.6-flash gemini-3.7-flash"
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_08_2026_0",
       "date": "September 08, 2026",
@@ -532,24 +541,6 @@
       "type": "Change",
       "html": "\n<p>In the Google Cloud console, <strong>Capacity management</strong> has been renamed <a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-intro\"><strong>Workload management</strong></a>.</p>",
       "text": "In the Google Cloud console, Capacity management has been renamed Workload management."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_29_2026_0",
-      "date": "June 29, 2026",
-      "updated": "2026-06-29T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
-      "type": "Change",
-      "html": "\n<p>Effective <em>March 9, 2026</em>, new users are required to have a Cloud Billing\naccount to use the <a href=\"https://docs.cloud.google.com/bigquery/docs/migration-intro\">BigQuery Migration Service</a>.\nThis change applies to users starting new projects using BigQuery Migration\nService features, such as SQL translation and migration assessment.</p>\n<p>After <em>May 18, 2026</em>, all users are required to have a Cloud Billing account to\nuse the BigQuery Migration Service.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/migration-intro#pricing\">Pricing for the BigQuery Migration Service</a>\nremains without charge.</p>\n",
-      "text": "Effective March 9, 2026, new users are required to have a Cloud Billing account to use the BigQuery Migration Service. This change applies to users starting new projects using BigQuery Migration Service features, such as SQL translation and migration assessment. After May 18, 2026, all users are required to have a Cloud Billing account to use the BigQuery Migration Service. Pricing for the BigQuery Migration Service remains without charge."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_29_2026_1",
-      "date": "June 29, 2026",
-      "updated": "2026-06-29T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now grant data preparations and pipelines access to additional\nservices when running or scheduling them with user credentials\nfor a Google Account. You can grant <a href=\"https://docs.cloud.google.com/bigquery/docs/orchestrate-data-preparations\">data preparations access to Google Drive</a>,\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/schedule-pipelines\">grant pipelines access to Google Drive, Bigtable, and Knowledge Catalog</a>.\nExtended access options are available in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can now grant data preparations and pipelines access to additional services when running or scheduling them with user credentials for a Google Account. You can grant data preparations access to Google Drive, and grant pipelines access to Google Drive, Bigtable, and Knowledge Catalog. Extended access options are available in Preview."
     }
   ]
 }
