@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1789054895.80504,
+  "last_fetched": 1789071603.2559566,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_10_2026_0",
+      "date": "September 10, 2026",
+      "updated": "2026-09-10T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
+      "type": "Feature",
+      "html": "\n<p><a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview#schema-mapping-with-graph\">The Data Engineering Agent now integrates with BigQuery Graph</a>\nto provide additional context between your data source and destination schema,\nand improves schema mapping accuracy for your data engineering pipelines.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "The Data Engineering Agent now integrates with BigQuery Graph to provide additional context between your data source and destination schema, and improves schema mapping accuracy for your data engineering pipelines. This feature is generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_09_2026_0",
       "date": "September 09, 2026",
@@ -523,24 +532,6 @@
       "type": "Feature",
       "html": "\n<p>You can now use pre-trained TimesFM models in BigQuery ML\ndirectly from\n<a href=\"https://docs.cloud.google.com/bigquery/docs/connected-sheets\">Connected Sheets</a>.\nThese models let you create\nforecasts and detect anomalies in your data by using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-forecast\"><code>AI.FORECAST</code></a>\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-detect-anomalies\"><code>AI.DETECT_ANOMALIES</code></a>\nfunctions. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "text": "You can now use pre-trained TimesFM models in BigQuery ML directly from Connected Sheets. These models let you create forecasts and detect anomalies in your data by using the AI.FORECAST and AI.DETECT_ANOMALIES functions. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_30_2026_0",
-      "date": "June 30, 2026",
-      "updated": "2026-06-30T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
-      "type": "Feature",
-      "html": "\n<p>You can specify an optional <code>principal</code> property on\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-assignments\">BigQuery reservation assignments</a> to\nroute queries to specific reservations based on the identity of the user,\nservice account, or third-party identity executing the job.</p>\n",
-      "text": "You can specify an optional principal property on BigQuery reservation assignments to route queries to specific reservations based on the identity of the user, service account, or third-party identity executing the job."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_June_30_2026_1",
-      "date": "June 30, 2026",
-      "updated": "2026-06-30T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
-      "type": "Change",
-      "html": "\n<p>In the Google Cloud console, <strong>Capacity management</strong> has been renamed <a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-intro\"><strong>Workload management</strong></a>.</p>",
-      "text": "In the Google Cloud console, Capacity management has been renamed Workload management."
     }
   ]
 }
