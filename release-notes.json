@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_fetched": 1789071603.2559566,
+  "last_fetched": 1789094123.8960745,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_10_2026_0",
@@ -8,8 +8,26 @@
       "updated": "2026-09-10T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
       "type": "Feature",
-      "html": "\n<p><a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview#schema-mapping-with-graph\">The Data Engineering Agent now integrates with BigQuery Graph</a>\nto provide additional context between your data source and destination schema,\nand improves schema mapping accuracy for your data engineering pipelines.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-      "text": "The Data Engineering Agent now integrates with BigQuery Graph to provide additional context between your data source and destination schema, and improves schema mapping accuracy for your data engineering pipelines. This feature is generally available (GA)."
+      "html": "\n<p>Conversational analytics in BigQuery now supports the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-correlation\"><code>ML.CORRELATION</code></a>\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
+      "text": "Conversational analytics in BigQuery now supports the ML.CORRELATION function to calculate statistical correlations between a target column and one or more metric columns in a table. This feature is in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_10_2026_1",
+      "date": "September 10, 2026",
+      "updated": "2026-09-10T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-metrics\"><code>ML.METRICS</code> function</a>\nto compute evaluation metrics for machine learning\nclassification or regression tasks on any table or query that contains actual\nand predicted values. This function lets you evaluate predictions without\nneeding to create or reference a stored model. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
+      "text": "You can now use the ML.METRICS function to compute evaluation metrics for machine learning classification or regression tasks on any table or query that contains actual and predicted values. This function lets you evaluate predictions without needing to create or reference a stored model. This feature is in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_10_2026_2",
+      "date": "September 10, 2026",
+      "updated": "2026-09-10T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
+      "type": "Feature",
+      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-causal-effect\"><code>AI.CAUSAL_EFFECT</code></a>\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can use the AI.CAUSAL_EFFECT function to quantify the impact of specific interventions on time series data. This feature is in Preview."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_09_2026_0",
