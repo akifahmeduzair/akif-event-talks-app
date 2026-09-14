@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1789406871.364469,
+  "last_fetched": 1789420754.7340147,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_14_2026_0",
+      "date": "September 14, 2026",
+      "updated": "2026-09-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
+      "type": "Feature",
+      "html": "\n<p>Metadata for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a> is\nautomatically ingested and searchable in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/use-knowledge-catalog\">Knowledge Catalog</a>. This feature is\navailable in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>",
+      "text": "Metadata for BigQuery Graph is automatically ingested and searchable in Knowledge Catalog. This feature is available in preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_10_2026_0",
       "date": "September 10, 2026",
@@ -26,8 +35,17 @@
       "updated": "2026-09-10T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
       "type": "Feature",
-      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-causal-effect\"><code>AI.CAUSAL_EFFECT</code></a>\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-causal-effect\"><code>AI.CAUSAL_EFFECT</code></a>\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
       "text": "You can use the AI.CAUSAL_EFFECT function to quantify the impact of specific interventions on time series data. This feature is in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_10_2026_3",
+      "date": "September 10, 2026",
+      "updated": "2026-09-10T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
+      "type": "Feature",
+      "html": "\n<p><a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview#schema-mapping-with-graph\">The Data Engineering Agent now integrates with BigQuery Graph</a>\nto provide additional context between your data source and destination schema,\nand improves schema mapping accuracy for your data engineering pipelines.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "The Data Engineering Agent now integrates with BigQuery Graph to provide additional context between your data source and destination schema, and improves schema mapping accuracy for your data engineering pipelines. This feature is generally available (GA)."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_09_2026_0",
@@ -541,15 +559,6 @@
       "type": "Change",
       "html": "\n<p>For <a href=\"https://docs.cloud.google.com/bigquery/docs/facebook-ads-transfer\">data transfers from Facebook Ads</a>,\nsupport for the <code>AdInsightsMMM</code> report has been temporarily disabled. Existing\ndata transfers from Facebook Ads that include the <code>AdInsightsMMM</code> report will\ncontinue to run, but the transfer won't include data from the <code>AdInsightsMMM</code>\nreport.</p>\n<p>This change is due to schema changes in the Facebook Ads API.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#Jul06-fb-ads\">July 06, 2026</a>.</p>",
       "text": "For data transfers from Facebook Ads, support for the AdInsightsMMM report has been temporarily disabled. Existing data transfers from Facebook Ads that include the AdInsightsMMM report will continue to run, but the transfer won't include data from the AdInsightsMMM report. This change is due to schema changes in the Facebook Ads API. For more information, see July 06, 2026."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_01_2026_0",
-      "date": "July 01, 2026",
-      "updated": "2026-07-01T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use pre-trained TimesFM models in BigQuery ML\ndirectly from\n<a href=\"https://docs.cloud.google.com/bigquery/docs/connected-sheets\">Connected Sheets</a>.\nThese models let you create\nforecasts and detect anomalies in your data by using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-forecast\"><code>AI.FORECAST</code></a>\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-detect-anomalies\"><code>AI.DETECT_ANOMALIES</code></a>\nfunctions. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-      "text": "You can now use pre-trained TimesFM models in BigQuery ML directly from Connected Sheets. These models let you create forecasts and detect anomalies in your data by using the AI.FORECAST and AI.DETECT_ANOMALIES functions. This feature is generally available (GA)."
     }
   ]
 }
