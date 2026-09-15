@@ -1,15 +1,33 @@
 {
   "status": "success",
-  "last_fetched": 1789420754.7340147,
+  "last_fetched": 1789441198.8378348,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_14_2026_0",
       "date": "September 14, 2026",
       "updated": "2026-09-14T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
+      "type": "Change",
+      "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>\n",
+      "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_14_2026_1",
+      "date": "September 14, 2026",
+      "updated": "2026-09-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
       "type": "Feature",
-      "html": "\n<p>Metadata for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a> is\nautomatically ingested and searchable in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/use-knowledge-catalog\">Knowledge Catalog</a>. This feature is\navailable in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>",
+      "html": "\n<p>Metadata for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a> is\nautomatically ingested and searchable in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/use-knowledge-catalog\">Knowledge Catalog</a>. This feature is\navailable in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>\n",
       "text": "Metadata for BigQuery Graph is automatically ingested and searchable in Knowledge Catalog. This feature is available in preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_14_2026_2",
+      "date": "September 14, 2026",
+      "updated": "2026-09-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now include a <code>WHERE</code> clause inside of an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate-function-calls\">aggregate function call</a>\nto filter your aggregate function input using a boolean expression.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can now include a WHERE clause inside of an aggregate function call to filter your aggregate function input using a boolean expression. This feature is in Preview."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_10_2026_0",
