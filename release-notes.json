@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1789574249.956924,
+  "last_fetched": 1789591551.322004,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_16_2026_0",
+      "date": "September 16, 2026",
+      "updated": "2026-09-16T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
+      "type": "Feature",
+      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/migration/migration-lineage\">migration lineage service</a> to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can use the migration lineage service to visualize the data flow and connections in your source database and help you plan a BigQuery data warehouse migration. This feature is in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_14_2026_0",
       "date": "September 14, 2026",
@@ -568,15 +577,6 @@
       "type": "Feature",
       "html": "\n<p>You can now perform\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate-function-calls#multi_level_aggregation\">multi-level aggregation</a>\nin GoogleSQL, which lets you use an aggregate function as an\nargument to another aggregate function. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "You can now perform multi-level aggregation in GoogleSQL, which lets you use an aggregate function as an argument to another aggregate function. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_06_2026_0",
-      "date": "July 06, 2026",
-      "updated": "2026-07-06T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026",
-      "type": "Change",
-      "html": "\n<p>For <a href=\"https://docs.cloud.google.com/bigquery/docs/facebook-ads-transfer\">data transfers from Facebook Ads</a>,\nsupport for the <code>AdInsightsMMM</code> report has been temporarily disabled. Existing\ndata transfers from Facebook Ads that include the <code>AdInsightsMMM</code> report will\ncontinue to run, but the transfer won't include data from the <code>AdInsightsMMM</code>\nreport.</p>\n<p>This change is due to schema changes in the Facebook Ads API.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#Jul06-fb-ads\">July 06, 2026</a>.</p>",
-      "text": "For data transfers from Facebook Ads, support for the AdInsightsMMM report has been temporarily disabled. Existing data transfers from Facebook Ads that include the AdInsightsMMM report will continue to run, but the transfer won't include data from the AdInsightsMMM report. This change is due to schema changes in the Facebook Ads API. For more information, see July 06, 2026."
     }
   ]
 }
