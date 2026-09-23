@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1790109975.2944806,
+  "last_fetched": 1790132159.8598626,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_22_2026_0",
+      "date": "September 22, 2026",
+      "updated": "2026-09-22T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_22_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now <a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#publish-agent-gemini-enterprise\">publish a BigQuery data agent in\nGemini Enterprise</a>\nby registering the agent with Agent Registry and importing it using\ndefault Google-managed credentials. When\nBigQuery and Gemini Enterprise are in the same\nGoogle Cloud project and configured with a matching\n<a href=\"https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/gateways/agent-gateway-overview\">Agent Gateway</a>\nregion, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or\nconfigure OAuth client credentials.</p>\n<p>These features are in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can now publish a BigQuery data agent in Gemini Enterprise by registering the agent with Agent Registry and importing it using default Google-managed credentials. When BigQuery and Gemini Enterprise are in the same Google Cloud project and configured with a matching Agent Gateway region, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or configure OAuth client credentials. These features are in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_21_2026_0",
       "date": "September 21, 2026",
@@ -487,78 +496,6 @@
       "type": "Announcement",
       "html": "\n<p>As part of\n<a href=\"https://docs.cloud.google.com/bigquery/docs/gemini-security-privacy-compliance\">Gemini in BigQuery</a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">conversational analytics</a>\nnow supports <a href=\"https://cloud.google.com/security/compliance/hipaa\">HIPAA</a>\ncompliance.</p>",
       "text": "As part of Gemini in BigQuery, conversational analytics now supports HIPAA compliance."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_0",
-      "date": "July 13, 2026",
-      "updated": "2026-07-13T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
-      "type": "Feature",
-      "html": "\n<p>Table partitioning, multi-statement transactions, and advanced runtime are now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA) for\n<a href=\"https://docs.cloud.google.com/bigquery/docs/biglake-iceberg-tables-in-bigquery\">Apache Iceberg managed tables</a>.</p>\n",
-      "text": "Table partitioning, multi-statement transactions, and advanced runtime are now generally available (GA) for Apache Iceberg managed tables."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_1",
-      "date": "July 13, 2026",
-      "updated": "2026-07-13T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
-      "type": "Feature",
-      "html": "\n<p><em>Cross-cloud Lakehouse</em> now supports Snowflake as a remote\ncatalog provider (Preview). You can configure federated catalogs to query data\nstored in Snowflake directly from Google Cloud using\nBigQuery or Apache Spark without migrating data or building\ncomplex ETL pipelines.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-lakehouse-snowflake\">Set up cross-cloud Lakehouse for\nSnowflake</a>.</p>\n",
-      "text": "Cross-cloud Lakehouse now supports Snowflake as a remote catalog provider (Preview). You can configure federated catalogs to query data stored in Snowflake directly from Google Cloud using BigQuery or Apache Spark without migrating data or building complex ETL pipelines. For more information, see Set up cross-cloud Lakehouse for Snowflake."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_2",
-      "date": "July 13, 2026",
-      "updated": "2026-07-13T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
-      "type": "Security",
-      "html": "\n<p>A Missing Authorization vulnerability was discovered in repositories in\nBigQuery, Dataform, and Colab Enterprise. An authenticated attacker could\npotentially escalate permissions and perform cross-tenant repository takeover.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/security-bulletins#GCP-2026-047\">GCP-2026-047</a> security bulletin.</p>\n",
-      "text": "A Missing Authorization vulnerability was discovered in repositories in BigQuery, Dataform, and Colab Enterprise. An authenticated attacker could potentially escalate permissions and perform cross-tenant repository takeover. For more information, see the GCP-2026-047 security bulletin."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_3",
-      "date": "July 13, 2026",
-      "updated": "2026-07-13T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
-      "type": "Feature",
-      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-workload-management#scheduling-policies\">Project caps (also known as scheduling policies)</a>\nlet you limit maximum slots and concurrency per project within a BigQuery\nreservation. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "Project caps (also known as scheduling policies) let you limit maximum slots and concurrency per project within a BigQuery reservation. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_4",
-      "date": "July 13, 2026",
-      "updated": "2026-07-13T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
-      "type": "Feature",
-      "html": "\n<p>The BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/bigquery-web-ui#open-overview\"><strong>Overview</strong> page</a>\nis a hub for discovering tutorials, features, and resources to help you get the\nmost out of BigQuery. It provides guided paths for users of all skill levels.\nThis feature is now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "The BigQuery Overview page is a hub for discovering tutorials, features, and resources to help you get the most out of BigQuery. It provides guided paths for users of all skill levels. This feature is now generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_5",
-      "date": "July 13, 2026",
-      "updated": "2026-07-13T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
-      "type": "Feature",
-      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/use-bigquery-migration-mcp\">BigQuery Migration Service MCP server</a>\nto perform SQL translation tasks, including translating SQL queries into\nGoogleSQL syntax, generating DDL statements from SQL input queries, and getting\nexplanations of SQL translations.</p>\n<p>This feature is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Generally Available</a>.</p>\n",
-      "text": "You can use the BigQuery Migration Service MCP server to perform SQL translation tasks, including translating SQL queries into GoogleSQL syntax, generating DDL statements from SQL input queries, and getting explanations of SQL translations. This feature is Generally Available."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_6",
-      "date": "July 13, 2026",
-      "updated": "2026-07-13T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
-      "type": "Feature",
-      "html": "\n<p>Incremental data transfers for the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/salesforce-transfer\">BigQuery Data Transfer Service for Salesforce</a>\nare now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "Incremental data transfers for the BigQuery Data Transfer Service for Salesforce are now generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_13_2026_7",
-      "date": "July 13, 2026",
-      "updated": "2026-07-13T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#alter_search_index_statement\"><code>ALTER SEARCH INDEX</code> DDL statement</a>\nto\n<a href=\"https://docs.cloud.google.com/bigquery/docs/search-index#update_a_search_index\">update the configuration</a>\nof a search index. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can now use the ALTER SEARCH INDEX DDL statement to update the configuration of a search index. This feature is in Preview."
     }
   ]
 }
