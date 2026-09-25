@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1790283766.1398387,
+  "last_fetched": 1790305364.9832578,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_24_2026_0",
+      "date": "September 24, 2026",
+      "updated": "2026-09-24T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026",
+      "type": "Feature",
+      "html": "\n<p>In the BigQuery Studio query editor, the <strong>Query results</strong> table now keeps\nthe row numbers visible on the left as you scroll horizontally. This helps you\nmaintain context and track data across wide tables.\nThis feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "In the BigQuery Studio query editor, the Query results table now keeps the row numbers visible on the left as you scroll horizontally. This helps you maintain context and track data across wide tables. This feature is generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_22_2026_0",
       "date": "September 22, 2026",
@@ -478,24 +487,6 @@
       "type": "Feature",
       "html": "\n<p>BigQuery supports <a href=\"https://docs.cloud.google.com/bigquery/docs/tags#data-governance-tags\">data governance tags</a>,\nwhich let you enforce column-level security and data masking. Data governance\ntags are a type of Resource Manager tag that you can attach to sensitive columns\nand use in BigQuery data policies to grant conditional access to your users.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "BigQuery supports data governance tags, which let you enforce column-level security and data masking. Data governance tags are a type of Resource Manager tag that you can attach to sensitive columns and use in BigQuery data policies to grant conditional access to your users. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_14_2026_0",
-      "date": "July 14, 2026",
-      "updated": "2026-07-14T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026",
-      "type": "Feature",
-      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#bigquery-ml-support\">Conversational analytics</a>\nnow supports the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-agg\"><code>AI.AGG</code> function</a>.\nThis function is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "Conversational analytics now supports the AI.AGG function. This function is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_14_2026_1",
-      "date": "July 14, 2026",
-      "updated": "2026-07-14T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026",
-      "type": "Announcement",
-      "html": "\n<p>As part of\n<a href=\"https://docs.cloud.google.com/bigquery/docs/gemini-security-privacy-compliance\">Gemini in BigQuery</a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">conversational analytics</a>\nnow supports <a href=\"https://cloud.google.com/security/compliance/hipaa\">HIPAA</a>\ncompliance.</p>",
-      "text": "As part of Gemini in BigQuery, conversational analytics now supports HIPAA compliance."
     }
   ]
 }
