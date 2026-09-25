@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_fetched": 1790353245.7454948,
+  "last_fetched": 1790370020.7033658,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_24_2026_0",
@@ -26,7 +26,7 @@
       "updated": "2026-09-21T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
       "type": "Feature",
-      "html": "\n<p>The <strong>Query results</strong> pane in the BigQuery Studio query editor lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/multi-statement-queries#view_multi_statement_query_results\">view a short history of recent runs for a query</a>, including\nmulti-statement queries, without having to navigate to the <strong>Job history</strong> tab.\nThis feature is <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "html": "\n<p>The <strong>Query results</strong> pane in the BigQuery Studio query editor lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/managing-jobs#view-job\">view a short history of recent runs for a query</a>,\nincluding <a href=\"https://docs.cloud.google.com/bigquery/docs/multi-statement-queries#view_multi_statement_query_results\">multi-statement queries</a>,\nwithout having to navigate to the <strong>Job history</strong> tab.\nThis feature is <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>\n",
       "text": "The Query results pane in the BigQuery Studio query editor lets you view a short history of recent runs for a query, including multi-statement queries, without having to navigate to the Job history tab. This feature is generally available (GA)."
     },
     {
