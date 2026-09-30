@@ -1,9 +1,18 @@
 {
   "status": "success",
-  "last_fetched": 1790718371.1919713,
+  "last_fetched": 1790739371.3943877,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_29_2026_0",
+      "date": "September 29, 2026",
+      "updated": "2026-09-29T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
+      "type": "Feature",
+      "html": "\n<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-key-drivers\"><code>AI.KEY_DRIVERS</code> function</a>\nis now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can use the <code>AI.KEY_DRIVERS</code> function to identify segments of data\nthat cause statistically significant changes to a summable metric.</p>\n",
+      "text": "The AI.KEY_DRIVERS function is now generally available (GA). You can use the AI.KEY_DRIVERS function to identify segments of data that cause statistically significant changes to a summable metric."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_29_2026_1",
       "date": "September 29, 2026",
       "updated": "2026-09-29T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
