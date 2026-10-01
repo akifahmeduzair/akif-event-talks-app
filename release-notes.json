@@ -1,7 +1,43 @@
 {
   "status": "success",
-  "last_fetched": 1790804797.2322834,
+  "last_fetched": 1790826093.810046,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_30_2026_0",
+      "date": "September 30, 2026",
+      "updated": "2026-09-30T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
+      "type": "Feature",
+      "html": "\n<p>The BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/security-center-overview\">Security center</a> is now\navailable in the Google Cloud console. You can use the Security center to\nanalyze your data security profile, create and manage row- and column-level\nsecurity policies, and configure and manage data governance and policy tags.\nThis feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "The BigQuery Security center is now available in the Google Cloud console. You can use the Security center to analyze your data security profile, create and manage row- and column-level security policies, and configure and manage data governance and policy tags. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_30_2026_1",
+      "date": "September 30, 2026",
+      "updated": "2026-09-30T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery jobs explorer layout and filtering improvements, including status\ncounts in the filter bar, <a href=\"https://docs.cloud.google.com/bigquery/docs/admin-jobs-explorer#group-jobs\">resource grouping</a>, and <a href=\"https://docs.cloud.google.com/bigquery/docs/admin-jobs-explorer#view-metric-chart\">timeline metric charts</a>,\nare <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>\n",
+      "text": "BigQuery jobs explorer layout and filtering improvements, including status counts in the filter bar, resource grouping, and timeline metric charts, are generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_30_2026_2",
+      "date": "September 30, 2026",
+      "updated": "2026-09-30T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/objectref_functions#objlist\"><code>OBJ.LIST</code> function</a>\nto perform spontaneous discovery and analysis of unstructured data. The\n<code>OBJ.LIST</code> function returns a table of metadata and <code>ObjectRef</code> values for\nfiles stored in Cloud Storage, and does not require you to create a persistent\nobject table.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "You can now use the OBJ.LIST function to perform spontaneous discovery and analysis of unstructured data. The OBJ.LIST function returns a table of metadata and ObjectRef values for files stored in Cloud Storage, and does not require you to create a persistent object table. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_30_2026_3",
+      "date": "September 30, 2026",
+      "updated": "2026-09-30T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now view the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/query-plan-explanation#dml_steps\"><code>UPDATE</code>, <code>DELETE</code>, <code>MERGE</code></a>,\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/query-plan-explanation#export_step\"><code>EXPORT</code></a>\nexecution steps in your query plans.</p>",
+      "text": "You can now view the UPDATE, DELETE, MERGE, and EXPORT execution steps in your query plans."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_29_2026_0",
       "date": "September 29, 2026",
@@ -487,15 +523,6 @@
       "type": "Feature",
       "html": "\n<p>BigQuery dataset insights is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/generate-dataset-insights\">BigQuery dataset insights</a> helps you\ndiscover and visualize relationships between tables and automatically generate\ncross-table queries. You can run and publish these insights to\nKnowledge Catalog for agentic grounding use cases, or\ngenerate them on demand without publishing for quick, ad hoc dataset exploration.</p>",
       "text": "BigQuery dataset insights is generally available (GA). BigQuery dataset insights helps you discover and visualize relationships between tables and automatically generate cross-table queries. You can run and publish these insights to Knowledge Catalog for agentic grounding use cases, or generate them on demand without publishing for quick, ad hoc dataset exploration."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_23_2026_0",
-      "date": "July 23, 2026",
-      "updated": "2026-07-23T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026",
-      "type": "Change",
-      "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>",
-      "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
     }
   ]
 }
