@@ -1,7 +1,34 @@
 {
   "status": "success",
-  "last_fetched": 1790856968.6252494,
+  "last_fetched": 1790892872.9098082,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_01_2026_0",
+      "date": "October 01, 2026",
+      "updated": "2026-10-01T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
+      "type": "Change",
+      "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_jdbc_driver\">Simba JDBC driver for BigQuery</a>\nis now available.</p>\n",
+      "text": "An updated version of the Simba JDBC driver for BigQuery is now available."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_01_2026_1",
+      "date": "October 01, 2026",
+      "updated": "2026-10-01T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
+      "type": "Feature",
+      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-chat\">Chatting with graphs</a> in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#graphs\">conversational analytics</a>\nis now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.\nYou can use a combination of multiple graphs, tables, views, and UDFs as data\nsources.</p>\n",
+      "text": "Chatting with graphs in conversational analytics is now generally available. You can use a combination of multiple graphs, tables, views, and UDFs as data sources."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_01_2026_2",
+      "date": "October 01, 2026",
+      "updated": "2026-10-01T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery pipelines provides support for automated metadata enrichment\nand Knowledge Catalog data quality scorecard integration. In addition, the\nData Engineering Agent can proactively generate semantic metadata for your\npipeline assets. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/manage-pipelines#metadata-scorecard\">Metadata enrichment and data quality scorecard integration</a>.\nThese features are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+      "text": "BigQuery pipelines provides support for automated metadata enrichment and Knowledge Catalog data quality scorecard integration. In addition, the Data Engineering Agent can proactively generate semantic metadata for your pipeline assets. For more information, see Metadata enrichment and data quality scorecard integration. These features are generally available."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_September_30_2026_0",
       "date": "September 30, 2026",
@@ -478,51 +505,6 @@
       "type": "Feature",
       "html": "\n<p>The BigQuery Data Transfer Service now supports <a href=\"https://docs.cloud.google.com/bigquery/docs/klaviyo-transfer-intro#full_or_incremental_transfers\">incremental data transfers</a>\nwhen transferring data from Klaviyo to BigQuery. This feature is supported in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
       "text": "The BigQuery Data Transfer Service now supports incremental data transfers when transferring data from Klaviyo to BigQuery. This feature is supported in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_27_2026_0",
-      "date": "July 27, 2026",
-      "updated": "2026-07-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
-      "type": "Feature",
-      "html": "\n<p>You can discover commercial BigQuery sharing listings on Google Cloud Marketplace with the <strong>Marketplace</strong> filter. For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/analytics-hub-cloud-marketplace#subscribe\">Subscribe to a Cloud Marketplace-integrated listing</a>.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>\n",
-      "text": "You can discover commercial BigQuery sharing listings on Google Cloud Marketplace with the Marketplace filter. For more information, see Subscribe to a Cloud Marketplace-integrated listing. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_27_2026_1",
-      "date": "July 27, 2026",
-      "updated": "2026-07-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
-      "type": "Feature",
-      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/change-history\"><code>APPENDS</code> and <code>CHANGES</code> change history functions</a>\nto view the rows that were appended to or changed in a table during a given time\nrange. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "You can use the APPENDS and CHANGES change history functions to view the rows that were appended to or changed in a table during a given time range. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_27_2026_2",
-      "date": "July 27, 2026",
-      "updated": "2026-07-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
-      "type": "Feature",
-      "html": "\n<p>You can use the Google-developed\n<a href=\"https://docs.cloud.google.com/bigquery/docs/odbc-for-bigquery\">Open Database Connectivity (ODBC) driver for BigQuery</a>\nto connect your applications to BigQuery. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "You can use the Google-developed Open Database Connectivity (ODBC) driver for BigQuery to connect your applications to BigQuery. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_27_2026_3",
-      "date": "July 27, 2026",
-      "updated": "2026-07-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
-      "type": "Change",
-      "html": "\n<p>The feature formerly known as the <em>legacy <code>tabledata.insertAll</code> method</em> is now\ncalled the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/streaming-data-into-bigquery\"><em>Storage Write API (REST)</em></a>. The\nfeature formerly known as the <em>Storage Write API</em> is now called the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/write-api\"><em>Storage Write API (gRPC)</em></a>.</p>\n",
-      "text": "The feature formerly known as the legacy tabledata.insertAll method is now called the Storage Write API (REST). The feature formerly known as the Storage Write API is now called the Storage Write API (gRPC)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_27_2026_4",
-      "date": "July 27, 2026",
-      "updated": "2026-07-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
-      "type": "Feature",
-      "html": "\n<p>BigQuery dataset insights is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/generate-dataset-insights\">BigQuery dataset insights</a> helps you\ndiscover and visualize relationships between tables and automatically generate\ncross-table queries. You can run and publish these insights to\nKnowledge Catalog for agentic grounding use cases, or\ngenerate them on demand without publishing for quick, ad hoc dataset exploration.</p>",
-      "text": "BigQuery dataset insights is generally available (GA). BigQuery dataset insights helps you discover and visualize relationships between tables and automatically generate cross-table queries. You can run and publish these insights to Knowledge Catalog for agentic grounding use cases, or generate them on demand without publishing for quick, ad hoc dataset exploration."
     }
   ]
 }
