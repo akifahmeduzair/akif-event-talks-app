@@ -1,7 +1,25 @@
 {
   "status": "success",
-  "last_fetched": 1790961424.220268,
+  "last_fetched": 1790977386.9913104,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_02_2026_0",
+      "date": "October 02, 2026",
+      "updated": "2026-10-02T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
+      "type": "Feature",
+      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/libraries\">Rust SDK for BigQuery</a> is now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "The Rust SDK for BigQuery is now generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_02_2026_1",
+      "date": "October 02, 2026",
+      "updated": "2026-10-02T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
+      "type": "Feature",
+      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview\">Data Engineering\nAgent</a> now supports\nthe <code>gemini-3.7-flash</code> model for the <code>us</code>, <code>eu</code>, and <code>global</code> multi-regional\nendpoints.</p>",
+      "text": "The Data Engineering Agent now supports the gemini-3.7-flash model for the us, eu, and global multi-regional endpoints."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_01_2026_0",
       "date": "October 01, 2026",
@@ -496,15 +514,6 @@
       "type": "Feature",
       "html": "\n<p>You can audit when users download query results by using the BigQuery\nconsole. Data Access audit logs for the <code>tabledata.list</code> method now include a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/auditlogs/rest/Shared.Types/BigQueryAuditMetadata.html#BigQueryAuditMetadata.TableDataRead.FIELDS.ui_download_request\"><code>uiDownloadRequest</code></a>\nfield to indicate whether the request was triggered by a UI download.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "text": "You can audit when users download query results by using the BigQuery console. Data Access audit logs for the tabledata.list method now include a uiDownloadRequest field to indicate whether the request was triggered by a UI download. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_29_2026_0",
-      "date": "July 29, 2026",
-      "updated": "2026-07-29T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026",
-      "type": "Feature",
-      "html": "\n<p>The BigQuery Data Transfer Service now supports <a href=\"https://docs.cloud.google.com/bigquery/docs/klaviyo-transfer-intro#full_or_incremental_transfers\">incremental data transfers</a>\nwhen transferring data from Klaviyo to BigQuery. This feature is supported in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
-      "text": "The BigQuery Data Transfer Service now supports incremental data transfers when transferring data from Klaviyo to BigQuery. This feature is supported in Preview."
     }
   ]
 }
