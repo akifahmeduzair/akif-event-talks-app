@@ -1,7 +1,25 @@
 {
   "status": "success",
-  "last_fetched": 1791206516.868181,
+  "last_fetched": 1791243399.6204746,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_05_2026_0",
+      "date": "October 05, 2026",
+      "updated": "2026-10-05T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
+      "type": "Feature",
+      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/iceberg-external-tables\">Iceberg external tables</a> and\n<a href=\"https://docs.cloud.google.com/bigquery/docs/iceberg-tables\">Iceberg managed tables</a> now support\n<a href=\"https://docs.cloud.google.com/bigquery/docs/schemas#flexible-column-names\">flexible column names</a> by default. This\nfeature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>\n",
+      "text": "Iceberg external tables and Iceberg managed tables now support flexible column names by default. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_05_2026_1",
+      "date": "October 05, 2026",
+      "updated": "2026-10-05T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
+      "type": "Feature",
+      "html": "\n<p>The <code>gemini-embedding-2</code> model works well for embedding long strings, including\nmultilingual and unstructured data. It supports a mix of text, images, audio,\nvideo, and PDF files. You can use this model in the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed\"><code>AI.EMBED</code></a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-similarity\"><code>AI.SIMILARITY</code></a>,\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-generate-embedding\"><code>AI.GENERATE_EMBEDDING</code></a>\nfunctions. This model is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+      "text": "The gemini-embedding-2 model works well for embedding long strings, including multilingual and unstructured data. It supports a mix of text, images, audio, video, and PDF files. You can use this model in the AI.EMBED, AI.SIMILARITY, and AI.GENERATE_EMBEDDING functions. This model is generally available."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_02_2026_0",
       "date": "October 02, 2026",
@@ -496,24 +514,6 @@
       "type": "Announcement",
       "html": "\n<p>Support for hybrid search (using the <code>VECTOR_SEARCH</code> function to combine a\nsemantic search with a lexical (keyword) search) has been restored. Using\n<code>HYBRID</code> mode in the <code>AI.SEARCH</code> function has also been restored.</p>",
       "text": "Support for hybrid search (using the VECTOR_SEARCH function to combine a semantic search with a lexical (keyword) search) has been restored. Using HYBRID mode in the AI.SEARCH function has also been restored."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_30_2026_0",
-      "date": "July 30, 2026",
-      "updated": "2026-07-30T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026",
-      "type": "Feature",
-      "html": "\n<p>You can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-pipelines#add_a_pipeline_task\">Add a pipeline task</a>.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>\n",
-      "text": "You can add tables, views, data sources, and data quality tests as tasks to BigQuery pipelines. For more information, see Add a pipeline task. This feature is generally available."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_July_30_2026_1",
-      "date": "July 30, 2026",
-      "updated": "2026-07-30T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026",
-      "type": "Feature",
-      "html": "\n<p>You can audit when users download query results by using the BigQuery\nconsole. Data Access audit logs for the <code>tabledata.list</code> method now include a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/auditlogs/rest/Shared.Types/BigQueryAuditMetadata.html#BigQueryAuditMetadata.TableDataRead.FIELDS.ui_download_request\"><code>uiDownloadRequest</code></a>\nfield to indicate whether the request was triggered by a UI download.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-      "text": "You can audit when users download query results by using the BigQuery console. Data Access audit logs for the tabledata.list method now include a uiDownloadRequest field to indicate whether the request was triggered by a UI download. This feature is generally available (GA)."
     }
   ]
 }
