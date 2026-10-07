@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1791324641.0863035,
+  "last_fetched": 1791345121.0281804,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_06_2026_0",
+      "date": "October 06, 2026",
+      "updated": "2026-10-06T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_06_2026",
+      "type": "Feature",
+      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#bigquery-ml-support\">Conversational analytics in BigQuery</a>\nnow supports the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-causal-effect\"><code>AI.CAUSAL_EFFECT</code> function</a>\nto quantify the impact of specific interventions on time series data.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "Conversational analytics in BigQuery now supports the AI.CAUSAL_EFFECT function to quantify the impact of specific interventions on time series data. This feature is in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_05_2026_0",
       "date": "October 05, 2026",
@@ -487,33 +496,6 @@
       "type": "Feature",
       "html": "\n<p>BigQuery now supports the <code>gemini-3.1-flash-lite</code> and <code>gemini-3.5-flash</code> GA\nmodels, which are available for the <code>us</code>, <code>eu</code>, and <code>global</code> multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\n<a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">locations</a>\nin the generative AI overview.</p>",
       "text": "BigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA models, which are available for the us, eu, and global multi-regional endpoints. You can use these models in all generative AI functions. For information about how to specify a multi-regional endpoint and how endpoints are selected, read about locations in the generative AI overview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_03_2026_0",
-      "date": "August 03, 2026",
-      "updated": "2026-08-03T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/cross-cloud-connections\">cross-cloud connections</a> to query data\nin AWS, Azure, and Salesforce Data 360 from all BigQuery regions. These\nconnections let you use more BigQuery features and are more cost efficient than\nstandard connections that use BigQuery Omni. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "You can now use cross-cloud connections to query data in AWS, Azure, and Salesforce Data 360 from all BigQuery regions. These connections let you use more BigQuery features and are more cost efficient than standard connections that use BigQuery Omni. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_03_2026_1",
-      "date": "August 03, 2026",
-      "updated": "2026-08-03T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
-      "type": "Feature",
-      "html": "\n<p>The JDBC driver for BigQuery now supports\n<a href=\"https://docs.cloud.google.com/bigquery/docs/jdbc-for-bigquery#opentelemetry\">OpenTelemetry</a> for tracing and\nlogging, which helps you monitor the performance of your database interactions\nand troubleshoot issues.\n<a href=\"https://docs.cloud.google.com/bigquery/docs/jdbc-for-bigquery#zero-config-gcp-telemetry\">Automatic exports to Google Cloud Observability</a>\nare also available. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "The JDBC driver for BigQuery now supports OpenTelemetry for tracing and logging, which helps you monitor the performance of your database interactions and troubleshoot issues. Automatic exports to Google Cloud Observability are also available. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_03_2026_2",
-      "date": "August 03, 2026",
-      "updated": "2026-08-03T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
-      "type": "Announcement",
-      "html": "\n<p>Support for hybrid search (using the <code>VECTOR_SEARCH</code> function to combine a\nsemantic search with a lexical (keyword) search) has been restored. Using\n<code>HYBRID</code> mode in the <code>AI.SEARCH</code> function has also been restored.</p>",
-      "text": "Support for hybrid search (using the VECTOR_SEARCH function to combine a semantic search with a lexical (keyword) search) has been restored. Using HYBRID mode in the AI.SEARCH function has also been restored."
     }
   ]
 }
