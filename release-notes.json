@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1791412363.2465813,
+  "last_fetched": 1791432322.0780468,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_07_2026_0",
+      "date": "October 07, 2026",
+      "updated": "2026-10-07T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_07_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery offers <a href=\"https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/\"><code>TimesFM 3.0</code></a>,\na built-in time series forecasting model that implements Google Research's open\nsource TimesFM model. You can use <code>TimesFM 3.0</code> with the following functions:</p>\n<ul>\n<li>Use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-forecast\"><code>AI.FORECAST</code></a>\nto perform time series forecasting. In addition to univariate forecasting,\nyou can now perform multivariate forecasting that predicts values for\nmultiple time series based on historical values and additional covariates.</li>\n<li>Use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-evaluate\"><code>AI.EVALUATE</code></a>\nto perform univariate time series evaluation.</li>\n<li>Use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-detect-anomalies\"><code>AI.DETECT_ANOMALIES</code></a>\nto perform univariate time series anomaly detection.</li>\n</ul>\n<p>To try using the <code>TimesFM 3.0</code> model for multivariate forecasting with the\n<code>AI.FORECAST</code> function, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/timesfm-multivariate-single-time-series-forecasting-tutorial\">Forecast a single time series with a TimesFM multivariate model</a>\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/timesfm-multivariate-multi-time-series-forecasting-tutorial\">Forecast multiple time series with a TimesFM multivariate model</a>.</p>\n<p>The <code>TimesFM 3.0</code> model is in <a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+      "text": "BigQuery offers TimesFM 3.0, a built-in time series forecasting model that implements Google Research's open source TimesFM model. You can use TimesFM 3.0 with the following functions: Use AI.FORECAST to perform time series forecasting. In addition to univariate forecasting, you can now perform multivariate forecasting that predicts values for multiple time series based on historical values and additional covariates. Use AI.EVALUATE to perform univariate time series evaluation. Use AI.DETECT_ANOMALIES to perform univariate time series anomaly detection. To try using the TimesFM 3.0 model for multivariate forecasting with the AI.FORECAST function, see Forecast a single time series with a TimesFM multivariate model and Forecast multiple time series with a TimesFM multivariate model. The TimesFM 3.0 model is in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_06_2026_0",
       "date": "October 06, 2026",
@@ -487,15 +496,6 @@
       "type": "Feature",
       "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/query-templates\">Query templates</a>\nfor data clean rooms are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). Query templates allow data clean room owners and publishers to share\npredefined queries without exposing the underlying tables and views.</p>\n<p>Additionally,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/table-functions#table_parameters\">table parameters</a>\nin table-valued functions (TVFs) are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can use the <code>ANY TABLE</code> type as a table parameter to create\ngeneric functions that accept tables of any structure.</p>",
       "text": "Query templates for data clean rooms are generally available (GA). Query templates allow data clean room owners and publishers to share predefined queries without exposing the underlying tables and views. Additionally, table parameters in table-valued functions (TVFs) are generally available (GA). You can use the ANY TABLE type as a table parameter to create generic functions that accept tables of any structure."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_10_2026_0",
-      "date": "August 10, 2026",
-      "updated": "2026-08-10T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026",
-      "type": "Feature",
-      "html": "\n<p>BigQuery now supports the <code>gemini-3.1-flash-lite</code> and <code>gemini-3.5-flash</code> GA\nmodels, which are available for the <code>us</code>, <code>eu</code>, and <code>global</code> multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\n<a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">locations</a>\nin the generative AI overview.</p>",
-      "text": "BigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA models, which are available for the us, eu, and global multi-regional endpoints. You can use these models in all generative AI functions. For information about how to specify a multi-regional endpoint and how endpoints are selected, read about locations in the generative AI overview."
     }
   ]
 }
