@@ -1,9 +1,18 @@
 {
   "status": "success",
-  "last_fetched": 1791499518.2826262,
+  "last_fetched": 1791519033.8505416,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_08_2026_0",
+      "date": "October 08, 2026",
+      "updated": "2026-10-08T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_08_2026",
+      "type": "Feature",
+      "html": "\n<p>The following table types now support\n<a href=\"https://docs.cloud.google.com/bigquery/docs/schemas#flexible-column-names\">flexible column names</a> by default:</p>\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/iceberg-external-tables\">Iceberg external tables</a>\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/iceberg-tables\">Iceberg managed tables</a> in\nBigQuery</li>\n<li><a href=\"https://docs.cloud.google.com/lakehouse/docs/manage-tables\">Apache Iceberg tables managed by the Lakehouse runtime catalog</a></li>\n</ul>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>\n",
+      "text": "The following table types now support flexible column names by default: Iceberg external tables and Iceberg managed tables in BigQuery Apache Iceberg tables managed by the Lakehouse runtime catalog This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_08_2026_1",
       "date": "October 08, 2026",
       "updated": "2026-10-08T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_08_2026",
@@ -31,15 +40,6 @@
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_05_2026_0",
-      "date": "October 05, 2026",
-      "updated": "2026-10-05T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
-      "type": "Feature",
-      "html": "\n<p>The following table types now support\n<a href=\"https://docs.cloud.google.com/bigquery/docs/schemas#flexible-column-names\">flexible column names</a> by default:</p>\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/iceberg-external-tables\">Iceberg external tables</a>\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/iceberg-tables\">Iceberg managed tables</a> in\nBigQuery</li>\n<li><a href=\"https://docs.cloud.google.com/lakehouse/docs/manage-tables\">Apache Iceberg tables managed by the Lakehouse runtime catalog</a></li>\n</ul>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>\n",
-      "text": "The following table types now support flexible column names by default: Iceberg external tables and Iceberg managed tables in BigQuery Apache Iceberg tables managed by the Lakehouse runtime catalog This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_October_05_2026_1",
       "date": "October 05, 2026",
       "updated": "2026-10-05T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
@@ -188,11 +188,20 @@
       "updated": "2026-09-21T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
       "type": "Feature",
+      "html": "\n<p><em>Lakehouse</em> now supports Workday Data Lake as a remote catalog provider\nfor cross-cloud data access\n(<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>). You can\nconfigure federated catalogs to query data stored in Workday Data Lake\ndirectly from Google Cloud using BigQuery or Apache Spark without\nmigrating data or building complex ETL pipelines.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-connection-workday\">Set up cross-cloud connection for Workday Data\nLake</a>.</p>\n",
+      "text": "Lakehouse now supports Workday Data Lake as a remote catalog provider for cross-cloud data access (Preview). You can configure federated catalogs to query data stored in Workday Data Lake directly from Google Cloud using BigQuery or Apache Spark without migrating data or building complex ETL pipelines. For more information, see Set up cross-cloud connection for Workday Data Lake."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_21_2026_1",
+      "date": "September 21, 2026",
+      "updated": "2026-09-21T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
+      "type": "Feature",
       "html": "\n<p>The <strong>Query results</strong> pane in the BigQuery Studio query editor lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/managing-jobs#view-job\">view a short history of recent runs for a query</a>,\nincluding <a href=\"https://docs.cloud.google.com/bigquery/docs/multi-statement-queries#view_multi_statement_query_results\">multi-statement queries</a>,\nwithout having to navigate to the <strong>Job history</strong> tab.\nThis feature is <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>\n",
       "text": "The Query results pane in the BigQuery Studio query editor lets you view a short history of recent runs for a query, including multi-statement queries, without having to navigate to the Job history tab. This feature is generally available (GA)."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_21_2026_1",
+      "id": "tag_google.com,2016_bigquery-release-notes_September_21_2026_2",
       "date": "September 21, 2026",
       "updated": "2026-09-21T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
@@ -332,11 +341,20 @@
       "updated": "2026-08-31T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
       "type": "Feature",
+      "html": "\n<p><em>Lakehouse caching</em> is now available in Preview for borderless Lakehouse.</p>\n<p>Lakehouse caching automatically caches data blocks locally within Google Cloud when running cross-cloud queries against remote data (such as AWS S3 or SAP BDC). Caching helps reduce cross-cloud egress fees for repeated query patterns.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/about-cross-cloud-data-access#intelligent-caching\">Intelligent caching</a> and <a href=\"https://docs.cloud.google.com/lakehouse/docs/query-remote-data#caching-stats\">Monitor cache usage and egress cost savings</a>.</p>\n",
+      "text": "Lakehouse caching is now available in Preview for borderless Lakehouse. Lakehouse caching automatically caches data blocks locally within Google Cloud when running cross-cloud queries against remote data (such as AWS S3 or SAP BDC). Caching helps reduce cross-cloud egress fees for repeated query patterns. For more information, see Intelligent caching and Monitor cache usage and egress cost savings."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_1",
+      "date": "August 31, 2026",
+      "updated": "2026-08-31T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
+      "type": "Feature",
       "html": "\n<p>You can now <a href=\"https://docs.cloud.google.com/bigquery/docs/create-pipelines\">create, store</a>, and\n<a href=\"https://docs.cloud.google.com/bigquery/docs/manage-pipelines\">manage pipelines</a> in Git folders.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
       "text": "You can now create, store, and manage pipelines in Git folders. This feature is in Preview."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_1",
+      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_2",
       "date": "August 31, 2026",
       "updated": "2026-08-31T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
@@ -345,7 +363,7 @@
       "text": "BigQuery now supports TabFM, Google's pre-trained foundation model for tabular data. TabFM enables zero-shot regression and classification through in-context learning. It delivers high-accuracy predictions on structured data without requiring model training or hyperparameter tuning. You can use TabFM directly through the AI.PREDICT function and evaluate model performance by using the AI.EVALUATE function. This feature is in Preview."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_2",
+      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_3",
       "date": "August 31, 2026",
       "updated": "2026-08-31T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
@@ -354,7 +372,7 @@
       "text": "Support for configuring daily token quotas for BigQuery generative AI functions has been restored."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_3",
+      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_4",
       "date": "August 31, 2026",
       "updated": "2026-08-31T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
@@ -363,7 +381,7 @@
       "text": "Using folders to create, store, and manage pipelines is generally available."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_4",
+      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_5",
       "date": "August 31, 2026",
       "updated": "2026-08-31T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
@@ -372,7 +390,7 @@
       "text": "You can now create an identity column, sometimes referred to as an auto-incrementing column, on a table. You can use identity columns to create and maintain primary keys on your tables. When you insert a row into a table that has an identity column, BigQuery generates a unique integer value for that column. This feature is in Preview."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_5",
+      "id": "tag_google.com,2016_bigquery-release-notes_August_31_2026_6",
       "date": "August 31, 2026",
       "updated": "2026-08-31T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
