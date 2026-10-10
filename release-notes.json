@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1791632750.3007627,
+  "last_fetched": 1791650923.642415,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_09_2026_0",
+      "date": "October 09, 2026",
+      "updated": "2026-10-09T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_09_2026",
+      "type": "Feature",
+      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview\">BigQuery Data Engineering Agent</a>\nis now available in the <code>asia-northeast1</code> (Tokyo) regional endpoint and supports\nthe gemini-3.5-flash model. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/gemini-locations#bigquery-data-engineering-agent\">Where Gemini in BigQuery processes your data</a>.</p>\n<p>This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Generally Available</a>\n(GA).</p>",
+      "text": "The BigQuery Data Engineering Agent is now available in the asia-northeast1 (Tokyo) regional endpoint and supports the gemini-3.5-flash model. For more information, see Where Gemini in BigQuery processes your data. This feature is Generally Available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_06_2026_0",
       "date": "October 06, 2026",
@@ -487,15 +496,6 @@
       "type": "Feature",
       "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/query-templates\">Query templates</a>\nfor data clean rooms are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). Query templates allow data clean room owners and publishers to share\npredefined queries without exposing the underlying tables and views.</p>\n<p>Additionally,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/table-functions#table_parameters\">table parameters</a>\nin table-valued functions (TVFs) are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can use the <code>ANY TABLE</code> type as a table parameter to create\ngeneric functions that accept tables of any structure.</p>",
       "text": "Query templates for data clean rooms are generally available (GA). Query templates allow data clean room owners and publishers to share predefined queries without exposing the underlying tables and views. Additionally, table parameters in table-valued functions (TVFs) are generally available (GA). You can use the ANY TABLE type as a table parameter to create generic functions that accept tables of any structure."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_10_2026_0",
-      "date": "August 10, 2026",
-      "updated": "2026-08-10T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026",
-      "type": "Feature",
-      "html": "\n<p>BigQuery now supports the <code>gemini-3.1-flash-lite</code> and <code>gemini-3.5-flash</code> GA\nmodels, which are available for the <code>us</code>, <code>eu</code>, and <code>global</code> multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\n<a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">locations</a>\nin the generative AI overview.</p>",
-      "text": "BigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA models, which are available for the us, eu, and global multi-regional endpoints. You can use these models in all generative AI functions. For information about how to specify a multi-regional endpoint and how endpoints are selected, read about locations in the generative AI overview."
     }
   ]
 }
