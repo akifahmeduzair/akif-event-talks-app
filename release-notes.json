@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1791814291.950766,
+  "last_fetched": 1791849785.355924,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_12_2026_0",
+      "date": "October 12, 2026",
+      "updated": "2026-10-12T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_12_2026",
+      "type": "Feature",
+      "html": "\n<p>Incremental data transfers for the BigQuery Data Transfer Service for\n<a href=\"https://docs.cloud.google.com/bigquery/docs/postgresql-transfer-intro#full-incremental-transfers\">PostgreSQL</a>\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/servicenow-transfer#full_or_incremental_transfers\">ServiceNow</a>\nare now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "Incremental data transfers for the BigQuery Data Transfer Service for PostgreSQL and ServiceNow are now generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_09_2026_0",
       "date": "October 09, 2026",
@@ -10,6 +19,15 @@
       "type": "Feature",
       "html": "\n<p>The <a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview\">BigQuery Data Engineering Agent</a>\nis now available in the <code>asia-northeast1</code> (Tokyo) regional endpoint and supports\nthe gemini-3.5-flash model. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/gemini-locations#bigquery-data-engineering-agent\">Where Gemini in BigQuery processes your data</a>.</p>\n<p>This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Generally Available</a>\n(GA).</p>",
       "text": "The BigQuery Data Engineering Agent is now available in the asia-northeast1 (Tokyo) regional endpoint and supports the gemini-3.5-flash model. For more information, see Where Gemini in BigQuery processes your data. This feature is Generally Available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_07_2026_0",
+      "date": "October 07, 2026",
+      "updated": "2026-10-07T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_07_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery offers <a href=\"https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/\"><code>TimesFM 3.0</code></a>,\na built-in time series forecasting model that implements Google Research's open\nsource TimesFM model. You can use <code>TimesFM 3.0</code> with the following functions:</p>\n<ul>\n<li>Use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-forecast\"><code>AI.FORECAST</code></a>\nto perform time series forecasting. In addition to univariate forecasting,\nyou can now perform multivariate forecasting that predicts values for\nmultiple time series based on historical values and additional covariates.</li>\n<li>Use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-evaluate\"><code>AI.EVALUATE</code></a>\nto perform univariate time series evaluation.</li>\n<li>Use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-detect-anomalies\"><code>AI.DETECT_ANOMALIES</code></a>\nto perform univariate time series anomaly detection.</li>\n</ul>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#bigquery-ml-support\">Conversational analytics in BigQuery</a>\nalso supports using <code>TimesFM 3.0</code> with these functions.</p>\n<p>To try using the <code>TimesFM 3.0</code> model for multivariate forecasting with the\n<code>AI.FORECAST</code> function, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/timesfm-multivariate-single-time-series-forecasting-tutorial\">Forecast a single time series with a TimesFM multivariate model</a>\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/timesfm-multivariate-multi-time-series-forecasting-tutorial\">Forecast multiple time series with a TimesFM multivariate model</a>.</p>\n<p>The <code>TimesFM 3.0</code> model is in <a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+      "text": "BigQuery offers TimesFM 3.0, a built-in time series forecasting model that implements Google Research's open source TimesFM model. You can use TimesFM 3.0 with the following functions: Use AI.FORECAST to perform time series forecasting. In addition to univariate forecasting, you can now perform multivariate forecasting that predicts values for multiple time series based on historical values and additional covariates. Use AI.EVALUATE to perform univariate time series evaluation. Use AI.DETECT_ANOMALIES to perform univariate time series anomaly detection. Conversational analytics in BigQuery also supports using TimesFM 3.0 with these functions. To try using the TimesFM 3.0 model for multivariate forecasting with the AI.FORECAST function, see Forecast a single time series with a TimesFM multivariate model and Forecast multiple time series with a TimesFM multivariate model. The TimesFM 3.0 model is in Preview."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_06_2026_0",
@@ -179,7 +197,7 @@
       "updated": "2026-09-21T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
       "type": "Feature",
-      "html": "\n<p>The <strong>Query results</strong> pane in the BigQuery Studio query editor lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/managing-jobs#view-job\">view a short history of recent runs for a query</a>,\nincluding <a href=\"https://docs.cloud.google.com/bigquery/docs/multi-statement-queries#view_multi_statement_query_results\">multi-statement queries</a>,\nwithout having to navigate to the <strong>Job history</strong> tab.\nThis feature is <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "html": "\n<p>The <strong>Query results</strong> pane in the BigQuery Studio query editor lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/managing-jobs#view-job\">view a short history of recent runs for a query</a>,\nincluding <a href=\"https://docs.cloud.google.com/bigquery/docs/multi-statement-queries#view_multi_statement_query_results\">multi-statement queries</a>,\nwithout having to navigate to the <strong>Job history</strong> tab.\nThis feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
       "text": "The Query results pane in the BigQuery Studio query editor lets you view a short history of recent runs for a query, including multi-statement queries, without having to navigate to the Job history tab. This feature is generally available (GA)."
     },
     {
@@ -206,7 +224,7 @@
       "updated": "2026-09-16T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
       "type": "Feature",
-      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/migration/migration-lineage\">migration lineage service</a> to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/migration/migration-lineage\">migration lineage service</a> to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "You can use the migration lineage service to visualize the data flow and connections in your source database and help you plan a BigQuery data warehouse migration. This feature is in Preview."
     },
     {
@@ -376,18 +394,18 @@
       "date": "August 27, 2026",
       "updated": "2026-08-27T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
-      "type": "Feature",
-      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/data-engineering-agent-pipelines\">Data Engineering Agent</a>\nis now <a href=\"https://docs.cloud.google.com/bigquery/docs/gemini-security-privacy-compliance\">HIPAA compliant</a>.\nFor more information, see <a href=\"https://cloud.google.com/security/compliance/hipaa\">HIPAA compliance on Google Cloud</a>.</p>\n",
-      "text": "The Data Engineering Agent is now HIPAA compliant. For more information, see HIPAA compliance on Google Cloud."
+      "type": "Announcement",
+      "html": "\n<p>Core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a>\nrequires an Enterprise or Enterprise Plus edition reservation. Existing\nallowlisted users can continue to use Standard edition or on-demand billing\nuntil April 26, 2027, after which these billing models will no longer be\nsupported for core graph processing.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>\n",
+      "text": "Core graph processing for BigQuery Graph requires an Enterprise or Enterprise Plus edition reservation. Existing allowlisted users can continue to use Standard edition or on-demand billing until April 26, 2027, after which these billing models will no longer be supported for core graph processing. Graph measures will remain available in the Enterprise and Enterprise Plus editions and for queries run using on-demand pricing. Measures are not available in Standard edition."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_27_2026_1",
       "date": "August 27, 2026",
       "updated": "2026-08-27T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
-      "type": "Announcement",
-      "html": "\n<p>Core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a>\nrequires an Enterprise or Enterprise Plus edition reservation. Existing\nallowlisted users can continue to use Standard edition or on-demand billing\nuntil April 26, 2027, after which these billing models will no longer be\nsupported for core graph processing.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>\n",
-      "text": "Core graph processing for BigQuery Graph requires an Enterprise or Enterprise Plus edition reservation. Existing allowlisted users can continue to use Standard edition or on-demand billing until April 26, 2027, after which these billing models will no longer be supported for core graph processing. Graph measures will remain available in the Enterprise and Enterprise Plus editions and for queries run using on-demand pricing. Measures are not available in Standard edition."
+      "type": "Feature",
+      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/data-engineering-agent-pipelines\">Data Engineering Agent</a>\nis now <a href=\"https://docs.cloud.google.com/bigquery/docs/gemini-security-privacy-compliance\">HIPAA compliant</a>.\nFor more information, see <a href=\"https://docs.cloud.google.com/docs/security/compliance/hipaa\">HIPAA compliance on Google Cloud</a>.</p>\n",
+      "text": "The Data Engineering Agent is now HIPAA compliant. For more information, see HIPAA compliance on Google Cloud."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_August_27_2026_2",
@@ -458,7 +476,7 @@
       "updated": "2026-08-20T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
       "type": "Feature",
-      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/sdk/use-gcloud-mcp#available-tools\"><code>run_bq_command</code> tool</a>\n exposes the <code>bq</code> command-line tool within the\nCloud CLI remote MCP server. AI agents can now execute advanced BigQuery\noperations, such as job scheduling, job management, and reservation management,\nthrough a managed MCP endpoint.\nFor more information, see\n<a href=\"https://docs.cloud.google.com/sdk/use-gcloud-mcp\">Use the Cloud CLI remote MCP server</a>. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/sdk/use-gcloud-mcp#available-tools\"><code>run_bq_command</code> tool</a>\n exposes the <code>bq</code> command-line tool within the\nCloud CLI remote MCP server. AI agents can now execute advanced BigQuery\noperations, such as job scheduling, job management, and reservation management,\nthrough a managed MCP endpoint.\nFor more information, see\n<a href=\"https://docs.cloud.google.com/sdk/use-gcloud-mcp\">Use the Cloud CLI remote MCP server</a>. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "The run_bq_command tool exposes the bq command-line tool within the Cloud CLI remote MCP server. AI agents can now execute advanced BigQuery operations, such as job scheduling, job management, and reservation management, through a managed MCP endpoint. For more information, see Use the Cloud CLI remote MCP server. This feature is in Preview."
     },
     {
@@ -478,24 +496,6 @@
       "type": "Feature",
       "html": "\n<p>BigQuery pipelines now support automated metadata enrichment, allowing you to\ndefine semantic metadata directly in SQLX configurations for synchronization\nwith Knowledge Catalog. In addition, the Data Engineering Agent proactively\ngenerates this metadata based on your intent or context. For more information,\nsee\n<a href=\"https://docs.cloud.google.com/bigquery/docs/manage-pipelines#metadata-scorecard\">Metadata enrichment and data quality scorecard integration</a>.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "BigQuery pipelines now support automated metadata enrichment, allowing you to define semantic metadata directly in SQLX configurations for synchronization with Knowledge Catalog. In addition, the Data Engineering Agent proactively generates this metadata based on your intent or context. For more information, see Metadata enrichment and data quality scorecard integration. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_12_2026_0",
-      "date": "August 12, 2026",
-      "updated": "2026-08-12T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026",
-      "type": "Announcement",
-      "html": "\n<p>Table Explorer behavior has moved to the <strong>Reference</strong> panel. Table Explorer\nhas been deprecated. For more information, see \"Use the Reference panel\" in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/running-queries#use-reference-panel\">Run a query</a>.</p>",
-      "text": "Table Explorer behavior has moved to the Reference panel. Table Explorer has been deprecated. For more information, see \"Use the Reference panel\" in Run a query."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_11_2026_0",
-      "date": "August 11, 2026",
-      "updated": "2026-08-11T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_11_2026",
-      "type": "Feature",
-      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/query-templates\">Query templates</a>\nfor data clean rooms are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). Query templates allow data clean room owners and publishers to share\npredefined queries without exposing the underlying tables and views.</p>\n<p>Additionally,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/table-functions#table_parameters\">table parameters</a>\nin table-valued functions (TVFs) are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can use the <code>ANY TABLE</code> type as a table parameter to create\ngeneric functions that accept tables of any structure.</p>",
-      "text": "Query templates for data clean rooms are generally available (GA). Query templates allow data clean room owners and publishers to share predefined queries without exposing the underlying tables and views. Additionally, table parameters in table-valued functions (TVFs) are generally available (GA). You can use the ANY TABLE type as a table parameter to create generic functions that accept tables of any structure."
     }
   ]
 }
