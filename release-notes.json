@@ -1,7 +1,25 @@
 {
   "status": "success",
-  "last_fetched": 1791897752.7664073,
+  "last_fetched": 1791929522.0519166,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_13_2026_0",
+      "date": "October 13, 2026",
+      "updated": "2026-10-13T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026",
+      "type": "Feature",
+      "html": "\n<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-agg\"><code>AI.AGG</code> function</a>\nis\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can use this function to semantically aggregate unstructured input\ndata based on natural language instructions.</p>\n",
+      "text": "The AI.AGG function is generally available (GA). You can use this function to semantically aggregate unstructured input data based on natural language instructions."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_13_2026_1",
+      "date": "October 13, 2026",
+      "updated": "2026-10-13T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the <code>gemini-4-argon</code> model. This model is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+      "text": "BigQuery generative AI functions now support the gemini-4-argon model. This model is generally available."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_12_2026_0",
       "date": "October 12, 2026",
@@ -487,15 +505,6 @@
       "type": "Feature",
       "html": "\n<p>The default per-project limit of user-specific\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-assignments#assignment-logic-and-criteria\">reservation assignments</a>\nhas been increased from 10 to 100.</p>",
       "text": "The default per-project limit of user-specific reservation assignments has been increased from 10 to 100."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_13_2026_0",
-      "date": "August 13, 2026",
-      "updated": "2026-08-13T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_13_2026",
-      "type": "Feature",
-      "html": "\n<p>BigQuery pipelines now support automated metadata enrichment, allowing you to\ndefine semantic metadata directly in SQLX configurations for synchronization\nwith Knowledge Catalog. In addition, the Data Engineering Agent proactively\ngenerates this metadata based on your intent or context. For more information,\nsee\n<a href=\"https://docs.cloud.google.com/bigquery/docs/manage-pipelines#metadata-scorecard\">Metadata enrichment and data quality scorecard integration</a>.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "BigQuery pipelines now support automated metadata enrichment, allowing you to define semantic metadata directly in SQLX configurations for synchronization with Knowledge Catalog. In addition, the Data Engineering Agent proactively generates this metadata based on your intent or context. For more information, see Metadata enrichment and data quality scorecard integration. This feature is in Preview."
     }
   ]
 }
