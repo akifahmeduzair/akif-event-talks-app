@@ -1,7 +1,34 @@
 {
   "status": "success",
-  "last_fetched": 1792080551.9920013,
+  "last_fetched": 1792097427.2561395,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_15_2026_0",
+      "date": "October 15, 2026",
+      "updated": "2026-10-15T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
+      "type": "Feature",
+      "html": "\n<p>You can <a href=\"https://docs.cloud.google.com/bigquery/docs/managing-tables#copy_tables_across_regions\">copy tables across\nregions</a>. This\nfeature is now <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally\navailable</a> (GA).</p>\n",
+      "text": "You can copy tables across regions. This feature is now generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_15_2026_1",
+      "date": "October 15, 2026",
+      "updated": "2026-10-15T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now use <a href=\"https://docs.cloud.google.com/bigquery/docs/column-aliases\">column aliases</a> in\nGoogleSQL. This feature lets you define an alias for an expression in\nthe <code>SELECT</code> clause of a SQL query and immediately reference that alias within\nthe same <code>SELECT</code> list or in the <code>WHERE</code> clause of the same query block.</p>\n<p>Column aliases also streamline the migration of workloads from other data\nwarehouses such as Snowflake and Teradata, by supporting\ntheir syntax.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>,\nand is opt-in only. To use column aliases, you must first <a href=\"https://docs.cloud.google.com/bigquery/docs/column-aliases#enabling_column_aliases\">enable the feature</a>.</p>\n",
+      "text": "You can now use column aliases in GoogleSQL. This feature lets you define an alias for an expression in the SELECT clause of a SQL query and immediately reference that alias within the same SELECT list or in the WHERE clause of the same query block. Column aliases also streamline the migration of workloads from other data warehouses such as Snowflake and Teradata, by supporting their syntax. This feature is generally available, and is opt-in only. To use column aliases, you must first enable the feature."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_15_2026_2",
+      "date": "October 15, 2026",
+      "updated": "2026-10-15T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
+      "type": "Feature",
+      "html": "\n<p>You can <a href=\"https://docs.cloud.google.com/bigquery/docs/create-conversations/#export-answer\">export a conversational analytics agent's answer</a>,\nincluding text, visualizations, tables, and citations, to a PDF or CSV file.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "You can export a conversational analytics agent's answer, including text, visualizations, tables, and citations, to a PDF or CSV file. This feature is generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_14_2026_0",
       "date": "October 14, 2026",
@@ -514,33 +541,6 @@
       "type": "Feature",
       "html": "\n<p>You can now\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#monitor_agents_and_conversations\">monitor</a>\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "You can now monitor the performance, adoption, latency, and costs of your data agents and their conversations by using Google Cloud Observability in BigQuery. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_20_2026_0",
-      "date": "August 20, 2026",
-      "updated": "2026-08-20T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
-      "type": "Feature",
-      "html": "\n<p>BigQuery supports the following table-valued functions in the query editor and\nas part of\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#bigquery-ml-support\">conversational analytics</a>\nto help you analyze your time series data:</p>\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend\"><code>ML.TREND</code></a>:\nidentify the directional trajectory of your data.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-seasonality\"><code>ML.SEASONALITY</code></a>:\nidentify repeating patterns in your data.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-detect-change-points\"><code>ML.DETECT_CHANGE_POINTS</code></a>:\nidentify intervals where structural shifts occur in your data.</li>\n</ul>\n<p>These functions are in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>\n",
-      "text": "BigQuery supports the following table-valued functions in the query editor and as part of conversational analytics to help you analyze your time series data: ML.TREND: identify the directional trajectory of your data. ML.SEASONALITY: identify repeating patterns in your data. ML.DETECT_CHANGE_POINTS: identify intervals where structural shifts occur in your data. These functions are in preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_20_2026_1",
-      "date": "August 20, 2026",
-      "updated": "2026-08-20T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
-      "type": "Deprecated",
-      "html": "\n<p>Starting April 26, 2027, core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery\nGraph</a> will be restricted to the <a href=\"https://docs.cloud.google.com/bigquery/docs/editions-intro\">BigQuery\nEnterprise and Enterprise Plus editions</a>.\nConsequently, we are deprecating support for Standard edition and on-demand\nbilling for core graph processing.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>\n<p>For additional details and enforcement dates regarding Standard edition and\non-demand billing support, see the <a href=\"#August_27_2026\">August 27, 2026</a>\nrelease note.</p>\n",
-      "text": "Starting April 26, 2027, core graph processing for BigQuery Graph will be restricted to the BigQuery Enterprise and Enterprise Plus editions. Consequently, we are deprecating support for Standard edition and on-demand billing for core graph processing. Graph measures will remain available in the Enterprise and Enterprise Plus editions and for queries run using on-demand pricing. Measures are not available in Standard edition. For additional details and enforcement dates regarding Standard edition and on-demand billing support, see the August 27, 2026 release note."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_20_2026_2",
-      "date": "August 20, 2026",
-      "updated": "2026-08-20T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
-      "type": "Feature",
-      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/sdk/use-gcloud-mcp#available-tools\"><code>run_bq_command</code> tool</a>\n exposes the <code>bq</code> command-line tool within the\nCloud CLI remote MCP server. AI agents can now execute advanced BigQuery\noperations, such as job scheduling, job management, and reservation management,\nthrough a managed MCP endpoint.\nFor more information, see\n<a href=\"https://docs.cloud.google.com/sdk/use-gcloud-mcp\">Use the Cloud CLI remote MCP server</a>. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "The run_bq_command tool exposes the bq command-line tool within the Cloud CLI remote MCP server. AI agents can now execute advanced BigQuery operations, such as job scheduling, job management, and reservation management, through a managed MCP endpoint. For more information, see Use the Cloud CLI remote MCP server. This feature is in Preview."
     }
   ]
 }
