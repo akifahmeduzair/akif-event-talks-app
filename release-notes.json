@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_fetched": 1792032603.0390277,
+  "last_fetched": 1792061038.467742,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_14_2026_0",
@@ -17,11 +17,20 @@
       "updated": "2026-10-14T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
       "type": "Feature",
+      "html": "\n<p>Metadata migration from Dataproc Metastore to Lakehouse is now <a href=\"https://cloud.google.com/products#product-launch-stages\">generally\navailable</a> (GA). You\ncan perform a one-time backfill migration or dry run to migrate metadata from a\nDataproc Metastore service to an Apache Iceberg REST catalog endpoint or a Hive\ncatalog endpoint using the Google Cloud console, the gcloud CLI, or the REST\nAPI.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/migrate-dataproc-metastore\">Migrate metadata from Dataproc Metastore to\nLakehouse</a>.</p>\n",
+      "text": "Metadata migration from Dataproc Metastore to Lakehouse is now generally available (GA). You can perform a one-time backfill migration or dry run to migrate metadata from a Dataproc Metastore service to an Apache Iceberg REST catalog endpoint or a Hive catalog endpoint using the Google Cloud console, the gcloud CLI, or the REST API. For more information, see Migrate metadata from Dataproc Metastore to Lakehouse."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_14_2026_2",
+      "date": "October 14, 2026",
+      "updated": "2026-10-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
+      "type": "Feature",
       "html": "\n<p>Conversational analytics now lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-conversations#converse_with_a_data_source_using_the_agents_page\">create a conversation</a>\nwith all of the data sources in multiple projects, or create a conversation\nwith a <a href=\"https://docs.cloud.google.com/bigquery/docs/create-conversations#datasets\">dataset</a>. These features\nare\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
       "text": "Conversational analytics now lets you create a conversation with all of the data sources in multiple projects, or create a conversation with a dataset. These features are generally available (GA)."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_October_14_2026_2",
+      "id": "tag_google.com,2016_bigquery-release-notes_October_14_2026_3",
       "date": "October 14, 2026",
       "updated": "2026-10-14T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
@@ -30,7 +39,7 @@
       "text": "You can publish a BigQuery Conversational Analytics agent in Gemini Enterprise. This feature is now generally available (GA)."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_October_14_2026_3",
+      "id": "tag_google.com,2016_bigquery-release-notes_October_14_2026_4",
       "date": "October 14, 2026",
       "updated": "2026-10-14T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
