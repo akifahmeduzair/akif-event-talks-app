@@ -1,7 +1,43 @@
 {
   "status": "success",
-  "last_fetched": 1792012367.2648828,
+  "last_fetched": 1792032603.0390277,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_14_2026_0",
+      "date": "October 14, 2026",
+      "updated": "2026-10-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
+      "type": "Feature",
+      "html": "\n<p>The Apache Hive catalog endpoint in the Lakehouse runtime catalog is now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).\nThis integration lets you use the metastore as a serverless, central metadata\nlayer, enabling seamless data sharing and unified querying across Apache Spark,\nApache Hive, and BigQuery.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/about-spark-hive-metastore\">About the Hive catalog\nendpoint</a> and <a href=\"https://docs.cloud.google.com/lakehouse/docs/use-spark-hive-metastore\">Set up Spark and Hive\nwith the Lakehouse runtime\ncatalog</a>.</p>\n",
+      "text": "The Apache Hive catalog endpoint in the Lakehouse runtime catalog is now generally available (GA). This integration lets you use the metastore as a serverless, central metadata layer, enabling seamless data sharing and unified querying across Apache Spark, Apache Hive, and BigQuery. For more information, see About the Hive catalog endpoint and Set up Spark and Hive with the Lakehouse runtime catalog."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_14_2026_1",
+      "date": "October 14, 2026",
+      "updated": "2026-10-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
+      "type": "Feature",
+      "html": "\n<p>Conversational analytics now lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-conversations#converse_with_a_data_source_using_the_agents_page\">create a conversation</a>\nwith all of the data sources in multiple projects, or create a conversation\nwith a <a href=\"https://docs.cloud.google.com/bigquery/docs/create-conversations#datasets\">dataset</a>. These features\nare\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "Conversational analytics now lets you create a conversation with all of the data sources in multiple projects, or create a conversation with a dataset. These features are generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_14_2026_2",
+      "date": "October 14, 2026",
+      "updated": "2026-10-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
+      "type": "Feature",
+      "html": "\n<p>You can publish a <a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#publish-agent-gemini-enterprise\">BigQuery Conversational Analytics agent in Gemini\nEnterprise</a>.\nThis feature is now <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally\navailable</a> (GA).</p>\n",
+      "text": "You can publish a BigQuery Conversational Analytics agent in Gemini Enterprise. This feature is now generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_14_2026_3",
+      "date": "October 14, 2026",
+      "updated": "2026-10-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
+      "type": "Feature",
+      "html": "\n<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-agg\"><code>AI.AGG</code> function</a>\nnow supports the <code>output_schema</code> argument, which lets you specify the schema\nof the function output as a comma-separated list of fields. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "The AI.AGG function now supports the output_schema argument, which lets you specify the schema of the function output as a comma-separated list of fields. This feature is generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_13_2026_0",
       "date": "October 13, 2026",
@@ -496,15 +532,6 @@
       "type": "Feature",
       "html": "\n<p>The <a href=\"https://docs.cloud.google.com/sdk/use-gcloud-mcp#available-tools\"><code>run_bq_command</code> tool</a>\n exposes the <code>bq</code> command-line tool within the\nCloud CLI remote MCP server. AI agents can now execute advanced BigQuery\noperations, such as job scheduling, job management, and reservation management,\nthrough a managed MCP endpoint.\nFor more information, see\n<a href=\"https://docs.cloud.google.com/sdk/use-gcloud-mcp\">Use the Cloud CLI remote MCP server</a>. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "The run_bq_command tool exposes the bq command-line tool within the Cloud CLI remote MCP server. AI agents can now execute advanced BigQuery operations, such as job scheduling, job management, and reservation management, through a managed MCP endpoint. For more information, see Use the Cloud CLI remote MCP server. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_18_2026_0",
-      "date": "August 18, 2026",
-      "updated": "2026-08-18T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026",
-      "type": "Feature",
-      "html": "\n<p>The default per-project limit of user-specific\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-assignments#assignment-logic-and-criteria\">reservation assignments</a>\nhas been increased from 10 to 100.</p>",
-      "text": "The default per-project limit of user-specific reservation assignments has been increased from 10 to 100."
     }
   ]
 }
