@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_fetched": 1792433510.4820545,
+  "last_fetched": 1792465396.0135112,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_16_2026_0",
@@ -26,8 +26,8 @@
       "updated": "2026-10-15T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
       "type": "Feature",
-      "html": "\n<p>You can now use <a href=\"https://docs.cloud.google.com/bigquery/docs/column-aliases\">column aliases</a> in\nGoogleSQL. This feature lets you define an alias for an expression in\nthe <code>SELECT</code> clause of a SQL query and immediately reference that alias within\nthe same <code>SELECT</code> list or in the <code>WHERE</code> clause of the same query block.</p>\n<p>Column aliases also streamline the migration of workloads from other data\nwarehouses such as Snowflake and Teradata, by supporting\ntheir syntax.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>,\nand is opt-in only. To use column aliases, you must first <a href=\"https://docs.cloud.google.com/bigquery/docs/column-aliases#enabling_column_aliases\">enable the feature</a>.</p>\n",
-      "text": "You can now use column aliases in GoogleSQL. This feature lets you define an alias for an expression in the SELECT clause of a SQL query and immediately reference that alias within the same SELECT list or in the WHERE clause of the same query block. Column aliases also streamline the migration of workloads from other data warehouses such as Snowflake and Teradata, by supporting their syntax. This feature is generally available, and is opt-in only. To use column aliases, you must first enable the feature."
+      "html": "\n<p>You can now use <a href=\"https://docs.cloud.google.com/bigquery/docs/column-aliases\">reusable column aliases</a> in\nGoogleSQL. This feature lets you define an alias for an expression in\nthe <code>SELECT</code> clause of a SQL query and immediately reference that alias within\nthe same <code>SELECT</code> list or in the <code>WHERE</code> clause of the same query block.</p>\n<p>Reusable column aliases also streamline the migration of workloads from other\ndata warehouses such as Snowflake and Teradata, by supporting\ntheir syntax.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>,\nand is opt-in only. To use reusable column aliases, you must first <a href=\"https://docs.cloud.google.com/bigquery/docs/column-aliases#enabling_column_aliases\">enable the\nfeature</a>.</p>\n",
+      "text": "You can now use reusable column aliases in GoogleSQL. This feature lets you define an alias for an expression in the SELECT clause of a SQL query and immediately reference that alias within the same SELECT list or in the WHERE clause of the same query block. Reusable column aliases also streamline the migration of workloads from other data warehouses such as Snowflake and Teradata, by supporting their syntax. This feature is generally available, and is opt-in only. To use reusable column aliases, you must first enable the feature."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_15_2026_2",
