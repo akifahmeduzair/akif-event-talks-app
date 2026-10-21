@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1792600068.305967,
+  "last_fetched": 1792616858.5561635,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_21_2026_0",
+      "date": "October 21, 2026",
+      "updated": "2026-10-21T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_21_2026",
+      "type": "Feature",
+      "html": "\n<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-chunk-document\"><code>AI.CHUNK_DOCUMENT</code> function</a>\nis a table-valued function that splits\nunstructured documents into semantically coherent text chunks\noptimized for vector embeddings and Retrieval-Augmented Generation (RAG)\nworkflows.</p>\n<p>This function is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "The AI.CHUNK_DOCUMENT function is a table-valued function that splits unstructured documents into semantically coherent text chunks optimized for vector embeddings and Retrieval-Augmented Generation (RAG) workflows. This function is generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_16_2026_0",
       "date": "October 16, 2026",
@@ -532,15 +541,6 @@
       "type": "Feature",
       "html": "\n<p>You can now\n<a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python#use_logging\">view real-time logs</a>\nfor your Python UDFs in Cloud Logging. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
       "text": "You can now view real-time logs for your Python UDFs in Cloud Logging. This feature is generally available."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_25_2026_0",
-      "date": "August 25, 2026",
-      "updated": "2026-08-25T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_25_2026",
-      "type": "Feature",
-      "html": "\n<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/tags#data-governance-tags\">data governance tags</a> are\nsupported in Terraform. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "BigQuery data governance tags are supported in Terraform. This feature is in Preview."
     }
   ]
 }
