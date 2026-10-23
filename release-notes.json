@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1792703207.4781294,
+  "last_fetched": 1792724417.496757,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_22_2026_0",
+      "date": "October 22, 2026",
+      "updated": "2026-10-22T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_22_2026",
+      "type": "Feature",
+      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-translate\"><code>AI.TRANSLATE</code> function</a>\nlets you translate text strings between languages. <code>AI.TRANSLATE</code> supports\nstandard Neural Machine Translation (NMT) workloads and Translation LLM (TLLM)\ncapabilities.</p>\n<p>This function is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "The AI.TRANSLATE function lets you translate text strings between languages. AI.TRANSLATE supports standard Neural Machine Translation (NMT) workloads and Translation LLM (TLLM) capabilities. This function is generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_21_2026_0",
       "date": "October 21, 2026",
@@ -523,24 +532,6 @@
       "type": "Feature",
       "html": "\n<p>You can now train models using XGBoost version 2.1 by using the\n<code>XGBOOST_VERSION</code> option. BigQuery uses the XGBoost 3.1.0 library to load and\nmake predictions on XGBoost models. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
       "text": "You can now train models using XGBoost version 2.1 by using the XGBOOST_VERSION option. BigQuery uses the XGBoost 3.1.0 library to load and make predictions on XGBoost models. This feature is generally available."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_26_2026_0",
-      "date": "August 26, 2026",
-      "updated": "2026-08-26T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026",
-      "type": "Security",
-      "html": "\n<p>An Improper Input Validation vulnerability was discovered in the JDBC driver\nin BigQuery Data Transfer Service versions prior to May 1, 2026.\nAn authenticated attacker could use crafted JDBC connection string parameters\nto achieve remote code execution in the connector container and escalate\nprivileges in the tenant project.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/security-bulletins#gcp-2026-056\">GCP-2026-056</a> security bulletin.</p>\n",
-      "text": "An Improper Input Validation vulnerability was discovered in the JDBC driver in BigQuery Data Transfer Service versions prior to May 1, 2026. An authenticated attacker could use crafted JDBC connection string parameters to achieve remote code execution in the connector container and escalate privileges in the tenant project. For more information, see the GCP-2026-056 security bulletin."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_26_2026_1",
-      "date": "August 26, 2026",
-      "updated": "2026-08-26T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now\n<a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python#use_logging\">view real-time logs</a>\nfor your Python UDFs in Cloud Logging. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
-      "text": "You can now view real-time logs for your Python UDFs in Cloud Logging. This feature is generally available."
     }
   ]
 }
