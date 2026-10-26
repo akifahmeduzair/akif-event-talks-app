@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1793016383.2017741,
+  "last_fetched": 1793052715.0817914,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_26_2026_0",
+      "date": "October 26, 2026",
+      "updated": "2026-10-26T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_26_2026",
+      "type": "Feature",
+      "html": "\n<p>Python user-defined functions now support\n<a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python#volume-mounts\">volume mounts</a>,\nwhich let you access dependency files from Cloud Storage directly from your\nPython UDF code. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+      "text": "Python user-defined functions now support volume mounts, which let you access dependency files from Cloud Storage directly from your Python UDF code. This feature is in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_22_2026_0",
       "date": "October 22, 2026",
@@ -505,33 +514,6 @@
       "type": "Feature",
       "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a>\nis <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n<p>BigQuery Graph now includes support for the <code>CALL</code>\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-query-statements\">graph query statement</a>,\nand the following path inspection\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-gql-functions\">GQL functions</a>:</p>\n<ul>\n<li><code>IS_ACYCLIC</code></li>\n<li><code>IS_SIMPLE</code></li>\n<li><code>IS_TRAIL</code>.</li>\n</ul>",
       "text": "BigQuery Graph is generally available (GA). BigQuery Graph now includes support for the CALL graph query statement, and the following path inspection GQL functions: IS_ACYCLIC IS_SIMPLE IS_TRAIL."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_27_2026_0",
-      "date": "August 27, 2026",
-      "updated": "2026-08-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
-      "type": "Announcement",
-      "html": "\n<p>Core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a>\nrequires an Enterprise or Enterprise Plus edition reservation. Existing\nallowlisted users can continue to use Standard edition or on-demand billing\nuntil April 26, 2027, after which these billing models will no longer be\nsupported for core graph processing.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>\n",
-      "text": "Core graph processing for BigQuery Graph requires an Enterprise or Enterprise Plus edition reservation. Existing allowlisted users can continue to use Standard edition or on-demand billing until April 26, 2027, after which these billing models will no longer be supported for core graph processing. Graph measures will remain available in the Enterprise and Enterprise Plus editions and for queries run using on-demand pricing. Measures are not available in Standard edition."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_27_2026_1",
-      "date": "August 27, 2026",
-      "updated": "2026-08-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
-      "type": "Feature",
-      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/data-engineering-agent-pipelines\">Data Engineering Agent</a>\nis now <a href=\"https://docs.cloud.google.com/bigquery/docs/gemini-security-privacy-compliance\">HIPAA compliant</a>.\nFor more information, see <a href=\"https://docs.cloud.google.com/docs/security/compliance/hipaa\">HIPAA compliance on Google Cloud</a>.</p>\n",
-      "text": "The Data Engineering Agent is now HIPAA compliant. For more information, see HIPAA compliance on Google Cloud."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_August_27_2026_2",
-      "date": "August 27, 2026",
-      "updated": "2026-08-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now train models using XGBoost version 2.1 by using the\n<code>XGBOOST_VERSION</code> option. BigQuery uses the XGBoost 3.1.0 library to load and\nmake predictions on XGBoost models. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
-      "text": "You can now train models using XGBoost version 2.1 by using the XGBOOST_VERSION option. BigQuery uses the XGBoost 3.1.0 library to load and make predictions on XGBoost models. This feature is generally available."
     }
   ]
 }
