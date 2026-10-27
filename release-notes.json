@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_fetched": 1793052715.0817914,
+  "last_fetched": 1793071333.6930134,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_26_2026_0",
@@ -8,8 +8,26 @@
       "updated": "2026-10-26T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_26_2026",
       "type": "Feature",
-      "html": "\n<p>Python user-defined functions now support\n<a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python#volume-mounts\">volume mounts</a>,\nwhich let you access dependency files from Cloud Storage directly from your\nPython UDF code. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+      "html": "\n<p>Conversation logging for <a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">Conversational analytics in\nBigQuery</a> is now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can log data agent conversations to a BigQuery table in\nthe agent's project. For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/conversation-logging-overview\">Conversation logging\noverview</a> and <a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#configure_settings\">Configure\nsettings</a>.</p>\n",
+      "text": "Conversation logging for Conversational analytics in BigQuery is now generally available (GA). You can log data agent conversations to a BigQuery table in the agent's project. For more information, see Conversation logging overview and Configure settings."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_26_2026_1",
+      "date": "October 26, 2026",
+      "updated": "2026-10-26T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_26_2026",
+      "type": "Feature",
+      "html": "\n<p>Python user-defined functions now support\n<a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python#volume-mounts\">volume mounts</a>,\nwhich let you access dependency files from Cloud Storage directly from your\nPython UDF code. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>\n",
       "text": "Python user-defined functions now support volume mounts, which let you access dependency files from Cloud Storage directly from your Python UDF code. This feature is in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_26_2026_2",
+      "date": "October 26, 2026",
+      "updated": "2026-10-26T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_26_2026",
+      "type": "Feature",
+      "html": "\n<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/string_functions#regexp_extract_groups\"><code>REGEXP_EXTRACT_GROUPS</code> function</a>\nproduces substrings that match multiple capturing groups in a regular\nexpression.</p>\n<p>This function is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "The REGEXP_EXTRACT_GROUPS function produces substrings that match multiple capturing groups in a regular expression. This function is in Preview."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_22_2026_0",
