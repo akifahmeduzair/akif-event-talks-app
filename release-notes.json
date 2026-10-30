@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1793382803.0839193,
+  "last_fetched": 1793397148.8192825,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_October_30_2026_0",
+      "date": "October 30, 2026",
+      "updated": "2026-10-30T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_30_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now retrieve query results\n<a href=\"https://docs.cloud.google.com/bigquery/docs/running-queries#arrow-format\">directly in the Apache Arrow format</a>\nfor faster retrieval speed and improved serialization efficiency. This feature\nis in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can now retrieve query results directly in the Apache Arrow format for faster retrieval speed and improved serialization efficiency. This feature is in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_27_2026_0",
       "date": "October 27, 2026",
@@ -505,15 +514,6 @@
       "type": "Change",
       "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_jdbc_driver\">Simba JDBC driver for BigQuery</a>\nis now available.</p>",
       "text": "An updated version of the Simba JDBC driver for BigQuery is now available."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_01_2026_0",
-      "date": "September 01, 2026",
-      "updated": "2026-09-01T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_01_2026",
-      "type": "Feature",
-      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/libraries\">Rust SDK for BigQuery</a> is now in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "The Rust SDK for BigQuery is now in Preview."
     }
   ]
 }
