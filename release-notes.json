@@ -1,7 +1,25 @@
 {
   "status": "success",
-  "last_fetched": 1793629990.4132948,
+  "last_fetched": 1793665284.9496229,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_02_2026_0",
+      "date": "November 02, 2026",
+      "updated": "2026-11-02T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#monitor_agents_and_conversations\">monitor</a>\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "You can now monitor the performance, adoption, latency, and costs of your data agents and their conversations by using Google Cloud Observability in BigQuery. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_02_2026_1",
+      "date": "November 02, 2026",
+      "updated": "2026-11-02T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026",
+      "type": "Feature",
+      "html": "\n<p>The Data Engineering Agent now\nsupports <a href=\"https://docs.cloud.google.com/bigquery/docs/data-engineering-agent-pipelines#bigquery-ai-ml-support\">BigQuery AI, ML, and object functions and\nstatements in generated Dataform SQLX\npipelines and agent instruction files</a>.</p>\n<p>This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "The Data Engineering Agent now supports BigQuery AI, ML, and object functions and statements in generated Dataform SQLX pipelines and agent instruction files. This feature is generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_30_2026_0",
       "date": "October 30, 2026",
@@ -505,15 +523,6 @@
       "type": "Feature",
       "html": "\n<p>Conversational analytics now supports questions about\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#analytic_task_support\">market basket analysis</a>.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "text": "Conversational analytics now supports questions about market basket analysis. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_02_2026_0",
-      "date": "September 02, 2026",
-      "updated": "2026-09-02T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_02_2026",
-      "type": "Change",
-      "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_jdbc_driver\">Simba JDBC driver for BigQuery</a>\nis now available.</p>",
-      "text": "An updated version of the Simba JDBC driver for BigQuery is now available."
     }
   ]
 }
