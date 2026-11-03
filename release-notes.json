@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1793712511.6592865,
+  "last_fetched": 1793746058.231303,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_03_2026_0",
+      "date": "November 03, 2026",
+      "updated": "2026-11-03T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_03_2026",
+      "type": "Change",
+      "html": "\n<p>In <a href=\"https://docs.cloud.google.com/bigquery/docs/bigquery-web-ui#studio-overview\">BigQuery Studio</a>,\nthe left pane has been updated with new tab names. The <strong>Classic Explorer</strong> tab\nhas been renamed to the <strong>Data</strong> tab, and the <strong>Repository</strong> tab has been\nrenamed to the <strong>Source control</strong> tab. The <strong>Data</strong> tab now includes the\n<strong>Add data</strong> button and focuses on data hierarchies. These changes are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "In BigQuery Studio, the left pane has been updated with new tab names. The Classic Explorer tab has been renamed to the Data tab, and the Repository tab has been renamed to the Source control tab. The Data tab now includes the Add data button and focuses on data hierarchies. These changes are generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_02_2026_0",
       "date": "November 02, 2026",
@@ -62,20 +71,11 @@
       "updated": "2026-10-27T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026",
       "type": "Feature",
-      "html": "\n<p>You can manage and version control SQL scripts and notebooks with\n<a href=\"https://docs.cloud.google.com/bigquery/docs/git-repositories\">BigQuery Studio Git repositories</a>,\nwhich provide a streamlined, folder-based integration with remote Git\nrepositories. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "You can manage and version control SQL scripts and notebooks with BigQuery Studio Git repositories, which provide a streamlined, folder-based integration with remote Git repositories. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_October_27_2026_1",
-      "date": "October 27, 2026",
-      "updated": "2026-10-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026",
-      "type": "Feature",
       "html": "\n<p>The <a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview#google-drive-integration\">Data Engineering Agent now integrates with Google\nDrive</a>,\nletting you provide Google Sheets files, CSV, or JSONL files as input for\nyour data engineering pipelines.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>\n",
       "text": "The Data Engineering Agent now integrates with Google Drive, letting you provide Google Sheets files, CSV, or JSONL files as input for your data engineering pipelines. This feature is generally available (GA)."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_October_27_2026_2",
+      "id": "tag_google.com,2016_bigquery-release-notes_October_27_2026_1",
       "date": "October 27, 2026",
       "updated": "2026-10-27T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026",
@@ -84,7 +84,7 @@
       "text": "You can now use conversational analytics in Connected Sheets to ask questions and analyze your BigQuery data using natural language. The Gemini side panel can help you translate your questions into optimized SQL queries and execute them, summarize key trends, and insert live, refreshable database objects directly into your workbook. This feature is generally available (GA)."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_October_27_2026_3",
+      "id": "tag_google.com,2016_bigquery-release-notes_October_27_2026_2",
       "date": "October 27, 2026",
       "updated": "2026-10-27T00:00:00-07:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026",
@@ -541,15 +541,6 @@
       "type": "Feature",
       "html": "\n<p>Conversational analytics now supports predictive modeling questions using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-predict\"><code>AI.PREDICT</code> function</a>.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "Conversational analytics now supports predictive modeling questions using the AI.PREDICT function. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_03_2026_0",
-      "date": "September 03, 2026",
-      "updated": "2026-09-03T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_03_2026",
-      "type": "Feature",
-      "html": "\n<p>Conversational analytics now supports questions about\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#analytic_task_support\">market basket analysis</a>.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-      "text": "Conversational analytics now supports questions about market basket analysis. This feature is generally available (GA)."
     }
   ]
 }
