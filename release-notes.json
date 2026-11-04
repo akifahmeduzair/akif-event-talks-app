@@ -1,9 +1,18 @@
 {
   "status": "success",
-  "last_fetched": 1793799577.5461097,
+  "last_fetched": 1793833554.9758282,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_03_2026_0",
+      "date": "November 03, 2026",
+      "updated": "2026-11-03T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_03_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now use persistent and temporary\n<a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions#continuous-queries\">SQL user-defined functions (UDFs)</a>\nin <a href=\"https://docs.cloud.google.com/bigquery/docs/continuous-queries#use-sql-udfs\">BigQuery continuous queries</a>\nto encapsulate and reuse custom real-time transformation logic. Only SQL UDFs\nare supported in continuous queries.</p>\n",
+      "text": "You can now use persistent and temporary SQL user-defined functions (UDFs) in BigQuery continuous queries to encapsulate and reuse custom real-time transformation logic. Only SQL UDFs are supported in continuous queries."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_03_2026_1",
       "date": "November 03, 2026",
       "updated": "2026-11-03T00:00:00-08:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_03_2026",
