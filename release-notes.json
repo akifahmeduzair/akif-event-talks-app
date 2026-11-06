@@ -1,9 +1,27 @@
 {
   "status": "success",
-  "last_fetched": 1793940314.526571,
+  "last_fetched": 1793972246.1351526,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_05_2026_0",
+      "date": "November 05, 2026",
+      "updated": "2026-11-05T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_05_2026",
+      "type": "Feature",
+      "html": "\n<p>In the query execution graph's <a href=\"https://docs.cloud.google.com/bigquery/docs/query-plan-explanation#query_text_heatmap\">query text\nheatmap</a>, you can now\nview and navigate through a hierarchical list of context references, such as\nnested function calls or view references, for stage steps. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "In the query execution graph's query text heatmap, you can now view and navigate through a hierarchical list of context references, such as nested function calls or view references, for stage steps. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_05_2026_1",
+      "date": "November 05, 2026",
+      "updated": "2026-11-05T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_05_2026",
+      "type": "Feature",
+      "html": "\n<p>In the query execution graph, the <a href=\"https://docs.cloud.google.com/bigquery/docs/query-plan-explanation#query_text_heatmap\">query text\nheatmap</a> now supports\ndisplaying the SQL text for persistent and temporary user-defined functions\n(UDFs). This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "In the query execution graph, the query text heatmap now supports displaying the SQL text for persistent and temporary user-defined functions (UDFs). This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_05_2026_2",
       "date": "November 05, 2026",
       "updated": "2026-11-05T00:00:00-08:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_05_2026",
@@ -12,7 +30,7 @@
       "text": "The BigQuery Metadata curation console page has been removed. You can now use Knowledge Catalog to schedule Cloud Storage discovery scans, manage data profiling and data quality, and perform related data governance tasks."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_November_05_2026_1",
+      "id": "tag_google.com,2016_bigquery-release-notes_November_05_2026_3",
       "date": "November 05, 2026",
       "updated": "2026-11-05T00:00:00-08:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_05_2026",
