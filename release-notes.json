@@ -1,7 +1,25 @@
 {
   "status": "success",
-  "last_fetched": 1794319771.2566762,
+  "last_fetched": 1794350656.6716938,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_10_2026_0",
+      "date": "November 10, 2026",
+      "updated": "2026-11-10T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_10_2026",
+      "type": "Feature",
+      "html": "\n<p>You can use <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">graph measures</a>\nto lock an aggregation to a key in order to perform\ncomplex aggregations without overcounting.\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-types#measure_type\">Measure expressions</a>\ncan include the following:</p>\n<ul>\n<li>Aggregate function calls</li>\n<li>Expressions within aggregate functions</li>\n<li>Conditional logic within aggregate functions</li>\n<li>Conditional distinct counting</li>\n<li>Scalar operations and expressions outside of aggregate functions</li>\n<li>Combinations of measures wrapped in the <code>AGG</code> function</li>\n</ul>\n<p>To query measures, you transform\nyour graph into a flattened table by using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-sql-queries#graph_expand\"><code>GRAPH_EXPAND</code> TVF</a>,\nand then query measures in that table with the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#agg\"><code>AGG</code> function</a>.\nThe <code>GRAPH_EXPAND</code> function now supports multiple fact tables. To view the\noutput schema of the <code>GRAPH_EXPAND</code> function, use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/system-procedures#bqshow_graph_expand_schema\"><code>BQ.SHOW_GRAPH_EXPAND_SCHEMA</code> system procedure</a>.</p>\n<p>You can define\n<a href=\"https://docs.cloud.google.com/bigquery/docs/graph-schema-overview#specify_options\">extensions</a>\nin the <code>OPTIONS</code> clause of the labels and properties in your graphs, which are\nstring pairs that represent custom metadata for natural language querying.</p>\n<p>Measures and graphs are supported in Data Studio through the\n<a href=\"https://docs.cloud.google.com/data-studio/connect-to-google-bigquery\">BigQuery connector</a>.\nMeasures and graphs are also automatically cataloged in Knowledge Catalog, which\nmakes them searchable by natural language or domain synonyms.</p>\n<p>These features are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "You can use graph measures to lock an aggregation to a key in order to perform complex aggregations without overcounting. Measure expressions can include the following: Aggregate function calls Expressions within aggregate functions Conditional logic within aggregate functions Conditional distinct counting Scalar operations and expressions outside of aggregate functions Combinations of measures wrapped in the AGG function To query measures, you transform your graph into a flattened table by using the GRAPH_EXPAND TVF, and then query measures in that table with the AGG function. The GRAPH_EXPAND function now supports multiple fact tables. To view the output schema of the GRAPH_EXPAND function, use the BQ.SHOW_GRAPH_EXPAND_SCHEMA system procedure. You can define extensions in the OPTIONS clause of the labels and properties in your graphs, which are string pairs that represent custom metadata for natural language querying. Measures and graphs are supported in Data Studio through the BigQuery connector. Measures and graphs are also automatically cataloged in Knowledge Catalog, which makes them searchable by natural language or domain synonyms. These features are generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_10_2026_1",
+      "date": "November 10, 2026",
+      "updated": "2026-11-10T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_10_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the <code>gemini-4-carbon</code> model. This model is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+      "text": "BigQuery generative AI functions now support the gemini-4-carbon model. This model is generally available."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_09_2026_0",
       "date": "November 09, 2026",
@@ -604,33 +622,6 @@
       "type": "Feature",
       "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/migration/migration-lineage\">migration lineage service</a> to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "You can use the migration lineage service to visualize the data flow and connections in your source database and help you plan a BigQuery data warehouse migration. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_14_2026_0",
-      "date": "September 14, 2026",
-      "updated": "2026-09-14T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
-      "type": "Change",
-      "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>\n",
-      "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_14_2026_1",
-      "date": "September 14, 2026",
-      "updated": "2026-09-14T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
-      "type": "Feature",
-      "html": "\n<p>Metadata for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a> is\nautomatically ingested and searchable in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/use-knowledge-catalog\">Knowledge Catalog</a>. This feature is\navailable in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>\n",
-      "text": "Metadata for BigQuery Graph is automatically ingested and searchable in Knowledge Catalog. This feature is available in preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_14_2026_2",
-      "date": "September 14, 2026",
-      "updated": "2026-09-14T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now include a <code>WHERE</code> clause inside of an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate-function-calls\">aggregate function call</a>\nto filter your aggregate function input using a boolean expression.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can now include a WHERE clause inside of an aggregate function call to filter your aggregate function input using a boolean expression. This feature is in Preview."
     }
   ]
 }
