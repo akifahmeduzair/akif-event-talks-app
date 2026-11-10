@@ -1,7 +1,34 @@
 {
   "status": "success",
-  "last_fetched": 1794236181.4230783,
+  "last_fetched": 1794272680.9223447,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_09_2026_0",
+      "date": "November 09, 2026",
+      "updated": "2026-11-09T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
+      "type": "Feature",
+      "html": "\n<p>Query performance troubleshooting and job and system performance comparison in\nthe BigQuery jobs explorer are <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/admin-jobs-explorer#get-job-details\">Troubleshoot job performance</a>\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/admin-jobs-explorer#compare-jobs\">Diagnose performance regressions by comparing jobs and systems</a>.</p>\n",
+      "text": "Query performance troubleshooting and job and system performance comparison in the BigQuery jobs explorer are generally available (GA). For more information, see Troubleshoot job performance and Diagnose performance regressions by comparing jobs and systems."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_09_2026_1",
+      "date": "November 09, 2026",
+      "updated": "2026-11-09T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
+      "type": "Feature",
+      "html": "\n<p>When you <a href=\"https://docs.cloud.google.com/bigquery/docs/create-pipelines\">create</a> or\n<a href=\"https://docs.cloud.google.com/bigquery/docs/schedule-pipelines\">schedule</a>\na pipeline, you can specify the maximum number of\nconcurrently executed pipeline tasks. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "When you create or schedule a pipeline, you can specify the maximum number of concurrently executed pipeline tasks. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_09_2026_2",
+      "date": "November 09, 2026",
+      "updated": "2026-11-09T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
+      "type": "Feature",
+      "html": "\n<p>You can use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/compression-functions\">compression functions</a>\nin GoogleSQL to compress or decompress\nbytes or string values by using the Zstandard (Zstd) lossless data compression\nalgorithm. The following functions are supported:</p>\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/compression-functions#zstd_compress\"><code>ZSTD_COMPRESS</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/compression-functions#zstd_decompress_to_bytes\"><code>ZSTD_DECOMPRESS_TO_BYTES</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/compression-functions#zstd_decompress_to_string\"><code>ZSTD_DECOMPRESS_TO_STRING</code></a></li>\n</ul>\n<p>These functions are in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can use compression functions in GoogleSQL to compress or decompress bytes or string values by using the Zstandard (Zstd) lossless data compression algorithm. The following functions are supported: ZSTD_COMPRESS ZSTD_DECOMPRESS_TO_BYTES ZSTD_DECOMPRESS_TO_STRING These functions are in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_06_2026_0",
       "date": "November 06, 2026",
@@ -595,42 +622,6 @@
       "type": "Feature",
       "html": "\n<p>You can now include a <code>WHERE</code> clause inside of an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate-function-calls\">aggregate function call</a>\nto filter your aggregate function input using a boolean expression.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "You can now include a WHERE clause inside of an aggregate function call to filter your aggregate function input using a boolean expression. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_10_2026_0",
-      "date": "September 10, 2026",
-      "updated": "2026-09-10T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
-      "type": "Feature",
-      "html": "\n<p>Conversational analytics in BigQuery now supports the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-correlation\"><code>ML.CORRELATION</code></a>\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "Conversational analytics in BigQuery now supports the ML.CORRELATION function to calculate statistical correlations between a target column and one or more metric columns in a table. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_10_2026_1",
-      "date": "September 10, 2026",
-      "updated": "2026-09-10T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-metrics\"><code>ML.METRICS</code> function</a>\nto compute evaluation metrics for machine learning\nclassification or regression tasks on any table or query that contains actual\nand predicted values. This function lets you evaluate predictions without\nneeding to create or reference a stored model. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "You can now use the ML.METRICS function to compute evaluation metrics for machine learning classification or regression tasks on any table or query that contains actual and predicted values. This function lets you evaluate predictions without needing to create or reference a stored model. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_10_2026_2",
-      "date": "September 10, 2026",
-      "updated": "2026-09-10T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
-      "type": "Feature",
-      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-causal-effect\"><code>AI.CAUSAL_EFFECT</code></a>\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "You can use the AI.CAUSAL_EFFECT function to quantify the impact of specific interventions on time series data. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_10_2026_3",
-      "date": "September 10, 2026",
-      "updated": "2026-09-10T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
-      "type": "Feature",
-      "html": "\n<p><a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview#schema-mapping-with-graph\">The Data Engineering Agent now integrates with BigQuery Graph</a>\nto provide additional context between your data source and destination schema,\nand improves schema mapping accuracy for your data engineering pipelines.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-      "text": "The Data Engineering Agent now integrates with BigQuery Graph to provide additional context between your data source and destination schema, and improves schema mapping accuracy for your data engineering pipelines. This feature is generally available (GA)."
     }
   ]
 }
