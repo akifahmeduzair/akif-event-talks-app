@@ -1,9 +1,18 @@
 {
   "status": "success",
-  "last_fetched": 1794272680.9223447,
+  "last_fetched": 1794319771.2566762,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_09_2026_0",
+      "date": "November 09, 2026",
+      "updated": "2026-11-09T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
+      "type": "Feature",
+      "html": "\n<p>To support your FinOps practices, you can now opt in to\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-monitoring#reservation_cost_attribution\">compute cost attribution</a>\nin BigQuery editions. This feature attributes billed compute charges directly to\nthe query projects that use your administration project's reservation capacity.\nAllocating costs based on actual commitment and autoscaling slot usage lets you\naccurately track project-level costs and manage internal chargebacks. This\nfeature is available in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
+      "text": "To support your FinOps practices, you can now opt in to compute cost attribution in BigQuery editions. This feature attributes billed compute charges directly to the query projects that use your administration project's reservation capacity. Allocating costs based on actual commitment and autoscaling slot usage lets you accurately track project-level costs and manage internal chargebacks. This feature is available in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_09_2026_1",
       "date": "November 09, 2026",
       "updated": "2026-11-09T00:00:00-08:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
@@ -12,7 +21,7 @@
       "text": "Query performance troubleshooting and job and system performance comparison in the BigQuery jobs explorer are generally available (GA). For more information, see Troubleshoot job performance and Diagnose performance regressions by comparing jobs and systems."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_November_09_2026_1",
+      "id": "tag_google.com,2016_bigquery-release-notes_November_09_2026_2",
       "date": "November 09, 2026",
       "updated": "2026-11-09T00:00:00-08:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
@@ -21,7 +30,7 @@
       "text": "When you create or schedule a pipeline, you can specify the maximum number of concurrently executed pipeline tasks. This feature is generally available (GA)."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_November_09_2026_2",
+      "id": "tag_google.com,2016_bigquery-release-notes_November_09_2026_3",
       "date": "November 09, 2026",
       "updated": "2026-11-09T00:00:00-08:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
