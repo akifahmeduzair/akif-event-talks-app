@@ -1,7 +1,34 @@
 {
   "status": "success",
-  "last_fetched": 1794403519.6413405,
+  "last_fetched": 1794441431.0318627,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_11_2026_0",
+      "date": "November 11, 2026",
+      "updated": "2026-11-11T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026",
+      "type": "Feature",
+      "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-workload-management#scheduling-policies\">Project caps (also known as scheduling policies)</a>\nlet you limit maximum slots and concurrency per project within a BigQuery\nreservation. This feature is only supported in the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/editions-intro\">BigQuery Enterprise and Enterprise Plus editions</a>\nand is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "Project caps (also known as scheduling policies) let you limit maximum slots and concurrency per project within a BigQuery reservation. This feature is only supported in the BigQuery Enterprise and Enterprise Plus editions and is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_11_2026_1",
+      "date": "November 11, 2026",
+      "updated": "2026-11-11T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026",
+      "type": "Feature",
+      "html": "\n<p>You can specify an optional <code>principal</code> property on\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-assignments\">BigQuery reservation assignments</a> to\nroute queries to specific reservations based on the identity of the user,\nservice account, or third-party identity executing the job. This feature is only\nsupported in the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/editions-intro\">BigQuery Enterprise and Enterprise Plus editions</a>\nand is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "You can specify an optional principal property on BigQuery reservation assignments to route queries to specific reservations based on the identity of the user, service account, or third-party identity executing the job. This feature is only supported in the BigQuery Enterprise and Enterprise Plus editions and is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_11_2026_2",
+      "date": "November 11, 2026",
+      "updated": "2026-11-11T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026",
+      "type": "Feature",
+      "html": "\n<p>You can use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/json_functions#json_flatten\"><code>JSON_FLATTEN</code> function</a>\nto extract all non-array values that are either directly in the input <code>JSON</code>\nvalue or children of one or more consecutively nested arrays in the input\n<code>JSON</code> value. This function is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.\n(GA).</p>",
+      "text": "You can use the JSON_FLATTEN function to extract all non-array values that are either directly in the input JSON value or children of one or more consecutively nested arrays in the input JSON value. This function is generally available. (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_10_2026_0",
       "date": "November 10, 2026",
@@ -613,15 +640,6 @@
       "type": "Feature",
       "html": "\n<p>You can <a href=\"https://docs.cloud.google.com/dataform/docs/test-data#unit-tests\">add unit tests</a> to pipelines\nto validate your SQL transformation logic against mock datasets. Unit tests for\npipelines are <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>",
       "text": "You can add unit tests to pipelines to validate your SQL transformation logic against mock datasets. Unit tests for pipelines are generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_16_2026_0",
-      "date": "September 16, 2026",
-      "updated": "2026-09-16T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
-      "type": "Feature",
-      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/migration/migration-lineage\">migration lineage service</a> to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can use the migration lineage service to visualize the data flow and connections in your source database and help you plan a BigQuery data warehouse migration. This feature is in Preview."
     }
   ]
 }
