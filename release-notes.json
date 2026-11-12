@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_fetched": 1794463096.4251537,
+  "last_fetched": 1794495032.052877,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_11_2026_0",
@@ -235,60 +235,6 @@
       "type": "Feature",
       "html": "\n<p>You can now retrieve query results\n<a href=\"https://docs.cloud.google.com/bigquery/docs/running-queries#arrow-format\">directly in the Apache Arrow format</a>\nfor faster retrieval speed and improved serialization efficiency. This feature\nis in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "You can now retrieve query results directly in the Apache Arrow format for faster retrieval speed and improved serialization efficiency. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_October_27_2026_0",
-      "date": "October 27, 2026",
-      "updated": "2026-10-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026",
-      "type": "Feature",
-      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview#google-drive-integration\">Data Engineering Agent now integrates with Google\nDrive</a>,\nletting you provide Google Sheets files, CSV, or JSONL files as input for\nyour data engineering pipelines.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>\n",
-      "text": "The Data Engineering Agent now integrates with Google Drive, letting you provide Google Sheets files, CSV, or JSONL files as input for your data engineering pipelines. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_October_27_2026_1",
-      "date": "October 27, 2026",
-      "updated": "2026-10-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now use <a href=\"https://docs.cloud.google.com/bigquery/docs/connected-sheets#use-ca-in-connected-sheets\">conversational analytics in Connected Sheets</a>\nto ask questions and analyze your BigQuery data using natural\nlanguage. The Gemini side panel can help you translate your questions into\noptimized SQL queries and execute them, summarize key trends, and\ninsert live, refreshable database objects directly into your workbook.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "You can now use conversational analytics in Connected Sheets to ask questions and analyze your BigQuery data using natural language. The Gemini side panel can help you translate your questions into optimized SQL queries and execute them, summarize key trends, and insert live, refreshable database objects directly into your workbook. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_October_27_2026_2",
-      "date": "October 27, 2026",
-      "updated": "2026-10-27T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026",
-      "type": "Feature",
-      "html": "\n<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-count-tokens\"><code>AI.COUNT_TOKENS</code> function</a>,\nwhich estimates the token count of a text string, is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-      "text": "The AI.COUNT_TOKENS function, which estimates the token count of a text string, is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_October_26_2026_0",
-      "date": "October 26, 2026",
-      "updated": "2026-10-26T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_26_2026",
-      "type": "Feature",
-      "html": "\n<p>Conversation logging for <a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">Conversational analytics in\nBigQuery</a> is now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can log data agent conversations to a BigQuery table in\nthe agent's project. For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/conversation-logging-overview\">Conversation logging\noverview</a> and <a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#configure_settings\">Configure\nsettings</a>.</p>\n",
-      "text": "Conversation logging for Conversational analytics in BigQuery is now generally available (GA). You can log data agent conversations to a BigQuery table in the agent's project. For more information, see Conversation logging overview and Configure settings."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_October_26_2026_1",
-      "date": "October 26, 2026",
-      "updated": "2026-10-26T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_26_2026",
-      "type": "Feature",
-      "html": "\n<p>Python user-defined functions now support\n<a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python#volume-mounts\">volume mounts</a>,\nwhich let you access dependency files from Cloud Storage directly from your\nPython UDF code. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>\n",
-      "text": "Python user-defined functions now support volume mounts, which let you access dependency files from Cloud Storage directly from your Python UDF code. This feature is in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_October_26_2026_2",
-      "date": "October 26, 2026",
-      "updated": "2026-10-26T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_26_2026",
-      "type": "Feature",
-      "html": "\n<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/string_functions#regexp_extract_groups\"><code>REGEXP_EXTRACT_GROUPS</code> function</a>\nproduces substrings that match multiple capturing groups in a regular\nexpression.</p>\n<p>This function is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "The REGEXP_EXTRACT_GROUPS function produces substrings that match multiple capturing groups in a regular expression. This function is in Preview."
     },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_October_22_2026_0",
@@ -640,6 +586,42 @@
       "type": "Feature",
       "html": "\n<p>You can <a href=\"https://docs.cloud.google.com/dataform/docs/test-data#unit-tests\">add unit tests</a> to pipelines\nto validate your SQL transformation logic against mock datasets. Unit tests for\npipelines are <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>",
       "text": "You can add unit tests to pipelines to validate your SQL transformation logic against mock datasets. Unit tests for pipelines are generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_16_2026_0",
+      "date": "September 16, 2026",
+      "updated": "2026-09-16T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
+      "type": "Feature",
+      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/migration/migration-lineage\">migration lineage service</a> to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can use the migration lineage service to visualize the data flow and connections in your source database and help you plan a BigQuery data warehouse migration. This feature is in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_14_2026_0",
+      "date": "September 14, 2026",
+      "updated": "2026-09-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
+      "type": "Change",
+      "html": "\n<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>\n",
+      "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_14_2026_1",
+      "date": "September 14, 2026",
+      "updated": "2026-09-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
+      "type": "Feature",
+      "html": "\n<p>Metadata for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a> is\nautomatically ingested and searchable in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/use-knowledge-catalog\">Knowledge Catalog</a>. This feature is\navailable in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>\n",
+      "text": "Metadata for BigQuery Graph is automatically ingested and searchable in Knowledge Catalog. This feature is available in preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_September_14_2026_2",
+      "date": "September 14, 2026",
+      "updated": "2026-09-14T00:00:00-07:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now include a <code>WHERE</code> clause inside of an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate-function-calls\">aggregate function call</a>\nto filter your aggregate function input using a boolean expression.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can now include a WHERE clause inside of an aggregate function call to filter your aggregate function input using a boolean expression. This feature is in Preview."
     }
   ]
 }
