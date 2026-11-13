@@ -1,7 +1,16 @@
 {
   "status": "success",
-  "last_fetched": 1794577657.0751536,
+  "last_fetched": 1794611313.944438,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_13_2026_0",
+      "date": "November 13, 2026",
+      "updated": "2026-11-13T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_13_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery connections to <a href=\"https://docs.cloud.google.com/bigquery/docs/connect-to-mysql\">MySQL</a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/connect-to-oracle\">Oracle</a>, and\n<a href=\"https://docs.cloud.google.com/bigquery/docs/connect-to-postgresql\">PostgreSQL</a> are now available and can be\nused to run <a href=\"https://docs.cloud.google.com/bigquery/docs/mysql-federated-queries\">MySQL federated queries</a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/oracle-federated-queries\">Oracle federated queries</a>, and\n<a href=\"https://docs.cloud.google.com/bigquery/docs/postgresql-federated-queries\">PostgreSQL federated queries</a>.\nThese features are in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "BigQuery connections to MySQL, Oracle, and PostgreSQL are now available and can be used to run MySQL federated queries, Oracle federated queries, and PostgreSQL federated queries. These features are in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_12_2026_0",
       "date": "November 12, 2026",
@@ -604,15 +613,6 @@
       "type": "Feature",
       "html": "\n<p>You can <a href=\"https://docs.cloud.google.com/dataform/docs/test-data#unit-tests\">add unit tests</a> to pipelines\nto validate your SQL transformation logic against mock datasets. Unit tests for\npipelines are <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>",
       "text": "You can add unit tests to pipelines to validate your SQL transformation logic against mock datasets. Unit tests for pipelines are generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_16_2026_0",
-      "date": "September 16, 2026",
-      "updated": "2026-09-16T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
-      "type": "Feature",
-      "html": "\n<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/migration/migration-lineage\">migration lineage service</a> to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can use the migration lineage service to visualize the data flow and connections in your source database and help you plan a BigQuery data warehouse migration. This feature is in Preview."
     }
   ]
 }
