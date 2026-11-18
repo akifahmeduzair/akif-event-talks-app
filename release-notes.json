@@ -1,7 +1,43 @@
 {
   "status": "success",
-  "last_fetched": 1794928984.1366816,
+  "last_fetched": 1794961404.6053565,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_17_2026_0",
+      "date": "November 17, 2026",
+      "updated": "2026-11-17T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_17_2026",
+      "type": "Feature",
+      "html": "\n<p>To reduce LLM token consumption and query latency when processing large\ndatasets, enable <a href=\"https://docs.cloud.google.com/bigquery/docs/optimize-ai-functions\">optimized mode</a>\nusing the following <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#managed_ai_functions\">managed AI functions</a>:</p>\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-if\"><code>AI.IF</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-classify\"><code>AI.CLASSIFY</code></a></li>\n</ul>\n<p>Optimized mode supports the following:</p>\n<ul>\n<li>More types of queries are in scope for optimized mode.</li>\n<li>Optimized mode supports multi-label classification with <code>AI.CLASSIFY</code>.</li>\n<li>The <strong>Job information</strong> tab in the <strong>Query results</strong> pane shows information\nabout the relative quality of the optimized query results.</li>\n</ul>\n<p>This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "To reduce LLM token consumption and query latency when processing large datasets, enable optimized mode using the following managed AI functions: AI.IF AI.CLASSIFY Optimized mode supports the following: More types of queries are in scope for optimized mode. Optimized mode supports multi-label classification with AI.CLASSIFY. The Job information tab in the Query results pane shows information about the relative quality of the optimized query results. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_17_2026_1",
+      "date": "November 17, 2026",
+      "updated": "2026-11-17T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_17_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now use the BigQuery REST API\n(<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/rest/v2/datasets/insert\"><code>datasets.insert</code></a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/rest/v2/datasets/patch\"><code>datasets.patch</code></a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/rest/v2/datasets/update\"><code>datasets.update</code></a>, and\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/rest/v2/datasets/get\"><code>datasets.get</code></a>) to configure\nand monitor <a href=\"https://docs.cloud.google.com/bigquery/docs/data-replication\">cross-region dataset replication</a>\nand to attach or detach failover reservations for\n<a href=\"https://docs.cloud.google.com/bigquery/docs/managed-disaster-recovery\">managed disaster recovery</a>. This\nfeature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "You can now use the BigQuery REST API (datasets.insert, datasets.patch, datasets.update, and datasets.get) to configure and monitor cross-region dataset replication and to attach or detach failover reservations for managed disaster recovery. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_17_2026_2",
+      "date": "November 17, 2026",
+      "updated": "2026-11-17T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_17_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now use the <code>rerank</code> option in the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-search\"><code>AI.SEARCH</code> function</a>\nto reorder the results of your search by how\nwell the text in the column to search answers the search query. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "You can now use the rerank option in the AI.SEARCH function to reorder the results of your search by how well the text in the column to search answers the search query. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_17_2026_3",
+      "date": "November 17, 2026",
+      "updated": "2026-11-17T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_17_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-rank\"><code>AI.RANK</code> function</a>\nto reorder the rows of a table by how\nwell the text in a specified column answers a search query. This function is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "You can now use the AI.RANK function to reorder the rows of a table by how well the text in a specified column answers a search query. This function is generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_13_2026_0",
       "date": "November 13, 2026",
@@ -604,15 +640,6 @@
       "type": "Feature",
       "html": "\n<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the <code>gemini-3.8-flash</code> Gemini model.</p>",
       "text": "BigQuery generative AI functions now support the gemini-3.8-flash Gemini model."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_17_2026_0",
-      "date": "September 17, 2026",
-      "updated": "2026-09-17T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_17_2026",
-      "type": "Feature",
-      "html": "\n<p>You can <a href=\"https://docs.cloud.google.com/dataform/docs/test-data#unit-tests\">add unit tests</a> to pipelines\nto validate your SQL transformation logic against mock datasets. Unit tests for\npipelines are <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>",
-      "text": "You can add unit tests to pipelines to validate your SQL transformation logic against mock datasets. Unit tests for pipelines are generally available (GA)."
     }
   ]
 }
