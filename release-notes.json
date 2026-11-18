@@ -1,7 +1,34 @@
 {
   "status": "success",
-  "last_fetched": 1795013850.4631138,
+  "last_fetched": 1795045697.9547489,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_18_2026_0",
+      "date": "November 18, 2026",
+      "updated": "2026-11-18T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_18_2026",
+      "type": "Feature",
+      "html": "\n<p>Lakehouse supports BigQuery <a href=\"https://docs.cloud.google.com/lakehouse/docs/fine-grained-access-control\">row-level security and column-level security with\ndynamic data masking</a> on Apache\nIceberg tables in the Lakehouse runtime catalog\n(<a href=\"https://cloud.google.com/products#product-launch-stages\">GA</a>). You can\nrestrict which rows principals can see and mask sensitive column values by\nmanaging these policies with GoogleSQL DDL statements in BigQuery. On catalogs that use\ncredential vending mode, the Apache Iceberg REST catalog endpoint vends storage\ncredentials only to principals that have unmasked access to every protected\ncolumn and, if the table has row-level access policies, unfiltered row access.</p>\n",
+      "text": "Lakehouse supports BigQuery row-level security and column-level security with dynamic data masking on Apache Iceberg tables in the Lakehouse runtime catalog (GA). You can restrict which rows principals can see and mask sensitive column values by managing these policies with GoogleSQL DDL statements in BigQuery. On catalogs that use credential vending mode, the Apache Iceberg REST catalog endpoint vends storage credentials only to principals that have unmasked access to every protected column and, if the table has row-level access policies, unfiltered row access."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_18_2026_1",
+      "date": "November 18, 2026",
+      "updated": "2026-11-18T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_18_2026",
+      "type": "Feature",
+      "html": "\n<p>You can manage and version control SQL scripts and notebooks with\n<a href=\"https://docs.cloud.google.com/bigquery/docs/git-repositories\">BigQuery Studio Git repositories</a>,\nwhich provide a streamlined, folder-based integration with remote Git\nrepositories. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "You can manage and version control SQL scripts and notebooks with BigQuery Studio Git repositories, which provide a streamlined, folder-based integration with remote Git repositories. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_18_2026_2",
+      "date": "November 18, 2026",
+      "updated": "2026-11-18T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_18_2026",
+      "type": "Feature",
+      "html": "\n<p>You can query the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/information-schema-row-access-policies\"><code>INFORMATION_SCHEMA.ROW_ACCESS_POLICIES</code> view</a>\nto retrieve metadata about active\n<a href=\"https://docs.cloud.google.com/bigquery/docs/row-level-security-intro\">row-level access policies</a> and inspect\nfilter predicates across a dataset or region. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "text": "You can query the INFORMATION_SCHEMA.ROW_ACCESS_POLICIES view to retrieve metadata about active row-level access policies and inspect filter predicates across a dataset or region. This feature is generally available (GA)."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_17_2026_0",
       "date": "November 17, 2026",
@@ -613,33 +640,6 @@
       "type": "Feature",
       "html": "\n<p>You can now <a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#publish-agent-gemini-enterprise\">publish a BigQuery data agent in\nGemini Enterprise</a>\nby registering the agent with Agent Registry and importing it using\ndefault Google-managed credentials. When\nBigQuery and Gemini Enterprise are in the same\nGoogle Cloud project and configured with a matching\n<a href=\"https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/gateways/agent-gateway-overview\">Agent Gateway</a>\nregion, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or\nconfigure OAuth client credentials.</p>\n<p>These features are in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "text": "You can now publish a BigQuery data agent in Gemini Enterprise by registering the agent with Agent Registry and importing it using default Google-managed credentials. When BigQuery and Gemini Enterprise are in the same Google Cloud project and configured with a matching Agent Gateway region, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or configure OAuth client credentials. These features are in Preview."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_21_2026_0",
-      "date": "September 21, 2026",
-      "updated": "2026-09-21T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
-      "type": "Feature",
-      "html": "\n<p><em>Lakehouse</em> now supports Workday Data Lake as a remote catalog provider\nfor cross-cloud data access\n(<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>). You can\nconfigure federated catalogs to query data stored in Workday Data Lake\ndirectly from Google Cloud using BigQuery or Apache Spark without\nmigrating data or building complex ETL pipelines.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-connection-workday\">Set up cross-cloud connection for Workday Data\nLake</a>.</p>\n",
-      "text": "Lakehouse now supports Workday Data Lake as a remote catalog provider for cross-cloud data access (Preview). You can configure federated catalogs to query data stored in Workday Data Lake directly from Google Cloud using BigQuery or Apache Spark without migrating data or building complex ETL pipelines. For more information, see Set up cross-cloud connection for Workday Data Lake."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_21_2026_1",
-      "date": "September 21, 2026",
-      "updated": "2026-09-21T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
-      "type": "Feature",
-      "html": "\n<p>The <strong>Query results</strong> pane in the BigQuery Studio query editor lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/managing-jobs#view-job\">view a short history of recent runs for a query</a>,\nincluding <a href=\"https://docs.cloud.google.com/bigquery/docs/multi-statement-queries#view_multi_statement_query_results\">multi-statement queries</a>,\nwithout having to navigate to the <strong>Job history</strong> tab.\nThis feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
-      "text": "The Query results pane in the BigQuery Studio query editor lets you view a short history of recent runs for a query, including multi-statement queries, without having to navigate to the Job history tab. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_21_2026_2",
-      "date": "September 21, 2026",
-      "updated": "2026-09-21T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
-      "type": "Feature",
-      "html": "\n<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the <code>gemini-3.8-flash</code> Gemini model.</p>",
-      "text": "BigQuery generative AI functions now support the gemini-3.8-flash Gemini model."
     }
   ]
 }
