@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "last_fetched": 1795133461.8692927,
+  "last_fetched": 1795185972.580299,
   "updates": [
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_19_2026_0",
@@ -143,11 +143,20 @@
       "updated": "2026-11-11T00:00:00-08:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026",
       "type": "Feature",
+      "html": "\n<p>The LangGraph and LangChain BigQuery callback handler for\n<a href=\"https://docs.cloud.google.com/bigquery/docs/bigquery-agent-analytics\">BigQuery agent analytics</a>\nis\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). This callback handler lets you stream agent execution events from\nLangGraph or LangChain agents directly into BigQuery to analyze\nand evaluate agent interactions.</p>\n",
+      "text": "The LangGraph and LangChain BigQuery callback handler for BigQuery agent analytics is generally available (GA). This callback handler lets you stream agent execution events from LangGraph or LangChain agents directly into BigQuery to analyze and evaluate agent interactions."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_11_2026_1",
+      "date": "November 11, 2026",
+      "updated": "2026-11-11T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026",
+      "type": "Feature",
       "html": "\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-workload-management#scheduling-policies\">Project caps (also known as scheduling policies)</a>\nlet you limit maximum slots and concurrency per project within a BigQuery\nreservation. This feature is only supported in the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/editions-intro\">BigQuery Enterprise and Enterprise Plus editions</a>\nand is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
       "text": "Project caps (also known as scheduling policies) let you limit maximum slots and concurrency per project within a BigQuery reservation. This feature is only supported in the BigQuery Enterprise and Enterprise Plus editions and is generally available (GA)."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_November_11_2026_1",
+      "id": "tag_google.com,2016_bigquery-release-notes_November_11_2026_2",
       "date": "November 11, 2026",
       "updated": "2026-11-11T00:00:00-08:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026",
@@ -156,7 +165,7 @@
       "text": "You can specify an optional principal property on BigQuery reservation assignments to route queries to specific reservations based on the identity of the user, service account, or third-party identity executing the job. This feature is only supported in the BigQuery Enterprise and Enterprise Plus editions and is generally available (GA)."
     },
     {
-      "id": "tag_google.com,2016_bigquery-release-notes_November_11_2026_2",
+      "id": "tag_google.com,2016_bigquery-release-notes_November_11_2026_3",
       "date": "November 11, 2026",
       "updated": "2026-11-11T00:00:00-08:00",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026",
