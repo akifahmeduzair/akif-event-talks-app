@@ -1,7 +1,52 @@
 {
   "status": "success",
-  "last_fetched": 1795100687.420762,
+  "last_fetched": 1795133461.8692927,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_19_2026_0",
+      "date": "November 19, 2026",
+      "updated": "2026-11-19T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_19_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now <a href=\"https://docs.cloud.google.com/bigquery/docs/data-engineering-agent-pipelines#monitor-agent\">enable agent observability with the Data Engineering Agent</a>\nto monitor the agent's token consumption, request volume, and model latency in\nCloud Monitoring and inspect execution traces and tool calls in Cloud Trace.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "You can now enable agent observability with the Data Engineering Agent to monitor the agent's token consumption, request volume, and model latency in Cloud Monitoring and inspect execution traces and tool calls in Cloud Trace. This feature is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_19_2026_1",
+      "date": "November 19, 2026",
+      "updated": "2026-11-19T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_19_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now create <a href=\"https://docs.cloud.google.com/bigquery/docs/ai-index-overview\">AI indexes</a> using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#create_ai_index\"><code>CREATE AI INDEX</code> statement</a>\nto perform natural language searches across table columns with the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-search\"><code>AI.SEARCH</code> function</a>\nwithout manually generating embeddings or managing models. To learn how to\ncreate, monitor, and delete AI indexes, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/ai-index\">Use AI indexes</a>. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
+      "text": "You can now create AI indexes using the CREATE AI INDEX statement to perform natural language searches across table columns with the AI.SEARCH function without manually generating embeddings or managing models. To learn how to create, monitor, and delete AI indexes, see Use AI indexes. This feature is in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_19_2026_2",
+      "date": "November 19, 2026",
+      "updated": "2026-11-19T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_19_2026",
+      "type": "Feature",
+      "html": "\n<p>You can use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/migration/migration-validation\">validation service</a> in the\nBigQuery Migration Service to verify that tables migrated from your source data\nwarehouse match your target tables in BigQuery across schemas, aggregate\nmetrics, and row-level data. This feature is available in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n",
+      "text": "You can use the validation service in the BigQuery Migration Service to verify that tables migrated from your source data warehouse match your target tables in BigQuery across schemas, aggregate metrics, and row-level data. This feature is available in Preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_19_2026_3",
+      "date": "November 19, 2026",
+      "updated": "2026-11-19T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_19_2026",
+      "type": "Security",
+      "html": "\n<p>A path traversal vulnerability in workspace directory handling and Git\nintegration was discovered in Dataform, BigQuery Studio, and Colab Enterprise.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/security-bulletins#gcp-2026-084\">GCP-2026-084</a>\nsecurity bulletin.</p>\n",
+      "text": "A path traversal vulnerability in workspace directory handling and Git integration was discovered in Dataform, BigQuery Studio, and Colab Enterprise. For more information, see the GCP-2026-084 security bulletin."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_19_2026_4",
+      "date": "November 19, 2026",
+      "updated": "2026-11-19T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_19_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the <code>gemini-4-neon</code> model. This model is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+      "text": "BigQuery generative AI functions now support the gemini-4-neon model. This model is generally available."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_18_2026_0",
       "date": "November 18, 2026",
@@ -631,15 +676,6 @@
       "type": "Feature",
       "html": "\n<p>In the BigQuery Studio query editor, the <strong>Query results</strong> table now keeps\nthe row numbers visible on the left as you scroll horizontally. This helps you\nmaintain context and track data across wide tables.\nThis feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "text": "In the BigQuery Studio query editor, the Query results table now keeps the row numbers visible on the left as you scroll horizontally. This helps you maintain context and track data across wide tables. This feature is generally available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_22_2026_0",
-      "date": "September 22, 2026",
-      "updated": "2026-09-22T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_22_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now <a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#publish-agent-gemini-enterprise\">publish a BigQuery data agent in\nGemini Enterprise</a>\nby registering the agent with Agent Registry and importing it using\ndefault Google-managed credentials. When\nBigQuery and Gemini Enterprise are in the same\nGoogle Cloud project and configured with a matching\n<a href=\"https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/gateways/agent-gateway-overview\">Agent Gateway</a>\nregion, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or\nconfigure OAuth client credentials.</p>\n<p>These features are in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "text": "You can now publish a BigQuery data agent in Gemini Enterprise by registering the agent with Agent Registry and importing it using default Google-managed credentials. When BigQuery and Gemini Enterprise are in the same Google Cloud project and configured with a matching Agent Gateway region, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or configure OAuth client credentials. These features are in Preview."
     }
   ]
 }
