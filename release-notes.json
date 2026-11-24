@@ -1,7 +1,34 @@
 {
   "status": "success",
-  "last_fetched": 1795453705.447921,
+  "last_fetched": 1795491780.406933,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_23_2026_0",
+      "date": "November 23, 2026",
+      "updated": "2026-11-23T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_23_2026",
+      "type": "Feature",
+      "html": "\n<p>The <code>reservation_override_mode</code> and <code>disable_on_demand_billing</code>\n<a href=\"https://docs.cloud.google.com/bigquery/docs/default-configuration#reservation-controls\">reservation and billing controls</a>\nare\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can use these regional options with the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#project_set_options_list\"><code>ALTER PROJECT SET OPTIONS</code> and <code>ALTER ORGANIZATION SET OPTIONS</code> statements</a>\nto control whether queries can override assigned reservations to on-demand\nbilling or require reservation slots.</p>\n",
+      "text": "The reservation_override_mode and disable_on_demand_billing reservation and billing controls are generally available (GA). You can use these regional options with the ALTER PROJECT SET OPTIONS and ALTER ORGANIZATION SET OPTIONS statements to control whether queries can override assigned reservations to on-demand billing or require reservation slots."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_23_2026_1",
+      "date": "November 23, 2026",
+      "updated": "2026-11-23T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_23_2026",
+      "type": "Feature",
+      "html": "\n<p>Version 1.1 of the <a href=\"https://docs.cloud.google.com/bigquery/docs/tabfm-model\">TabFM</a> model is now available\nand is the default model used by the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-predict\"><code>AI.PREDICT</code></a>\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-evaluate\"><code>AI.EVALUATE</code></a>\nfunctions. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>\n",
+      "text": "Version 1.1 of the TabFM model is now available and is the default model used by the AI.PREDICT and AI.EVALUATE functions. This feature is in preview."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_23_2026_2",
+      "date": "November 23, 2026",
+      "updated": "2026-11-23T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_23_2026",
+      "type": "Feature",
+      "html": "\n<p>You can now use the built-in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed#choose_a_model\"><code>embeddinggemma-2</code> model</a>\nin the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed\"><code>AI.EMBED</code> function</a>.\nThis model has a long context window, is designed for embedding text and code,\nand uses your BigQuery slots to generate embeddings at scale.\nThis model is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "text": "You can now use the built-in embeddinggemma-2 model in the AI.EMBED function. This model has a long context window, is designed for embedding text and code, and uses your BigQuery slots to generate embeddings at scale. This model is in Preview."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_19_2026_0",
       "date": "November 19, 2026",
@@ -676,15 +703,6 @@
       "type": "Feature",
       "html": "\n<p>You can now write the output rows produced by\n<a href=\"https://docs.cloud.google.com/bigquery/docs/continuous-queries-introduction\">BigQuery continuous queries</a>\ndirectly into <a href=\"https://docs.cloud.google.com/bigquery/docs/biglake-iceberg-tables-in-bigquery\">Apache Iceberg managed\ntables</a>. This lets you\ncontinuously process streaming data from BigQuery and write it into your\nopen-format lakehouse by using an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/continuous-queries#write-bigquery\"><code>INSERT</code> DML statement</a>.</p>",
       "text": "You can now write the output rows produced by BigQuery continuous queries directly into Apache Iceberg managed tables. This lets you continuously process streaming data from BigQuery and write it into your open-format lakehouse by using an INSERT DML statement."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_24_2026_0",
-      "date": "September 24, 2026",
-      "updated": "2026-09-24T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026",
-      "type": "Feature",
-      "html": "\n<p>In the BigQuery Studio query editor, the <strong>Query results</strong> table now keeps\nthe row numbers visible on the left as you scroll horizontally. This helps you\nmaintain context and track data across wide tables.\nThis feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-      "text": "In the BigQuery Studio query editor, the Query results table now keeps the row numbers visible on the left as you scroll horizontally. This helps you maintain context and track data across wide tables. This feature is generally available (GA)."
     }
   ]
 }
