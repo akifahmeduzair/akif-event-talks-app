@@ -1,7 +1,25 @@
 {
   "status": "success",
-  "last_fetched": 1795491780.406933,
+  "last_fetched": 1795539100.1662335,
   "updates": [
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_24_2026_0",
+      "date": "November 24, 2026",
+      "updated": "2026-11-24T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_24_2026",
+      "type": "Feature",
+      "html": "\n<p>The built-in text embedding model <code>embeddinggemma-300m</code> in the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed\"><code>AI.EMBED</code></a>\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-similarity\"><code>AI.SIMILARITY</code></a>\nfunctions is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>\n",
+      "text": "The built-in text embedding model embeddinggemma-300m in the AI.EMBED and AI.SIMILARITY functions is generally available (GA)."
+    },
+    {
+      "id": "tag_google.com,2016_bigquery-release-notes_November_24_2026_1",
+      "date": "November 24, 2026",
+      "updated": "2026-11-24T00:00:00-08:00",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_24_2026",
+      "type": "Feature",
+      "html": "\n<p>BigQuery Migration Service supports translating Databricks SQL and Apache\nSpark SQL 3.x and 4.x into GoogleSQL and extracting schema metadata from\nDatabricks in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.\nFor more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/migration/databricks-sql\">Databricks and Apache Spark SQL translation reference</a>\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/enable-sql-translations#supported_sql_dialects\">Supported SQL dialects</a>.</p>",
+      "text": "BigQuery Migration Service supports translating Databricks SQL and Apache Spark SQL 3.x and 4.x into GoogleSQL and extracting schema metadata from Databricks in Preview. For more information, see Databricks and Apache Spark SQL translation reference and Supported SQL dialects."
+    },
     {
       "id": "tag_google.com,2016_bigquery-release-notes_November_23_2026_0",
       "date": "November 23, 2026",
@@ -685,24 +703,6 @@
       "type": "Feature",
       "html": "\n<p>You can query the <a href=\"https://docs.cloud.google.com/bigquery/docs/information-schema-failover-history\"><code>INFORMATION_SCHEMA.FAILOVER_HISTORY</code>\nview</a> to retrieve a near\nreal-time list of failover events for reservations within an administration\nproject that use <a href=\"https://docs.cloud.google.com/bigquery/docs/managed-disaster-recovery\">managed disaster\nrecovery</a>.</p>\n<p>This feature is now in\n(<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>).</p>",
       "text": "You can query the INFORMATION_SCHEMA.FAILOVER_HISTORY view to retrieve a near real-time list of failover events for reservations within an administration project that use managed disaster recovery. This feature is now in (Preview)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_28_2026_0",
-      "date": "September 28, 2026",
-      "updated": "2026-09-28T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_28_2026",
-      "type": "Feature",
-      "html": "\n<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/datatransfer/mcp\">BigQuery Data Transfer Service MCP server</a>\nis now <a href=\"https://cloud.google.com/products#product-launch-stages\">Generally Available</a>\n(GA).</p>\n",
-      "text": "The BigQuery Data Transfer Service MCP server is now Generally Available (GA)."
-    },
-    {
-      "id": "tag_google.com,2016_bigquery-release-notes_September_28_2026_1",
-      "date": "September 28, 2026",
-      "updated": "2026-09-28T00:00:00-07:00",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_28_2026",
-      "type": "Feature",
-      "html": "\n<p>You can now write the output rows produced by\n<a href=\"https://docs.cloud.google.com/bigquery/docs/continuous-queries-introduction\">BigQuery continuous queries</a>\ndirectly into <a href=\"https://docs.cloud.google.com/bigquery/docs/biglake-iceberg-tables-in-bigquery\">Apache Iceberg managed\ntables</a>. This lets you\ncontinuously process streaming data from BigQuery and write it into your\nopen-format lakehouse by using an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/continuous-queries#write-bigquery\"><code>INSERT</code> DML statement</a>.</p>",
-      "text": "You can now write the output rows produced by BigQuery continuous queries directly into Apache Iceberg managed tables. This lets you continuously process streaming data from BigQuery and write it into your open-format lakehouse by using an INSERT DML statement."
     }
   ]
 }
